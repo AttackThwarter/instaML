@@ -24,12 +24,10 @@ import config
 warnings.filterwarnings('ignore')
 
 # --- Font settings for correct Persian display in charts ---
-# Specify a Persian font installed on your system here
-# Example: 'B Nazanin', 'XB Zar', 'Tahoma', 'Arial' (if it supports Persian)
-FONT_NAME_FOR_PERSIAN = config.FONT_NAME_FOR_PERSIAN # <<< Place a suitable Persian font name here
+FONT_NAME_FOR_PERSIAN = config.FONT_NAME_FOR_PERSIAN 
 try:
     plt.rcParams['font.family'] = FONT_NAME_FOR_PERSIAN
-    plt.rcParams['axes.unicode_minus'] = False # For correct display of minus sign
+    plt.rcParams['axes.unicode_minus'] = False 
     print(f"✅ Matplotlib font for Persian display in charts set to '{FONT_NAME_FOR_PERSIAN}'.")
     font_path = fm.findfont(fm.FontProperties(family=FONT_NAME_FOR_PERSIAN))
     if not font_path:
@@ -75,15 +73,14 @@ class InstagramECLATAnalyzer:
         if not isinstance(text, str) or not text.strip():
             return text
 
-        # Only process if it contains Persian/Arabic characters
         if not re.search(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]', str(text)):
-             return text # Return English or other non-Persian text as is
+             return text 
         try:
             reshaped_text = arabic_reshaper.reshape(text)
             bidi_text = get_display(reshaped_text)
             return bidi_text
         except Exception:
-            return text # Fallback
+            return text 
 
     def _initialize_output_directories(self):
         """Creates the necessary output directories."""
@@ -320,18 +317,79 @@ class InstagramECLATAnalyzer:
         if not self.temporal_patterns_df.empty: self._save_eclat_patterns_by_size(self.temporal_patterns_df, config.ECLAT_TEMPORAL_PATTERNS_DIR_NAME)
         return self.temporal_patterns_df
 
+    def _format_category_details(self, category_df, id_col, main_metric_col, other_metrics_cols, score_col_name='anomaly_score'):
+        """
+        Formats the detailed list of anomalies for a specific category.
+        """
+        report_lines = []
+        if category_df.empty:
+            # Adding a space before the message to align with numbered items if they were present.
+            report_lines.append("    No anomalies found in this category.") 
+            return "\n".join(report_lines)
+
+        # Ensure the DataFrame is sorted by the score column
+        # Handle cases where score_col_name might not exist (e.g., if a df is passed without it)
+        if score_col_name in category_df.columns:
+            sorted_category_df = category_df.sort_values(score_col_name, ascending=True)
+        else:
+            print(f"⚠️ Warning: Score column '{score_col_name}' not found in DataFrame for formatting. Using original order.")
+            sorted_category_df = category_df
+
+
+        for idx, (item_id_or_index, row) in enumerate(sorted_category_df.iterrows(), 1):
+            identifier_str = f"@{row[id_col]}" if id_col and id_col in row and pd.notna(row[id_col]) else f"Item Index: {item_id_or_index}"
+            if id_col is None: # For user anomalies where index is the username
+                identifier_str = f"@{item_id_or_index}"
+
+            report_lines.append(f"\n{idx}. {identifier_str}") # Added newline before each item for spacing
+            if main_metric_col in row and pd.notna(row[main_metric_col]):
+                report_lines.append(f"    Main Metric ({main_metric_col.replace('_', ' ').title()}): {row[main_metric_col]:,.2f}")
+
+            details = []
+            for col_name in other_metrics_cols:
+                # Ensure the column exists and is not the score column itself, and has a non-null value
+                if col_name in row and pd.notna(row[col_name]) and col_name != score_col_name:
+                    value = row[col_name]
+                    col_name_english = col_name.replace('_', ' ').title()
+                    
+                    # Truncate long video URLs for display
+                    if col_name == config.COL_VIDEO_URL and isinstance(value, str) and len(value) > 100:
+                        value = value[:100] + "..."
+                    elif isinstance(value, list) and col_name == config.COL_VIDEO_URL: # Handle list of dicts for videoUrl
+                        try:
+                            urls = [item.get('url', '') for item in value if isinstance(item, dict)]
+                            urls_str = "; ".join(urls)
+                            if len(urls_str) > 100: urls_str = urls_str[:100] + "..."
+                            value = urls_str if urls_str else "Not available"
+                        except: value = "Error parsing video URL list"
+
+
+                    if isinstance(value, float):
+                        details.append(f"{col_name_english}: {value:.2f}")
+                    else:
+                        details.append(f"{col_name_english}: {str(value)}") # Ensure value is string
+            
+            # Add anomaly score to details if it exists and is not null
+            current_score_val = row.get(score_col_name)
+            if pd.notna(current_score_val):
+                 details.append(f"Anomaly Score: {current_score_val:.3f}")
+            
+            if details:
+                report_lines.append(f"    Details: {'; '.join(details)}")
+            # If only score was to be shown and no other details, it's already appended if present.
+        return "\n".join(report_lines)
+
+
     def detect_anomalous_posts(self):
         print("\n🔍 Detecting anomalous posts...")
         report_text_intro = ["="*70 + f"\n🚨 ANOMALOUS POSTS DETECTION REPORT ({datetime.now().strftime('%Y-%m-%d %H:%M')})\n" + "="*70]
-        specific_findings_summary = {}
+        specific_findings_summary = {} # This will store DFs for the main summary later
 
         if self.processed_df is None or self.processed_df.empty:
             return pd.DataFrame(), "\n".join(report_text_intro) + "\nError: Processed data is empty.", specific_findings_summary
 
-        # Create a working copy for this function to avoid SettingWithCopyWarning on self.processed_df directly
         df_for_detection = self.processed_df.copy()
 
-        # Ensure derived features for the model are present on this working copy
         if 'likesCount' in df_for_detection.columns and 'commentsCount' in df_for_detection.columns:
             df_for_detection['engagement_rate'] = np.where(
                 df_for_detection['likesCount'] > 0,
@@ -353,7 +411,6 @@ class InstagramECLATAnalyzer:
         
         if not actual_features_for_model or len(actual_features_for_model) < 2:
             error_msg = f"\nError: Not enough valid features for Isolation Forest model. Available after derivation: {', '.join(actual_features_for_model)}."
-            # Copy any derived features to self.processed_df before returning, if they were created
             for col in ['engagement_rate', 'play_rate', 'likes_per_play']:
                 if col in df_for_detection.columns:
                     self.processed_df[col] = df_for_detection[col]
@@ -370,29 +427,24 @@ class InstagramECLATAnalyzer:
         X_scaled = scaler.fit_transform(X)
         iso_forest = IsolationForest(contamination=config.IFOREST_CONTAMINATION_POSTS, random_state=config.RANDOM_STATE_SEED)
         
-        # Add results to self.processed_df (master DataFrame)
-        # Use .loc with X.index to ensure correct alignment
         self.processed_df.loc[X.index, 'is_anomaly'] = iso_forest.fit_predict(X_scaled) == -1
         self.processed_df.loc[X.index, 'anomaly_score'] = iso_forest.decision_function(X_scaled)
         
-        # Ensure derived features are also on self.processed_df for visualizations
         for col in ['engagement_rate', 'play_rate', 'likes_per_play']:
             if col in df_for_detection.columns:
-                 # Use .loc with original indices from df_for_detection (which match self.processed_df)
                 self.processed_df.loc[df_for_detection.index, col] = df_for_detection[col]
         
-        # Filter anomalous_posts_df from the updated self.processed_df
         anomalous_posts_df = self.processed_df[self.processed_df['is_anomaly'] == True].sort_values('anomaly_score', ascending=True)
         
+        # --- Summary Section ---
         report_text_intro.append(f"\n📊 Total posts analyzed: {len(self.processed_df)}")
         report_text_intro.append(f"🔴 Anomalies (general) detected: {len(anomalous_posts_df)} ({(len(anomalous_posts_df)/len(self.processed_df)*100 if len(self.processed_df) > 0 else 0.0):.1f}%)")
         
-        # Specific anomaly checks (using anomalous_posts_df)
         high_like_threshold = config.ANOMALOUS_POST_HIGH_LIKE_THRESHOLD 
         positive_high_likes = anomalous_posts_df[anomalous_posts_df['likesCount'] > high_like_threshold]
         report_text_intro.append(f"\n🌟 Positive Anomalies: High Likes (> {high_like_threshold:,} LIKES)")
         report_text_intro.append(f"    Found: {len(positive_high_likes)} posts")
-        specific_findings_summary['Positive - Very High Likes'] = positive_high_likes[['ownerUsername', 'likesCount', 'anomaly_score']]
+        specific_findings_summary['Positive - Very High Likes'] = positive_high_likes[['ownerUsername', 'likesCount', 'anomaly_score']] # For main summary
 
         if 'hashtags' in self.processed_df.columns and not self.processed_df['hashtags'].empty:
             all_hashtags_list = [tag for sublist in self.processed_df['hashtags'].dropna().apply(self.extract_hashtags) for tag in sublist]
@@ -431,18 +483,34 @@ class InstagramECLATAnalyzer:
         report_text_intro.append(f"    Found: {len(low_performance_popular_ht)} posts")
         specific_findings_summary['Negative - Popular Hashtags, Low Performance'] = low_performance_popular_ht[['ownerUsername', 'likesCount', 'hashtags', 'anomaly_score']]
         
-        full_report_text_listing = self._generate_anomaly_report_text(
-            "Anomalous Posts", 
-            len(self.processed_df), 
-            anomalous_posts_df, 
-            None, 'ownerUsername', 'likesCount', 
-            ['commentsCount', 'videoPlayCount', 'engagement_rate', 'play_rate', 'nationality', 'videoDuration', config.COL_VIDEO_URL, 'hashtags']
-        )
-        detailed_list_header = "🏆 ALL DETECTED ANOMALIES" 
-        if detailed_list_header in full_report_text_listing:
-            final_report_text = "\n".join(report_text_intro) + "\n\n" + full_report_text_listing[full_report_text_listing.find(detailed_list_header):]
-        else: 
-            final_report_text = "\n".join(report_text_intro) + "\n\n" + full_report_text_listing
+        # --- Detailed Categorized Listing ---
+        categorized_report_parts = ["\n" + "="*70] # Start detailed section with a separator
+        
+        # Define categories and their data for iteration
+        categories_to_report = [
+            (f"🌟 Positive Anomalies: High Likes (> {high_like_threshold:,} LIKES)", positive_high_likes),
+            (f"🌟 Positive Anomalies: Viral Without Popular Hashtags (e.g., {', '.join(list(popular_hashtags_for_comparison_dynamic))})", viral_no_popular_ht),
+            (f"📉 Negative Anomalies: Zero or Extremely Low Likes (<=1)", negative_zero_likes),
+            (f"📉 Negative Anomalies: Popular Hashtags but Low Performance", low_performance_popular_ht)
+        ]
+        
+        other_metrics_cols_posts = ['commentsCount', 'videoPlayCount', 'engagement_rate', 'play_rate', 'nationality', 'videoDuration', config.COL_VIDEO_URL, 'hashtags']
+
+        for i, (title, df_category) in enumerate(categories_to_report):
+            categorized_report_parts.append(f"\n{title}") # Add newline before title
+            details = self._format_category_details(
+                df_category,
+                id_col='ownerUsername',
+                main_metric_col='likesCount',
+                other_metrics_cols=other_metrics_cols_posts,
+                score_col_name='anomaly_score'
+            )
+            categorized_report_parts.append(details)
+            if i < len(categories_to_report) - 1: # Add separator if not the last category
+                 categorized_report_parts.append("\n" + "-"*70)
+
+
+        final_report_text = "\n".join(report_text_intro) + "\n" + "\n".join(categorized_report_parts)
 
         with open(os.path.join(self.isolation_forest_dir, config.ANOMALOUS_POSTS_REPORT_FILE), 'w', encoding='utf-8') as f: f.write(final_report_text)
         print(f"✅ Anomalous posts: {len(anomalous_posts_df)} found. Report saved.")
@@ -482,11 +550,13 @@ class InstagramECLATAnalyzer:
         user_stats['anomaly_score'] = iso_forest.decision_function(X_scaled)
         anomalous_users_df = user_stats[user_stats['is_anomaly']].sort_values('anomaly_score', ascending=True)
 
+        # --- Summary Section ---
         report_text_intro.append(f"\n📊 Total users analyzed: {len(user_stats)}")
-        report_text_intro.append(f"🔴 Anomalies (general) detected: {len(anomalous_users_df)} ({len(anomalous_users_df)/len(user_stats)*100:.1f}% if len(user_stats)>0 else 0.0%)")
+        report_text_intro.append(f"🔴 Anomalies (general) detected: {len(anomalous_users_df)} ({(len(anomalous_users_df)/len(user_stats)*100 if len(user_stats) > 0 else 0.0):.1f}%)")
+
 
         low_activity_threshold = config.USER_ANOMALY_LOW_ACTIVITY_THRESHOLD 
-        high_engagement_threshold_val = user_stats['avg_engagement_rate'].quantile(0.75) if not user_stats['avg_engagement_rate'].empty else 0
+        high_engagement_threshold_val = user_stats['avg_engagement_rate'].quantile(0.75) if not user_stats['avg_engagement_rate'].empty else 0.1 # Default if quantile fails
         
         low_act_high_eng = anomalous_users_df[
             (anomalous_users_df['post_count'] <= low_activity_threshold) &
@@ -509,14 +579,57 @@ class InstagramECLATAnalyzer:
         
         if not anomalous_users_df.empty and 'nationality' in self.processed_df.columns:
             nationalities = self.processed_df.groupby('ownerUsername')['nationality'].first()
-            anomalous_users_df = anomalous_users_df.join(nationalities, how='left')
-        elif not anomalous_users_df.empty: anomalous_users_df['nationality'] = 'Unknown'
+            anomalous_users_df = anomalous_users_df.join(nationalities, how='left') # Join nationalities to anomalous_users_df
+            # Also ensure low_act_high_eng and all_viral_df get nationality if they are used in specific_findings_summary
+            if not low_act_high_eng.empty: low_act_high_eng = low_act_high_eng.join(nationalities, how='left')
+            if not all_viral_df.empty: all_viral_df = all_viral_df.join(nationalities, how='left')
+
+        elif not anomalous_users_df.empty: 
+            anomalous_users_df['nationality'] = 'Unknown'
+            if not low_act_high_eng.empty: low_act_high_eng['nationality'] = 'Unknown'
+            if not all_viral_df.empty: all_viral_df['nationality'] = 'Unknown'
         
-        full_report_text_listing = self._generate_anomaly_report_text("Anomalous Users", len(user_stats), anomalous_users_df, None, None, 'avg_likes', ['post_count', 'max_likes', 'avg_engagement_rate', 'likes_variation_coeff', 'nationality'])
-        detailed_list_header = "🏆 ALL DETECTED ANOMALIES"
-        if detailed_list_header in full_report_text_listing:
-            final_report_text = "\n".join(report_text_intro) + "\n\n" + full_report_text_listing[full_report_text_listing.find(detailed_list_header):]
-        else: final_report_text = "\n".join(report_text_intro) + "\n\n" + full_report_text_listing
+        # --- Detailed Categorized Listing ---
+        categorized_report_parts = ["\n" + "="*70]
+        other_metrics_cols_users = ['post_count', 'max_likes', 'avg_engagement_rate', 'likes_variation_coeff', 'nationality']
+        
+        categories_to_report_users = [
+            (f"👤 Users with Low Activity & High Engagement (Posts <= {low_activity_threshold}, Engagement Rate >= {high_engagement_threshold_val:.2f})", low_act_high_eng),
+            (f"🤖 Users with 100% Viral Posts (Potential Bots/Inorganic)", all_viral_df)
+        ]
+
+        for i, (title, df_category) in enumerate(categories_to_report_users):
+            categorized_report_parts.append(f"\n{title}")
+            details = self._format_category_details(
+                df_category,
+                id_col=None, # Username is the index
+                main_metric_col='avg_likes',
+                other_metrics_cols=other_metrics_cols_users,
+                score_col_name='anomaly_score'
+            )
+            categorized_report_parts.append(details)
+            if i < len(categories_to_report_users) - 1:
+                 categorized_report_parts.append("\n" + "-"*70)
+        
+        # Add a section for all other general anomalies if any exist beyond specific categories
+        general_anomalous_users_not_in_specific = anomalous_users_df[
+            ~anomalous_users_df.index.isin(low_act_high_eng.index) &
+            ~anomalous_users_df.index.isin(all_viral_df.index)
+        ]
+        if not general_anomalous_users_not_in_specific.empty:
+            categorized_report_parts.append("\n" + "-"*70) # Separator
+            categorized_report_parts.append("\n👤 Other General Anomalous Users (by score):")
+            details_general = self._format_category_details(
+                general_anomalous_users_not_in_specific,
+                id_col=None,
+                main_metric_col='avg_likes',
+                other_metrics_cols=other_metrics_cols_users,
+                score_col_name='anomaly_score'
+            )
+            categorized_report_parts.append(details_general)
+
+
+        final_report_text = "\n".join(report_text_intro) + "\n" + "\n".join(categorized_report_parts)
 
         with open(os.path.join(self.isolation_forest_dir, config.ANOMALOUS_USERS_REPORT_FILE), 'w', encoding='utf-8') as f: f.write(final_report_text)
         print(f"✅ Anomalous users: {len(anomalous_users_df)} found. Report saved.")
@@ -530,138 +643,125 @@ class InstagramECLATAnalyzer:
         if self.processed_df is None or self.processed_df.empty:
             return pd.DataFrame(), "\n".join(report_text_intro) + "\nError: Processed data is empty.", specific_findings_summary
 
-        content_df = self.processed_df.copy()
+        content_df = self.processed_df.copy() # Use a copy for this detection
         
-        # Ensure derived features are on content_df (which is a copy of self.processed_df)
         if 'caption' in content_df.columns: content_df['caption_length'] = content_df['caption'].fillna('').astype(str).str.len()
         else: content_df['caption_length'] = 0
         
         if 'hashtags' in content_df.columns: content_df['hashtag_count'] = content_df['hashtags'].fillna('').apply(lambda x: len(self.extract_hashtags(x)))
         else: content_df['hashtag_count'] = 0
         
+        # Ensure likes_per_play is on content_df (it might be on self.processed_df from post anomaly detection)
         if 'videoPlayCount' in content_df.columns and 'likesCount' in content_df.columns:
-            content_df['likes_per_play'] = np.where(
-                content_df['videoPlayCount'] > 0,
-                content_df['likesCount'] / content_df['videoPlayCount'], 0
-            )
-        else:
-            content_df['likes_per_play'] = 0 # Default if base columns are missing
+            if 'likes_per_play' not in content_df.columns: # Recalculate if not present on the copy
+                 content_df['likes_per_play'] = np.where(
+                    content_df['videoPlayCount'] > 0,
+                    content_df['likesCount'] / content_df['videoPlayCount'], 0
+                )
+        elif 'likes_per_play' not in content_df.columns: # If base columns missing and not derived
+            content_df['likes_per_play'] = 0
 
 
         feature_list_for_model = ['caption_length', 'hashtag_count', 'likesCount', 'commentsCount', 'videoPlayCount', 'videoDuration', 'likes_per_play']
-        actual_features_for_model = [f for f in feature_list_for_model if f in content_df.columns]
+        actual_features_for_model = [f for f in feature_list_for_model if f in content_df.columns and content_df[f].notna().any()] # Ensure column has some non-NA data
 
         if not actual_features_for_model or len(actual_features_for_model) < 2:
             error_msg = f"\nError: Not enough valid features for Content Anomaly model. Available: {', '.join(actual_features_for_model)}."
-            # Copy derived features to self.processed_df before returning
+            # Copy derived features to self.processed_df before returning, if they were created on content_df
             for col in ['caption_length', 'hashtag_count', 'likes_per_play']:
-                if col in content_df.columns: self.processed_df[col] = content_df[col]
+                if col in content_df.columns: self.processed_df.loc[content_df.index, col] = content_df[col]
             return pd.DataFrame(), "\n".join(report_text_intro) + error_msg, specific_findings_summary
 
         X = content_df[actual_features_for_model].copy().fillna(0).replace([np.inf, -np.inf], 0)
         if X.empty: 
             for col in ['caption_length', 'hashtag_count', 'likes_per_play']:
-                if col in content_df.columns: self.processed_df[col] = content_df[col]
+                if col in content_df.columns: self.processed_df.loc[content_df.index, col] = content_df[col]
             return pd.DataFrame(), "\n".join(report_text_intro) + "\nError: Feature set X for Content Anomaly is empty.", specific_findings_summary
         
         scaler = StandardScaler(); X_scaled = scaler.fit_transform(X)
         iso_forest = IsolationForest(contamination=config.IFOREST_CONTAMINATION_CONTENT, random_state=config.RANDOM_STATE_SEED)
         
-        # Add results to self.processed_df
+        # Add results to self.processed_df (the main DataFrame)
         self.processed_df.loc[X.index, 'is_content_anomaly'] = iso_forest.fit_predict(X_scaled) == -1
-        self.processed_df.loc[X.index, 'content_anomaly_score'] = iso_forest.decision_function(X_scaled) # Use a distinct score name
+        self.processed_df.loc[X.index, 'content_anomaly_score'] = iso_forest.decision_function(X_scaled)
 
-        # Update derived features on self.processed_df
+        # Update derived features on self.processed_df from content_df (where they were calculated)
         for col in ['caption_length', 'hashtag_count', 'likes_per_play']:
             if col in content_df.columns:
                 self.processed_df.loc[content_df.index, col] = content_df[col]
         
         anomalous_content_df = self.processed_df[self.processed_df['is_content_anomaly'] == True].sort_values('content_anomaly_score', ascending=True)
         
+        # --- Summary Section ---
         report_text_intro.append(f"\n📊 Total posts analyzed for content: {len(self.processed_df)}")
         report_text_intro.append(f"🔴 Content Anomalies (general) detected: {len(anomalous_content_df)} ({(len(anomalous_content_df)/len(self.processed_df)*100 if len(self.processed_df) > 0 else 0.0):.1f}%)")
 
+        short_viral_videos = pd.DataFrame()
         if 'videoDuration' in anomalous_content_df.columns and 'like_category' in anomalous_content_df.columns:
             short_viral_videos = anomalous_content_df[
                 (anomalous_content_df['videoDuration'] < config.CONTENT_ANOMALY_SHORT_VIDEO_DURATION_SECONDS) & (anomalous_content_df['videoDuration'] > 0) &
                 (anomalous_content_df['like_category'] == 'Viral')
             ]
-            report_text_intro.append(f"\n📱 Unusual Content: Viral Videos Shorter Than {config.CONTENT_ANOMALY_SHORT_VIDEO_DURATION_SECONDS} Seconds")
-            report_text_intro.append(f"    Found: {len(short_viral_videos)} posts")
-            specific_findings_summary['Content - Short Viral Videos (<5s)'] = short_viral_videos[['ownerUsername', 'likesCount', 'videoDuration', 'content_anomaly_score']]
+        report_text_intro.append(f"\n📱 Unusual Content: Viral Videos Shorter Than {config.CONTENT_ANOMALY_SHORT_VIDEO_DURATION_SECONDS} Seconds")
+        report_text_intro.append(f"    Found: {len(short_viral_videos)} posts")
+        specific_findings_summary['Content - Short Viral Videos (<5s)'] = short_viral_videos[['ownerUsername', 'likesCount', 'videoDuration', 'content_anomaly_score']]
 
-        if 'hashtag_count' in anomalous_content_df.columns and 'likesCount' in anomalous_content_df.columns:
+
+        no_hashtag_high_likes = pd.DataFrame()
+        if 'hashtag_count' in anomalous_content_df.columns and 'likesCount' in anomalous_content_df.columns: # hashtag_count is from content_df
             no_hashtag_high_likes = anomalous_content_df[
-                (anomalous_content_df['hashtag_count'] == 0) &
+                (anomalous_content_df['hashtag_count'] == 0) & # Use hashtag_count from anomalous_content_df
                 (anomalous_content_df['likesCount'] > config.CONTENT_ANOMALY_NO_HASHTAG_MIN_LIKES)
             ]
-            report_text_intro.append(f"\n📱 Unusual Content: No Hashtags but >{config.CONTENT_ANOMALY_NO_HASHTAG_MIN_LIKES:,} Likes")
-            report_text_intro.append(f"    Found: {len(no_hashtag_high_likes)} posts")
-            specific_findings_summary['Content - No Hashtags, High Likes'] = no_hashtag_high_likes[['ownerUsername', 'likesCount', 'content_anomaly_score']]
+        report_text_intro.append(f"\n📱 Unusual Content: No Hashtags but >{config.CONTENT_ANOMALY_NO_HASHTAG_MIN_LIKES:,} Likes")
+        report_text_intro.append(f"    Found: {len(no_hashtag_high_likes)} posts")
+        specific_findings_summary['Content - No Hashtags, High Likes'] = no_hashtag_high_likes[['ownerUsername', 'likesCount', 'content_anomaly_score']]
         
-        full_report_text_listing = self._generate_anomaly_report_text(
-            "Content Anomalies", 
-            len(self.processed_df), 
-            anomalous_content_df, # Use the filtered df
-            None, 'ownerUsername', 'likesCount', 
-            ['videoPlayCount', 'caption_length', 'hashtag_count', 'likes_per_play', 'nationality', config.COL_VIDEO_URL, 'content_anomaly_score']
-        )
-        detailed_list_header = "🏆 ALL DETECTED ANOMALIES"
-        if detailed_list_header in full_report_text_listing:
-            final_report_text = "\n".join(report_text_intro) + "\n\n" + full_report_text_listing[full_report_text_listing.find(detailed_list_header):]
-        else: final_report_text = "\n".join(report_text_intro) + "\n\n" + full_report_text_listing
+        # --- Detailed Categorized Listing ---
+        categorized_report_parts = ["\n" + "="*70]
+        other_metrics_cols_content = ['videoPlayCount', 'caption_length', 'hashtag_count', 'likes_per_play', 'nationality', config.COL_VIDEO_URL, 'videoDuration']
+        
+        categories_to_report_content = [
+            (f"📱 Unusual Content: Viral Videos Shorter Than {config.CONTENT_ANOMALY_SHORT_VIDEO_DURATION_SECONDS} Seconds", short_viral_videos),
+            (f"📱 Unusual Content: No Hashtags but >{config.CONTENT_ANOMALY_NO_HASHTAG_MIN_LIKES:,} Likes", no_hashtag_high_likes)
+        ]
+
+        for i, (title, df_category) in enumerate(categories_to_report_content):
+            categorized_report_parts.append(f"\n{title}")
+            details = self._format_category_details(
+                df_category,
+                id_col='ownerUsername',
+                main_metric_col='likesCount',
+                other_metrics_cols=other_metrics_cols_content,
+                score_col_name='content_anomaly_score' # Specific score for content
+            )
+            categorized_report_parts.append(details)
+            if i < len(categories_to_report_content) - 1:
+                 categorized_report_parts.append("\n" + "-"*70)
+
+        # Add a section for all other general content anomalies
+        general_content_anomalies_not_in_specific = anomalous_content_df[
+            ~anomalous_content_df.index.isin(short_viral_videos.index) &
+            ~anomalous_content_df.index.isin(no_hashtag_high_likes.index)
+        ]
+        if not general_content_anomalies_not_in_specific.empty:
+            categorized_report_parts.append("\n" + "-"*70) 
+            categorized_report_parts.append("\n📄 Other General Content Anomalies (by score):")
+            details_general_content = self._format_category_details(
+                general_content_anomalies_not_in_specific,
+                id_col='ownerUsername',
+                main_metric_col='likesCount',
+                other_metrics_cols=other_metrics_cols_content,
+                score_col_name='content_anomaly_score'
+            )
+            categorized_report_parts.append(details_general_content)
+
+
+        final_report_text = "\n".join(report_text_intro) + "\n" + "\n".join(categorized_report_parts)
 
         with open(os.path.join(self.isolation_forest_dir, config.CONTENT_ANOMALIES_REPORT_FILE), 'w', encoding='utf-8') as f: f.write(final_report_text)
         print(f"✅ Content anomalies: {len(anomalous_content_df)} found. Report saved.")
         return anomalous_content_df, final_report_text, specific_findings_summary
-
-    def _generate_anomaly_report_text(self, title_suffix_english, total_analyzed, anomalies_df, top_n, id_col, main_metric_col, other_metrics_cols):
-        report = []
-        report.append(f"\n🏆 ALL DETECTED ANOMALIES ({title_suffix_english}) (sorted by anomaly_score - lower is more anomalous):")
-        report.append("-" * 70)
-
-        if anomalies_df.empty:
-            report.append("No anomalies of this type were detected.")
-            return "\n".join(report) 
-
-        # Determine the correct anomaly score column name (could be 'anomaly_score' or 'content_anomaly_score')
-        score_col_name = 'anomaly_score'
-        if 'content_anomaly_score' in anomalies_df.columns:
-            score_col_name = 'content_anomaly_score'
-        elif 'anomaly_score' not in anomalies_df.columns: # Fallback if neither specific nor general exists
-            anomalies_df['anomaly_score_fallback'] = 0 # Add a dummy for processing if no score col
-            score_col_name = 'anomaly_score_fallback'
-
-
-        for idx, (item_id_or_index, row) in enumerate(anomalies_df.sort_values(score_col_name, ascending=True).iterrows(), 1): 
-            identifier_str = f"@{row[id_col]}" if id_col and id_col in row and pd.notna(row[id_col]) else f"Item Index: {item_id_or_index}"
-            if id_col is None: 
-                identifier_str = f"@{item_id_or_index}" 
-
-            report.append(f"\n{idx}. {identifier_str}")
-            if main_metric_col in row and pd.notna(row[main_metric_col]):
-                report.append(f"    Main Metric ({main_metric_col.replace('_', ' ').title()}): {row[main_metric_col]:,.2f}")
-            
-            details = []
-            for col_name in other_metrics_cols:
-                if col_name in row and pd.notna(row[col_name]) and col_name != score_col_name and col_name != 'anomaly_score_fallback': # Avoid duplicating score
-                    value = row[col_name]
-                    col_name_english = col_name.replace('_', ' ').title()
-                    
-                    if isinstance(value, float):
-                        details.append(f"{col_name_english}: {value:.2f}")
-                    else:
-                        details.append(f"{col_name_english}: {value}")
-            
-            current_score = row.get(score_col_name, 'N/A')
-            if pd.notna(current_score) and not isinstance(current_score, str) : # Check if it's not 'N/A'
-                 details.append(f"Anomaly Score: {current_score:.3f}")
-            
-            if details:
-                report.append(f"    Details: {'; '.join(details)}")
-            elif pd.notna(current_score) and not isinstance(current_score, str):
-                report.append(f"    Anomaly Score: {current_score:.3f}")
-        return '\n'.join(report)
 
     def detect_fraud_signals(self):
         print("\n🚨 Detecting fraud signals...")
@@ -1036,7 +1136,7 @@ class InstagramECLATAnalyzer:
             fig, (ax1, ax2) = plt.subplots(1, 2, figsize=config.FIGURE_SIZE_ANOMALY_SPECIFIC)
             fig.suptitle('Anomaly Detection Insights', fontsize=16, fontweight='bold')
             ax1.text(0.5, 0.5, f"Missing: {', '.join(missing_cols)}", ha='center', va='center', transform=ax1.transAxes)
-            ax2.text(0.5, 0.5, f"Missing: {', '.join(missing_cols)}", ha='center', va='center', transform=ax2.transAxes) # Updated message for ax2
+            ax2.text(0.5, 0.5, f"Missing: {', '.join(missing_cols)}", ha='center', va='center', transform=ax2.transAxes) 
             plt.tight_layout(rect=[0, 0, 1, 0.95])
             anomaly_vis_path = os.path.join(self.visualizations_dir, config.ANOMALY_SPECIFIC_VIS_FILE)
             plt.savefig(anomaly_vis_path, dpi=config.DPI_SETTING, bbox_inches='tight')
@@ -1046,7 +1146,6 @@ class InstagramECLATAnalyzer:
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=config.FIGURE_SIZE_ANOMALY_SPECIFIC)
         fig.suptitle('Anomaly Detection Insights', fontsize=16, fontweight='bold')
 
-        # Plot 1: Likes vs Engagement Rate
         normal_posts = self.processed_df[self.processed_df['is_anomaly'] == False]
         anomaly_posts = self.processed_df[self.processed_df['is_anomaly'] == True]
             
@@ -1058,18 +1157,17 @@ class InstagramECLATAnalyzer:
             
             ax1.set_xlabel('Likes Count (Log Scale)'); ax1.set_ylabel('Engagement Rate') 
             ax1.set_title('Likes vs Engagement Rate (Anomalies Highlighted)'); 
-            if not normal_posts.empty or not anomaly_posts.empty : ax1.legend() # Add legend only if there's data
+            if not normal_posts.empty or not anomaly_posts.empty : ax1.legend() 
             ax1.set_xscale('log') 
             min_likes_for_plot = 1
             if 'likesCount' in self.processed_df and not self.processed_df[self.processed_df['likesCount'] > 0]['likesCount'].empty:
                 min_likes_for_plot = max(1, self.processed_df[self.processed_df['likesCount'] > 0]['likesCount'].min())
             ax1.set_xlim(left=min_likes_for_plot)
-            ax1.set_ylim(bottom=0) # Ensure y-axis starts at 0 for engagement rate
+            ax1.set_ylim(bottom=0) 
             ax1.grid(True, alpha=0.3)
         else:
             ax1.text(0.5, 0.5, 'No data to plot for likes vs engagement', ha='center', va='center', transform=ax1.transAxes)
         
-        # Plot 2: Anomaly distribution by user
         if not anomaly_posts.empty:
             anomaly_users = anomaly_posts.groupby('ownerUsername').size().nlargest(config.TOP_N_DISPLAY)
             if not anomaly_users.empty:
@@ -1203,9 +1301,20 @@ class InstagramECLATAnalyzer:
                 text_report_content = result_tuple[1] 
                 summary_lines_extracted = []
                 lines_count = 0
-                for line in text_report_content.split('\n'): 
+                # Extract summary lines from the beginning of each detailed anomaly report
+                # Look for lines like "Total ... analyzed:", "Anomalies (general) detected:", 
+                # "Positive Anomalies:", "Negative Anomalies:", specific user/content anomaly types.
+                in_summary_block = True
+                for line in text_report_content.split('\n'):
                     stripped_line = line.strip()
-                    if stripped_line and not stripped_line.startswith("=") and not stripped_line.startswith("-") and \
+                    if not stripped_line: continue
+
+                    # Heuristic to identify end of summary block in detailed reports
+                    if stripped_line.startswith("="*70) and lines_count > 0 and "REPORT" not in stripped_line : # End of header, start of detailed list
+                        if any(cat_title in stripped_line for cat_title in ["🌟 Positive Anomalies", "📉 Negative Anomalies", "👤 Users with", "🤖 Users with", "📱 Unusual Content", "📄 Other General"]):
+                             in_summary_block = False # Moved to detailed listing part
+
+                    if in_summary_block and not stripped_line.startswith("=") and not stripped_line.startswith("-") and \
                        ("Total posts analyzed:" in stripped_line or \
                         "Total users analyzed:" in stripped_line or \
                         "Anomalies (general) detected:" in stripped_line or 
@@ -1214,12 +1323,18 @@ class InstagramECLATAnalyzer:
                         "Users with Low Activity & High Engagement" in stripped_line or \
                         "Users with 100% Viral Posts" in stripped_line or \
                         "Unusual Content:" in stripped_line or \
-                        (anomaly_type_key == "Fraud Signals" and "USERS WITH SUSPICIOUSLY" in stripped_line.upper()) 
+                        (anomaly_type_key == "Fraud Signals" and "USERS WITH SUSPICIOUSLY" in stripped_line.upper()) or \
+                        (anomaly_type_key == "Fraud Signals" and "SUMMARY:" in stripped_line.upper()) or \
+                        (anomaly_type_key == "Fraud Signals" and "BREAKDOWN BY FRAUD TYPE:" in stripped_line.upper()) or \
+                        (anomaly_type_key == "Fraud Signals" and stripped_line.startswith("- ")) # For fraud breakdown list items
                        ): 
                         summary_lines_extracted.append(f"  {stripped_line}")
                         lines_count += 1
-                    if lines_count >= 7: break
-                
+                    
+                    if lines_count >= 10 and anomaly_type_key != "Fraud Signals": break # Limit lines for brevity, except for fraud
+                    if lines_count >= 15 and anomaly_type_key == "Fraud Signals": break
+
+
                 if summary_lines_extracted:
                     report.extend(summary_lines_extracted)
                 else: 
@@ -1259,7 +1374,7 @@ class InstagramECLATAnalyzer:
             iranian_count = (self.processed_df['nationality'] == 'Iranian').sum()
             intl_count = (self.processed_df['nationality'] == 'International').sum()
             summary_lines.append(f"\n🌍 NATIONALITY BREAKDOWN (Processed Posts):")
-            if total_processed > 0: # total_processed is now correctly an int or 0
+            if total_processed > 0: 
                 summary_lines.append(f"• Iranian posts: {iranian_count} ({ (iranian_count/total_processed*100) :.1f}%)")
                 summary_lines.append(f"• International posts: {intl_count} ({ (intl_count/total_processed*100) :.1f}%)")
             else:
@@ -1314,7 +1429,7 @@ class InstagramECLATAnalyzer:
             if posts_specific_findings:
                 for category, findings_df in posts_specific_findings.items():
                     if findings_df is not None and not findings_df.empty:
-                        summary_lines.append(f"  🎯 Top 5 for '{category}':")
+                        summary_lines.append(f"  🎯 Top 5 for '{category.split(' - ')[-1]}': ({len(findings_df)} found)") # Show count here
                         for i, (_, row) in enumerate(findings_df.head(5).iterrows(), 1): 
                             owner = row.get('ownerUsername','N/A') if pd.notna(row.get('ownerUsername')) else 'N/A'
                             likes = row.get('likesCount',0) if pd.notna(row.get('likesCount')) else 0
@@ -1352,7 +1467,7 @@ class InstagramECLATAnalyzer:
             if users_specific_findings:
                 for category, findings_df in users_specific_findings.items():
                     if findings_df is not None and not findings_df.empty:
-                        summary_lines.append(f"  🎯 Top 5 for '{category}':")
+                        summary_lines.append(f"  🎯 Top 5 for '{category.split(' - ')[-1]}': ({len(findings_df)} found)")
                         for i, (username, row) in enumerate(findings_df.head(5).iterrows(), 1):
                             avg_likes = row.get('avg_likes',0) if pd.notna(row.get('avg_likes')) else 0
                             score = row.get('anomaly_score',0) if pd.notna(row.get('anomaly_score')) else 0
@@ -1386,7 +1501,7 @@ class InstagramECLATAnalyzer:
             if content_specific_findings:
                 for category, findings_df in content_specific_findings.items():
                     if findings_df is not None and not findings_df.empty:
-                        summary_lines.append(f"  🎯 Top 5 for '{category}':")
+                        summary_lines.append(f"  🎯 Top 5 for '{category.split(' - ')[-1]}': ({len(findings_df)} found)")
                         for i, (_, row) in enumerate(findings_df.head(5).iterrows(), 1):
                             owner = row.get('ownerUsername','N/A') if pd.notna(row.get('ownerUsername')) else 'N/A'
                             likes = row.get('likesCount',0) if pd.notna(row.get('likesCount')) else 0
@@ -1411,7 +1526,7 @@ class InstagramECLATAnalyzer:
             if flagged_counts and any(value > 0 for value in flagged_counts.values() if isinstance(value, (int, float))): 
                 summary_lines.append("  Users flagged for potential fraudulent activity patterns:")
                 for pattern_key, count in flagged_counts.items():
-                    if isinstance(count, (int,float)) and count > 0: # Ensure count is numeric
+                    if isinstance(count, (int,float)) and count > 0: 
                         summary_lines.append(f"    - {pattern_key}: {count} users.")
                 
                 most_prevalent_fraud_type = ""
