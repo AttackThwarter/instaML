@@ -1302,17 +1302,14 @@ class InstagramECLATAnalyzer:
                 summary_lines_extracted = []
                 lines_count = 0
                 # Extract summary lines from the beginning of each detailed anomaly report
-                # Look for lines like "Total ... analyzed:", "Anomalies (general) detected:", 
-                # "Positive Anomalies:", "Negative Anomalies:", specific user/content anomaly types.
                 in_summary_block = True
                 for line in text_report_content.split('\n'):
                     stripped_line = line.strip()
                     if not stripped_line: continue
 
-                    # Heuristic to identify end of summary block in detailed reports
-                    if stripped_line.startswith("="*70) and lines_count > 0 and "REPORT" not in stripped_line : # End of header, start of detailed list
+                    if stripped_line.startswith("="*70) and lines_count > 0 and "REPORT" not in stripped_line : 
                         if any(cat_title in stripped_line for cat_title in ["🌟 Positive Anomalies", "📉 Negative Anomalies", "👤 Users with", "🤖 Users with", "📱 Unusual Content", "📄 Other General"]):
-                             in_summary_block = False # Moved to detailed listing part
+                             in_summary_block = False 
 
                     if in_summary_block and not stripped_line.startswith("=") and not stripped_line.startswith("-") and \
                        ("Total posts analyzed:" in stripped_line or \
@@ -1326,12 +1323,12 @@ class InstagramECLATAnalyzer:
                         (anomaly_type_key == "Fraud Signals" and "USERS WITH SUSPICIOUSLY" in stripped_line.upper()) or \
                         (anomaly_type_key == "Fraud Signals" and "SUMMARY:" in stripped_line.upper()) or \
                         (anomaly_type_key == "Fraud Signals" and "BREAKDOWN BY FRAUD TYPE:" in stripped_line.upper()) or \
-                        (anomaly_type_key == "Fraud Signals" and stripped_line.startswith("- ")) # For fraud breakdown list items
+                        (anomaly_type_key == "Fraud Signals" and stripped_line.startswith("- ")) 
                        ): 
                         summary_lines_extracted.append(f"  {stripped_line}")
                         lines_count += 1
                     
-                    if lines_count >= 10 and anomaly_type_key != "Fraud Signals": break # Limit lines for brevity, except for fraud
+                    if lines_count >= 10 and anomaly_type_key != "Fraud Signals": break 
                     if lines_count >= 15 and anomaly_type_key == "Fraud Signals": break
 
 
@@ -1411,25 +1408,23 @@ class InstagramECLATAnalyzer:
 
         # Anomalous Posts
         summary_lines.append("\n--- 🚀 Anomalous Posts ---")
-        if 'Anomalous Posts' in anomaly_summary_dict and anomaly_summary_dict['Anomalous Posts'] and len(anomaly_summary_dict['Anomalous Posts']) == 3:
-            posts_df, _, posts_specific_findings = anomaly_summary_dict['Anomalous Posts']
-            
+        posts_tuple = anomaly_summary_dict.get('Anomalous Posts')
+        if isinstance(posts_tuple, tuple) and len(posts_tuple) == 3:
+            posts_df, _, posts_specific_findings = posts_tuple
+            if not isinstance(posts_df, pd.DataFrame): posts_df = pd.DataFrame()
+            if not isinstance(posts_specific_findings, dict): posts_specific_findings = {}
+
             total_posts_analyzed_for_summary = len(self.processed_df) if self.processed_df is not None and not self.processed_df.empty else 0
-            
-            num_anomalous_posts = 0
-            percent_anomalous_posts = 0.0
-            if posts_df is not None and not posts_df.empty:
-                num_anomalous_posts = len(posts_df)
-                if total_posts_analyzed_for_summary > 0:
-                    percent_anomalous_posts = (num_anomalous_posts / total_posts_analyzed_for_summary) * 100
+            num_anomalous_posts = len(posts_df) if posts_df is not None else 0
+            percent_anomalous_posts = (num_anomalous_posts / total_posts_analyzed_for_summary * 100) if total_posts_analyzed_for_summary > 0 else 0.0
             
             summary_lines.append(f"  Total posts analyzed: {total_posts_analyzed_for_summary if total_posts_analyzed_for_summary > 0 else 'N/A'}")
             summary_lines.append(f"  Anomalies (general) detected: {num_anomalous_posts} ({percent_anomalous_posts:.1f}%)")
 
             if posts_specific_findings:
                 for category, findings_df in posts_specific_findings.items():
-                    if findings_df is not None and not findings_df.empty:
-                        summary_lines.append(f"  🎯 Top 5 for '{category.split(' - ')[-1]}': ({len(findings_df)} found)") # Show count here
+                    if isinstance(findings_df, pd.DataFrame) and not findings_df.empty:
+                        summary_lines.append(f"  🎯 Top 5 for '{category.split(' - ')[-1]}': ({len(findings_df)} found)")
                         for i, (_, row) in enumerate(findings_df.head(5).iterrows(), 1): 
                             owner = row.get('ownerUsername','N/A') if pd.notna(row.get('ownerUsername')) else 'N/A'
                             likes = row.get('likesCount',0) if pd.notna(row.get('likesCount')) else 0
@@ -1443,30 +1438,27 @@ class InstagramECLATAnalyzer:
                     score = row.get('anomaly_score',0) if pd.notna(row.get('anomaly_score')) else 0
                     summary_lines.append(f"    {i}. @{owner} (Likes: {likes:,.0f}, Score: {score:.3f})")
             else: summary_lines.append("    No specific anomalous post categories highlighted or data unavailable.")
-        else: summary_lines.append("    Anomalous Posts data unavailable.")
+        else:
+            summary_lines.append("    Anomalous Posts data is missing, malformed, or incomplete in summary results.")
 
         # Anomalous Users
         summary_lines.append("\n--- 👤 Anomalous Users ---")
-        if 'Anomalous Users' in anomaly_summary_dict and anomaly_summary_dict['Anomalous Users'] and len(anomaly_summary_dict['Anomalous Users']) == 3:
-            users_df, _, users_specific_findings = anomaly_summary_dict['Anomalous Users']
-            
-            total_users_analyzed_for_summary = 0
-            if self.processed_df is not None and not self.processed_df.empty and 'ownerUsername' in self.processed_df.columns:
-                 total_users_analyzed_for_summary = self.processed_df['ownerUsername'].nunique()
+        users_tuple = anomaly_summary_dict.get('Anomalous Users')
+        if isinstance(users_tuple, tuple) and len(users_tuple) == 3:
+            users_df, _, users_specific_findings = users_tuple
+            if not isinstance(users_df, pd.DataFrame): users_df = pd.DataFrame()
+            if not isinstance(users_specific_findings, dict): users_specific_findings = {}
 
-            num_anomalous_users = 0
-            percent_anomalous_users = 0.0
-            if users_df is not None and not users_df.empty:
-                num_anomalous_users = len(users_df)
-                if total_users_analyzed_for_summary > 0:
-                    percent_anomalous_users = (num_anomalous_users / total_users_analyzed_for_summary) * 100
+            total_users_analyzed_for_summary = self.processed_df['ownerUsername'].nunique() if self.processed_df is not None and not self.processed_df.empty and 'ownerUsername' in self.processed_df.columns else 0
+            num_anomalous_users = len(users_df) if users_df is not None else 0
+            percent_anomalous_users = (num_anomalous_users / total_users_analyzed_for_summary * 100) if total_users_analyzed_for_summary > 0 else 0.0
             
             summary_lines.append(f"  Total users analyzed: {total_users_analyzed_for_summary if total_users_analyzed_for_summary > 0 else 'N/A'}")
             summary_lines.append(f"  Anomalies (general) detected: {num_anomalous_users} ({percent_anomalous_users:.1f}%)")
 
             if users_specific_findings:
                 for category, findings_df in users_specific_findings.items():
-                    if findings_df is not None and not findings_df.empty:
+                    if isinstance(findings_df, pd.DataFrame) and not findings_df.empty:
                         summary_lines.append(f"  🎯 Top 5 for '{category.split(' - ')[-1]}': ({len(findings_df)} found)")
                         for i, (username, row) in enumerate(findings_df.head(5).iterrows(), 1):
                             avg_likes = row.get('avg_likes',0) if pd.notna(row.get('avg_likes')) else 0
@@ -1479,28 +1471,27 @@ class InstagramECLATAnalyzer:
                     score = row.get('anomaly_score',0) if pd.notna(row.get('anomaly_score')) else 0
                     summary_lines.append(f"    {i}. @{username} (Avg. Likes: {avg_likes:,.0f}, Score: {score:.3f})")
             else: summary_lines.append("    No specific anomalous user categories highlighted or data unavailable.")
-        else: summary_lines.append("    Anomalous Users data unavailable.")
+        else:
+            summary_lines.append("    Anomalous Users data is missing, malformed, or incomplete in summary results.")
             
         # Content Anomalies
         summary_lines.append("\n--- 📄 Content Anomalies ---")
-        if 'Content Anomalies' in anomaly_summary_dict and anomaly_summary_dict['Content Anomalies'] and len(anomaly_summary_dict['Content Anomalies']) == 3:
-            content_df, _, content_specific_findings = anomaly_summary_dict['Content Anomalies']
+        content_tuple = anomaly_summary_dict.get('Content Anomalies')
+        if isinstance(content_tuple, tuple) and len(content_tuple) == 3:
+            content_df, _, content_specific_findings = content_tuple
+            if not isinstance(content_df, pd.DataFrame): content_df = pd.DataFrame()
+            if not isinstance(content_specific_findings, dict): content_specific_findings = {}
 
             total_content_analyzed_for_summary = len(self.processed_df) if self.processed_df is not None and not self.processed_df.empty else 0
-            
-            num_anomalous_content = 0
-            percent_anomalous_content = 0.0
-            if content_df is not None and not content_df.empty:
-                num_anomalous_content = len(content_df)
-                if total_content_analyzed_for_summary > 0:
-                    percent_anomalous_content = (num_anomalous_content / total_content_analyzed_for_summary) * 100
+            num_anomalous_content = len(content_df) if content_df is not None else 0
+            percent_anomalous_content = (num_anomalous_content / total_content_analyzed_for_summary * 100) if total_content_analyzed_for_summary > 0 else 0.0
 
             summary_lines.append(f"  Total posts analyzed for content: {total_content_analyzed_for_summary if total_content_analyzed_for_summary > 0 else 'N/A'}")
             summary_lines.append(f"  Content Anomalies (general) detected: {num_anomalous_content} ({percent_anomalous_content:.1f}%)")
 
             if content_specific_findings:
                 for category, findings_df in content_specific_findings.items():
-                    if findings_df is not None and not findings_df.empty:
+                    if isinstance(findings_df, pd.DataFrame) and not findings_df.empty:
                         summary_lines.append(f"  🎯 Top 5 for '{category.split(' - ')[-1]}': ({len(findings_df)} found)")
                         for i, (_, row) in enumerate(findings_df.head(5).iterrows(), 1):
                             owner = row.get('ownerUsername','N/A') if pd.notna(row.get('ownerUsername')) else 'N/A'
@@ -1517,12 +1508,18 @@ class InstagramECLATAnalyzer:
                     score = row.get(score_col_name,0) if pd.notna(row.get(score_col_name)) else 0
                     summary_lines.append(f"    {i}. Content by @{owner} (Likes: {likes:,.0f}, Score: {score:.3f})")
             else: summary_lines.append("    No specific content anomaly categories highlighted or data unavailable.")
-        else: summary_lines.append("    Content Anomalies data unavailable.")
+        else:
+            summary_lines.append("    Content Anomalies data is missing, malformed, or incomplete in summary results.")
 
         # Fraud Signals
         summary_lines.append("\n--- 🛡️ Fraud Signals Summary ---")
-        if 'Fraud Signals' in anomaly_summary_dict and anomaly_summary_dict['Fraud Signals'] and len(anomaly_summary_dict['Fraud Signals']) == 3:
-            _ , report_text, flagged_counts = anomaly_summary_dict['Fraud Signals'] 
+        fraud_tuple = anomaly_summary_dict.get('Fraud Signals')
+        if isinstance(fraud_tuple, tuple) and len(fraud_tuple) == 3:
+            _ , report_text, flagged_counts = fraud_tuple 
+            if not isinstance(report_text, str): report_text = "" # Ensure report_text is a string
+            if not isinstance(flagged_counts, dict): flagged_counts = {}
+
+
             if flagged_counts and any(value > 0 for value in flagged_counts.values() if isinstance(value, (int, float))): 
                 summary_lines.append("  Users flagged for potential fraudulent activity patterns:")
                 for pattern_key, count in flagged_counts.items():
@@ -1545,7 +1542,7 @@ class InstagramECLATAnalyzer:
             else:
                 summary_lines.append("    Fraud signal analysis performed. See detailed report for specifics.")
         else:
-            summary_lines.append("    Fraud Signals data unavailable or error during generation.")
+            summary_lines.append("    Fraud Signals data is missing, malformed, or incomplete in summary results.")
         summary_lines.append(f"\n(Detailed anomaly reports saved in: '{self.isolation_forest_dir}')")
 
 
