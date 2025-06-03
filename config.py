@@ -1,54 +1,3 @@
-# # config.py
-
-# # --- Input Data Configuration ---
-# EXCEL_FILE_PATH = 'Untitled spreadsheet.xlsx'  # Path to your Excel file
-# SHEET_NAME = 'videos'                         # Name of the sheet to analyze
-
-# # --- ECLAT Algorithm Parameters ---
-# MIN_SUPPORT = 0.04                          # Minimum support for frequent itemsets
-# MAX_ECLAT_ITEMSET_SIZE = 7                    # Maximum number of items in an Eclat itemset
-
-# # --- Output Directory Configuration ---
-# BASE_OUTPUT_DIR_NAME = "results" # Base name for the main results folder, timestamp will be appended
-# ECLAT_RESULTS_DIR = "eclat_results"
-# ECLAT_PATTERNS_SUBDIR = "patterns" # Parent for specific Eclat pattern types
-# ECLAT_REPORTS_SUBDIR = "reports"
-# ISOLATION_FOREST_DIR = "isolation_forest_results"
-# VISUALIZATIONS_DIR = "visualizations" # Existing, will be used by all plots
-
-# # --- Subdirectories for Eclat Pattern Types ---
-# ECLAT_HASHTAG_PATTERNS_DIR_NAME = "hashtags"
-# ECLAT_USER_PATTERNS_DIR_NAME = "users"
-# ECLAT_TEMPORAL_PATTERNS_DIR_NAME = "temporal"
-
-
-# # --- Report File Names ---
-# ANOMALOUS_POSTS_REPORT_FILE = "anomalous_posts_report.txt"
-# ANOMALOUS_USERS_REPORT_FILE = "anomalous_users_report.txt"
-# CONTENT_ANOMALIES_REPORT_FILE = "content_anomalies_report.txt"
-# FRAUD_SIGNALS_REPORT_FILE = "fraud_signals_report.txt"
-# MAIN_ECLAT_REPORT_FILE = "eclat_analysis_report.txt" 
-# VISUALIZATIONS_FILE = "instagram_analysis_dashboard.png" # Main 2x3 dashboard
-# SUMMARY_REPORT_FILE = "summary_report.txt" 
-
-# # --- Visualization Configuration (New additions based on user's sample) ---
-# TOP_N_DISPLAY = 10  # For top N items in new plots
-# FIGURE_SIZE_OVERVIEW = (18, 12) # For the new 2x2 dashboard
-# FIGURE_SIZE_ANOMALY_SPECIFIC = (16, 6) # For the anomaly-specific 1x2 plot
-# FIGURE_SIZE_PATTERNS_SPECIFIC = (18, 14) # For the Eclat patterns 2x2 plot
-# DPI_SETTING = 300
-
-# # --- New Plot Filenames ---
-# OVERVIEW_DASHBOARD_FILE = "instagram_overview_dashboard.png"
-# ANOMALY_SPECIFIC_VIS_FILE = "anomaly_specific_plots.png"
-# ECLAT_PATTERNS_VIS_FILE = "eclat_patterns_visualization.png"
-
-# # Note: Specific Eclat pattern file names like "patterns_size_X.txt"
-# # will be generated dynamically in the main_analyzer.py script.
-
-
-
-# config.py
 import numpy as np # Imported for np.inf
 
 # --- Input Data Configuration ---
@@ -139,7 +88,7 @@ FRAUD_CONSISTENT_LIKES_MIN_POSTS = 5
 FRAUD_CONSISTENT_LIKES_MIN_AVG_LIKES = 100
 FRAUD_LIKE_TO_PLAY_RATIO_THRESHOLD = 2 
 FRAUD_LIKE_MIN_AVG_LIKES = 100
-FRAUD_PLAY_TO_LIKE_RATIO_THRESHOLD = 20
+FRAUD_PLAY_TO_LIKE_RATIO_THRESHOLD = 50
 FRAUD_PLAY_MIN_AVG_PLAYS = 1000
 FRAUD_COMMENT_TO_PLAY_RATIO_THRESHOLD = 0.5
 FRAUD_COMMENT_MIN_AVG_COMMENTS = 20
