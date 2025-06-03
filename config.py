@@ -145,7 +145,11 @@ FRAUD_COMMENT_TO_PLAY_RATIO_THRESHOLD = 0.5
 FRAUD_COMMENT_MIN_AVG_COMMENTS = 20
 
 
+FONT_NAME_FOR_PERSIAN = 'Tahoma'
 
+
+iranian_keywords = ['#قهوه', '#اسپرسو', '#کافه', '#ایران', '#تهران', '#ایرانی', 
+                            'iran', 'tehran', 'persian', 'farsi', 'persia']
 
 
 if __name__ == "__main__":

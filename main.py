@@ -26,7 +26,7 @@ warnings.filterwarnings('ignore')
 # --- Font settings for correct Persian display in charts ---
 # Specify a Persian font installed on your system here
 # Example: 'B Nazanin', 'XB Zar', 'Tahoma', 'Arial' (if it supports Persian)
-FONT_NAME_FOR_PERSIAN = 'Tahoma' # <<< Place a suitable Persian font name here
+FONT_NAME_FOR_PERSIAN = config.FONT_NAME_FOR_PERSIAN # <<< Place a suitable Persian font name here
 try:
     plt.rcParams['font.family'] = FONT_NAME_FOR_PERSIAN
     plt.rcParams['axes.unicode_minus'] = False # For correct display of minus sign
@@ -130,8 +130,7 @@ class InstagramECLATAnalyzer:
         if self.is_persian_content(caption_text): return 'Iranian'
         if self.is_persian_content(hashtags_text): return 'Iranian'
         
-        iranian_keywords = ['#قهوه', '#اسپرسو', '#کافه', '#ایران', '#تهران', '#ایرانی', 
-                            'iran', 'tehran', 'persian', 'farsi', 'persia']
+        iranian_keywords = config.iranian_keywords
         
         text_to_check = [hashtags_text.lower(), caption_text.lower(), username_text.lower()]
         full_text_lower = " ".join(text_to_check)
