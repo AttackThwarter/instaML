@@ -99,7 +99,7 @@
 
 
 
- ## پرسش: چرا در فایل `anomaly_specific_plots.png` در نمودار `Likes vs Engagement Rate (Anomalies Highlighted)` در عمق نقاط آبی الگوریتم isolation forest نقاط قرمزی را مشخص کرده؟
+ ## پرسش: چرا در فایل `anomaly_specific_plots.png` در نمودار `Likes vs Engagement Rate (Anomalies Highlighted)` در عمق نقاط آبی، الگوریتم isolation forest نقاط قرمزی را مشخص کرده؟
 
  ### پاسخ : زیرا تشخیص ناهنجاری در این الگوریتم به موارد مختلفی بستگی دارد و در فضای دو بعدی امکان نمایش همه فیچر ها وجود ندارد (در تصویر زیر میتوان این موضوع را مشاهده کرد)
 
