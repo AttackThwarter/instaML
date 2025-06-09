@@ -105,11 +105,12 @@
 
  ![3D img](src/image_2025-06-03_20-48-50.png)
 ---
+---
  
 ## 5. راهنمای نصب و اجرا  
  
 ### پیش‌نیازها:  
-ابتدا کتابخانه‌های مورد نیاز پایتون را با دستور زیر نصب کنید:
+ابتدا کتابخانه‌های مورد نیاز پایتون را با دستور زیر نصب کنید: (میتواتید از venv استفاده کنید)
  
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn arabic_reshaper python-bidi openpyxl
