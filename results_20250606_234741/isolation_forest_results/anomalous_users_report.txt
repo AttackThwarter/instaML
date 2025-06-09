@@ -1,0 +1,45 @@
+======================================================================
+🚨 ANOMALOUS USERS DETECTION REPORT (2025-06-06 23:50)
+======================================================================
+
+📊 Total users analyzed: 84
+🔴 Anomalies (general) detected: 5 (6.0%)
+
+👤 Users with Low Activity & High Engagement (Posts <= 5, Engagement Rate >= 0.07)
+    Found: 2 users
+
+🤖 Users with 100% Viral Posts (Potential Bots/Inorganic)
+    Found: 0 users
+
+======================================================================
+
+👤 Users with Low Activity & High Engagement (Posts <= 5, Engagement Rate >= 0.07)
+
+1. @hasanmadani.ir
+    Main Metric (Avg Likes): 642.50
+    Details: Post Count: 2; Max Likes: 742.00; Avg Engagement Rate: 0.75; Likes Variation Coeff: 0.22; Nationality: Iranian; Anomaly Score: -0.039
+
+2. @maquinasecafe
+    Main Metric (Avg Likes): 314.00
+    Details: Post Count: 2; Max Likes: 498.00; Avg Engagement Rate: 0.81; Likes Variation Coeff: 0.83; Nationality: International; Anomaly Score: -0.007
+
+----------------------------------------------------------------------
+
+🤖 Users with 100% Viral Posts (Potential Bots/Inorganic)
+    No anomalies found in this category.
+
+----------------------------------------------------------------------
+
+👤 Other General Anomalous Users (by score):
+
+1. @tannercolsoncoffee
+    Main Metric (Avg Likes): 72,240.08
+    Details: Post Count: 50; Max Likes: 751569.00; Avg Engagement Rate: 0.00; Likes Variation Coeff: 1.96; Nationality: International; Anomaly Score: -0.141
+
+2. @ghahve__ahoora
+    Main Metric (Avg Likes): 27,942.00
+    Details: Post Count: 50; Max Likes: 186868.00; Avg Engagement Rate: 0.02; Likes Variation Coeff: 1.63; Nationality: Iranian; Anomaly Score: -0.069
+
+3. @vitadune
+    Main Metric (Avg Likes): 14,101.14
+    Details: Post Count: 49; Max Likes: 109449.00; Avg Engagement Rate: 0.10; Likes Variation Coeff: 1.37; Nationality: Iranian; Anomaly Score: -0.039

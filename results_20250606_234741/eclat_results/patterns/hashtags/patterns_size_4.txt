@@ -1,0 +1,44 @@
+ECLAT Patterns for hashtags - Itemset Size: 4
+==================================================
+Itemset: #اسپرسو + #قهوه + #کافه + normal_performance
+  Support: 0.0954 (156 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز + #قهوه + normal_performance
+  Support: 0.0930 (152 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #قهوه_ترک + normal_performance
+  Support: 0.0636 (104 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز + #کافه + normal_performance
+  Support: 0.0606 (99 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #کافه_گردی + normal_performance
+  Support: 0.0477 (78 occurrences)
+
+Itemset: #قهوه + #کافه + #کافه_گردی + normal_performance
+  Support: 0.0471 (77 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز + #قهوه + #کافه
+  Support: 0.0465 (76 occurrences)
+
+Itemset: #اسپرسوساز + #قهوه + #کافه + normal_performance
+  Support: 0.0465 (76 occurrences)
+
+Itemset: #قهوه + #قهوه_ترک + #کافه + normal_performance
+  Support: 0.0453 (74 occurrences)
+
+Itemset: #اسپرسو + #قهوه_ترک + #کافه + normal_performance
+  Support: 0.0453 (74 occurrences)
+
+Itemset: #اسپرسو + #باریستا + #قهوه + normal_performance
+  Support: 0.0422 (69 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #قهوه_اسپرسو + normal_performance
+  Support: 0.0410 (67 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #قهوه_ترک + #کافه
+  Support: 0.0404 (66 occurrences)
+
+Itemset: #اسپرسو + #کافه + #کافه_گردی + normal_performance
+  Support: 0.0404 (66 occurrences)
+

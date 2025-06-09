@@ -1,0 +1,119 @@
+ECLAT Patterns for hashtags - Itemset Size: 3
+==================================================
+Itemset: #اسپرسو + #قهوه + normal_performance
+  Support: 0.2544 (416 occurrences)
+
+Itemset: #قهوه + #کافه + normal_performance
+  Support: 0.1333 (218 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز + normal_performance
+  Support: 0.1284 (210 occurrences)
+
+Itemset: #اسپرسو + #کافه + normal_performance
+  Support: 0.1193 (195 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز + #قهوه
+  Support: 0.1156 (189 occurrences)
+
+Itemset: #اسپرسوساز + #قهوه + normal_performance
+  Support: 0.1021 (167 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #کافه
+  Support: 0.1009 (165 occurrences)
+
+Itemset: #قهوه + #قهوه_ترک + normal_performance
+  Support: 0.0813 (133 occurrences)
+
+Itemset: #قهوه + #کافه_گردی + normal_performance
+  Support: 0.0716 (117 occurrences)
+
+Itemset: #اسپرسو + #قهوه_ترک + normal_performance
+  Support: 0.0716 (117 occurrences)
+
+Itemset: #باریستا + #قهوه + normal_performance
+  Support: 0.0685 (112 occurrences)
+
+Itemset: #قهوه + #کافی + normal_performance
+  Support: 0.0667 (109 occurrences)
+
+Itemset: #اسپرسوساز + #کافه + normal_performance
+  Support: 0.0648 (106 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #قهوه_ترک
+  Support: 0.0642 (105 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز + #کافه
+  Support: 0.0636 (104 occurrences)
+
+Itemset: #قهوه + #قهوه_اسپرسو + normal_performance
+  Support: 0.0581 (95 occurrences)
+
+Itemset: #کافه + #کافه_گردی + normal_performance
+  Support: 0.0575 (94 occurrences)
+
+Itemset: #اسپرسو + #باریستا + #قهوه
+  Support: 0.0557 (91 occurrences)
+
+Itemset: #قهوه + #کافی_شاپ + normal_performance
+  Support: 0.0544 (89 occurrences)
+
+Itemset: #اسپرسو + #کافه_گردی + normal_performance
+  Support: 0.0544 (89 occurrences)
+
+Itemset: #قهوه_ترک + #کافه + normal_performance
+  Support: 0.0502 (82 occurrences)
+
+Itemset: #اسپرسوساز + #قهوه + #کافه
+  Support: 0.0495 (81 occurrences)
+
+Itemset: #اسپرسو + #باریستا + normal_performance
+  Support: 0.0489 (80 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #کافه_گردی
+  Support: 0.0483 (79 occurrences)
+
+Itemset: #اسپرسو + #قهوه_اسپرسو + normal_performance
+  Support: 0.0477 (78 occurrences)
+
+Itemset: #قهوه + #کافه + #کافه_گردی
+  Support: 0.0471 (77 occurrences)
+
+Itemset: #قهوه + #قهوه_ترک + #کافه
+  Support: 0.0453 (74 occurrences)
+
+Itemset: #اسپرسو + #قهوه_ترک + #کافه
+  Support: 0.0453 (74 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #قهوه_اسپرسو
+  Support: 0.0453 (74 occurrences)
+
+Itemset: #باریستا + #قهوه + #کافه
+  Support: 0.0434 (71 occurrences)
+
+Itemset: #باریستا + #کافه + normal_performance
+  Support: 0.0428 (70 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #کافی
+  Support: 0.0428 (70 occurrences)
+
+Itemset: #آسیاب_قهوه + #اسپرسوساز + normal_performance
+  Support: 0.0428 (70 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز_خانگی + normal_performance
+  Support: 0.0422 (69 occurrences)
+
+Itemset: #اسپرسو + #اسپرسوساز + #اسپرسوساز_خانگی
+  Support: 0.0422 (69 occurrences)
+
+Itemset: #قهوه_ترک + #کافه_گردی + normal_performance
+  Support: 0.0416 (68 occurrences)
+
+Itemset: #اسپرسو + #کافه + #کافه_گردی
+  Support: 0.0404 (66 occurrences)
+
+Itemset: #آسیاب_قهوه + #اسپرسو + normal_performance
+  Support: 0.0404 (66 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #کافی_شاپ
+  Support: 0.0398 (65 occurrences)
+

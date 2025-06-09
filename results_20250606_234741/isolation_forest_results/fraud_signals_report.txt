@@ -1,0 +1,53 @@
+======================================================================
+🚨 FRAUD SIGNALS DETECTION REPORT (2025-06-06 23:50)
+======================================================================
+
+⚠️ SUSPICIOUS PATTERNS DETECTED:
+
+3. POTENTIAL VIEW FRAUD (Video Plays > 50x Likes):
+    (Suspicious play-to-like ratio)
+--------------------------------------------------
+    @alternativebrewing: 26974 plays, 420 likes, Ratio: 64.20
+    @baristadaily: 119755 plays, 2346 likes, Ratio: 51.05
+    @bestoflatteart: 173854 plays, 791 likes, Ratio: 219.87
+    @gaggiabrasil: 69106 plays, 835 likes, Ratio: 82.76
+    @ghahve.eka: 66697 plays, 885 likes, Ratio: 75.34
+    @ghahve__ahoora: 2327273 plays, 27942 likes, Ratio: 83.29
+    @graph.coffeee: 101304 plays, 1682 likes, Ratio: 60.22
+    @hasanmadani.ir: 37123 plays, 642 likes, Ratio: 57.78
+    @hippo.coffee: 14287 plays, 212 likes, Ratio: 67.54
+    @jacksonvillemag: 3523 plays, 68 likes, Ratio: 51.81
+    @joshpharesart: 3404 plays, 58 likes, Ratio: 58.69
+    @masoud.coffee.taster: 355809 plays, 7095 likes, Ratio: 50.15
+    @pipandposyworld: 24267 plays, 187 likes, Ratio: 129.77
+    @realchrisbaca: 81872 plays, 396 likes, Ratio: 206.49
+    @storicast: 10264 plays, 158 likes, Ratio: 65.10
+    @suannygdesigns: 670921 plays, 6614 likes, Ratio: 101.44
+
+4. USERS WITH EXTREME LIKE VARIATIONS:
+    (Possible purchased likes or viral anomalies)
+--------------------------------------------------
+    @coffeebae97: Min 728, Max 238482, Spread: 237754
+    @espresso_market: Min 814, Max 103513, Spread: 102699
+    @ghahve.eka: Min 66, Max 20388, Spread: 20322
+    @graph.coffeee: Min 167, Max 46166, Spread: 45999
+    @hippo.coffee: Min 48, Max 2444, Spread: 2396
+    @masoud.coffee.taster: Min 260, Max 118856, Spread: 118596
+    @osenology: Min 392, Max 49270, Spread: 48878
+    @roasttcoffee: Min 95, Max 100965, Spread: 100870
+    @sard_dam: Min 118, Max 29025, Spread: 28907
+    @suannygdesigns: Min 240, Max 71934, Spread: 71694
+    @tannercolsoncoffee: Min 3596, Max 751569, Spread: 747973
+
+==================================================
+📊 SUMMARY:
+Total users analyzed: 84
+Users with suspicious patterns: 22
+Percentage suspicious: 26.2%
+
+🔍 BREAKDOWN BY FRAUD TYPE:
+- Consistent likes (bot-like): 0
+- Like fraud suspects (Likes >> Video Plays): 0
+- View fraud suspects (Video Plays >> Likes): 16
+- Extreme like variations: 11
+- Comment fraud suspects (Comments >> Video Plays): 0

@@ -1,0 +1,41 @@
+ECLAT Patterns for users - Itemset Size: 3
+==================================================
+Itemset: afternoon_poster + low_activity + low_engagement
+  Support: 0.2381 (20 occurrences)
+
+Itemset: evening_poster + low_activity + low_engagement
+  Support: 0.1071 (9 occurrences)
+
+Itemset: low_activity + low_engagement + morning_poster
+  Support: 0.0595 (5 occurrences)
+
+Itemset: high_activity + low_engagement + morning_poster
+  Support: 0.0595 (5 occurrences)
+
+Itemset: afternoon_poster + low_engagement + medium_activity
+  Support: 0.0476 (4 occurrences)
+
+Itemset: afternoon_poster + high_activity + low_engagement
+  Support: 0.0476 (4 occurrences)
+
+Itemset: medium_activity + medium_engagement + morning_poster
+  Support: 0.0357 (3 occurrences)
+
+Itemset: low_engagement + medium_activity + morning_poster
+  Support: 0.0357 (3 occurrences)
+
+Itemset: afternoon_poster + high_engagement + medium_activity
+  Support: 0.0357 (3 occurrences)
+
+Itemset: afternoon_poster + medium_activity + medium_engagement
+  Support: 0.0357 (3 occurrences)
+
+Itemset: afternoon_poster + low_activity + medium_engagement
+  Support: 0.0357 (3 occurrences)
+
+Itemset: afternoon_poster + high_activity + medium_engagement
+  Support: 0.0357 (3 occurrences)
+
+Itemset: evening_poster + low_activity + medium_engagement
+  Support: 0.0357 (3 occurrences)
+

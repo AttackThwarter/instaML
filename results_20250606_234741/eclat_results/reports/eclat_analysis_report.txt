@@ -1,0 +1,96 @@
+======================================================================
+📊 ECLAT ANALYSIS REPORT (2025-06-06 23:50)
+======================================================================
+
+📈 GENERAL STATISTICS:
+• Excel File: instagramData.xlsx, Sheet: videos
+• Total posts loaded: 2230
+• Posts processed (likes > 0): 2032
+• Unique users: 87
+
+🌍 NATIONALITY BREAKDOWN (Processed Posts):
+• Iranian posts: 1252 (61.6%)
+• International posts: 780 (38.4%)
+
+
+======================================================================
+🔍 ECLAT PATTERN ANALYSIS SUMMARY (Top 5 from each category)
+======================================================================
+(Min Support: 4.0%, Max Itemset Size: 7)
+
+📌 TOP HASHTAG PATTERNS:
+  - Itemset: normal_performance (Size: 1)
+    Support: 88.32% (1444 posts)
+  - Itemset: #قهوه (Size: 1)
+    Support: 46.36% (758 posts)
+  - Itemset: #قهوه + normal_performance (Size: 2)
+    Support: 40.61% (664 posts)
+  - Itemset: #اسپرسو (Size: 1)
+    Support: 35.17% (575 posts)
+  - Itemset: #اسپرسو + normal_performance (Size: 2)
+    Support: 31.19% (510 posts)
+
+📌 TOP USER PATTERNS:
+  - Itemset: low_engagement (Size: 1)
+    Support: 65.48% (55 users)
+  - Itemset: low_activity (Size: 1)
+    Support: 53.57% (45 users)
+  - Itemset: afternoon_poster (Size: 1)
+    Support: 51.19% (43 users)
+  - Itemset: low_activity + low_engagement (Size: 2)
+    Support: 41.67% (35 users)
+  - Itemset: afternoon_poster + low_engagement (Size: 2)
+    Support: 33.33% (28 users)
+
+📌 TOP TEMPORAL PATTERNS:
+  - Itemset: type_Video (Size: 1)
+    Support: 99.90% (2030 posts)
+  - Itemset: normal_performance_post (Size: 1)
+    Support: 86.42% (1756 posts)
+  - Itemset: normal_performance_post + type_Video (Size: 2)
+    Support: 86.37% (1755 posts)
+  - Itemset: afternoon_post (Size: 1)
+    Support: 49.31% (1002 posts)
+  - Itemset: afternoon_post + type_Video (Size: 2)
+    Support: 49.21% (1000 posts)
+
+(Detailed Eclat patterns saved by size in: 'results_20250606_234741\eclat_results\patterns')
+
+
+======================================================================
+🚨 ANOMALY DETECTION SUMMARY (from detailed reports)
+======================================================================
+
+--- Anomalous Posts ---
+  📊 Total posts analyzed: 2032
+  🔴 Anomalies (general) detected: 203 (10.0%)
+  🌟 Positive Anomalies: High Likes (> 100,000 LIKES)
+  🌟 Positive Anomalies: Viral Without Popular Hashtags (e.g., #کافه, #اسپرسو, #اسپرسوساز, #coffee, #قهوه)
+  📉 Negative Anomalies: Zero or Extremely Low Likes (<=1)
+  📉 Negative Anomalies: Popular Hashtags but Low Performance
+  🌟 Positive Anomalies: High Likes (> 100,000 LIKES)
+  🌟 Positive Anomalies: Viral Without Popular Hashtags (e.g., #کافه, #اسپرسو, #اسپرسوساز, #coffee, #قهوه)
+  📉 Negative Anomalies: Zero or Extremely Low Likes (<=1)
+  📉 Negative Anomalies: Popular Hashtags but Low Performance
+
+--- Anomalous Users ---
+  📊 Total users analyzed: 84
+  🔴 Anomalies (general) detected: 5 (6.0%)
+  👤 Users with Low Activity & High Engagement (Posts <= 5, Engagement Rate >= 0.07)
+  🤖 Users with 100% Viral Posts (Potential Bots/Inorganic)
+  👤 Users with Low Activity & High Engagement (Posts <= 5, Engagement Rate >= 0.07)
+  🤖 Users with 100% Viral Posts (Potential Bots/Inorganic)
+
+--- Content Anomalies ---
+  🔴 Content Anomalies (general) detected: 204 (10.0%)
+  📱 Unusual Content: Viral Videos Shorter Than 5 Seconds
+  📱 Unusual Content: No Hashtags but >100,000 Likes
+  📱 Unusual Content: Viral Videos Shorter Than 5 Seconds
+  📱 Unusual Content: No Hashtags but >100,000 Likes
+
+--- Fraud Signals ---
+  📊 SUMMARY:
+  Total users analyzed: 84
+  🔍 BREAKDOWN BY FRAUD TYPE:
+
+(Detailed anomaly reports saved in: 'results_20250606_234741\isolation_forest_results')

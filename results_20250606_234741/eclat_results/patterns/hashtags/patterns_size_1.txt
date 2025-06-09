@@ -1,0 +1,65 @@
+ECLAT Patterns for hashtags - Itemset Size: 1
+==================================================
+Itemset: normal_performance
+  Support: 0.8832 (1444 occurrences)
+
+Itemset: #قهوه
+  Support: 0.4636 (758 occurrences)
+
+Itemset: #اسپرسو
+  Support: 0.3517 (575 occurrences)
+
+Itemset: #کافه
+  Support: 0.1957 (320 occurrences)
+
+Itemset: #اسپرسوساز
+  Support: 0.1719 (281 occurrences)
+
+Itemset: #coffee
+  Support: 0.1505 (246 occurrences)
+
+Itemset: #باریستا
+  Support: 0.1272 (208 occurrences)
+
+Itemset: viral_performance
+  Support: 0.1168 (191 occurrences)
+
+Itemset: #کافه_گردی
+  Support: 0.0954 (156 occurrences)
+
+Itemset: #قهوه_ترک
+  Support: 0.0917 (150 occurrences)
+
+Itemset: #قهوه_اسپرسو
+  Support: 0.0807 (132 occurrences)
+
+Itemset: #کافی
+  Support: 0.0783 (128 occurrences)
+
+Itemset: #کافی_شاپ
+  Support: 0.0685 (112 occurrences)
+
+Itemset: #قهوه_دمی
+  Support: 0.0575 (94 occurrences)
+
+Itemset: #latteart
+  Support: 0.0538 (88 occurrences)
+
+Itemset: #عربیکا
+  Support: 0.0532 (87 occurrences)
+
+Itemset: #اسپرسوساز_خانگی
+  Support: 0.0526 (86 occurrences)
+
+Itemset: #آسیاب_قهوه
+  Support: 0.0514 (84 occurrences)
+
+Itemset: #espresso
+  Support: 0.0446 (73 occurrences)
+
+Itemset: #اسپرسوساز_صنعتی
+  Support: 0.0446 (73 occurrences)
+
+Itemset: #دستگاه_اسپرسو
+  Support: 0.0416 (68 occurrences)
+

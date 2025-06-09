@@ -1,0 +1,507 @@
+======================================================================
+🚨 ANOMALOUS POSTS DETECTION REPORT (2025-06-06 23:50)
+======================================================================
+
+📊 Total posts analyzed: 2032
+🔴 Anomalies (general) detected: 203 (10.0%)
+
+🌟 Positive Anomalies: High Likes (> 100,000 LIKES)
+    Found: 19 posts
+
+🌟 Positive Anomalies: Viral Without Popular Hashtags (e.g., #کافه, #اسپرسو, #اسپرسوساز, #coffee, #قهوه)
+    Found: 51 posts
+
+📉 Negative Anomalies: Zero or Extremely Low Likes (<=1)
+    Found: 0 posts
+
+📉 Negative Anomalies: Popular Hashtags but Low Performance
+    Found: 48 posts
+
+======================================================================
+
+🌟 Positive Anomalies: High Likes (> 100,000 LIKES)
+
+1. @tannercolsoncoffee
+    Main Metric (Likescount): 544,215.00
+    Details: Commentscount: 2526.00; Videoplaycount: 31348453.00; Engagement Rate: 0.00; Play Rate: 57.60; Nationality: International; Videoduration: 25.23; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMmbCJi5222n2sR-vYjxWXX1pGjSchPPb...; Hashtags: ["coffee"]; Anomaly Score: -0.333
+
+2. @ghahve__ahoora
+    Main Metric (Likescount): 175,223.00
+    Details: Commentscount: 2136.00; Videoplaycount: 14693666.00; Engagement Rate: 0.01; Play Rate: 83.86; Nationality: Iranian; Videoduration: 42.43; Videourl: [{"url":"https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMKJRsnHaOpYmQmJAfIxLXKH1f3LPRTLZ...; Hashtags: ["اسپرسوساز","قهوه","کافیین"]; Anomaly Score: -0.319
+
+3. @ghahve__ahoora
+    Main Metric (Likescount): 181,646.00
+    Details: Commentscount: 1314.00; Videoplaycount: 17989941.00; Engagement Rate: 0.01; Play Rate: 99.04; Nationality: Iranian; Videoduration: 50.07; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQPZK6G7KHknLEvLa6PB93qR2uqv98oTEd...; Hashtags: ["قهوه","اسپرسو","اسپرسوساز","اسپرسوساز_خانگی"]; Anomaly Score: -0.318
+
+4. @tannercolsoncoffee
+    Main Metric (Likescount): 751,569.00
+    Details: Commentscount: 597.00; Videoplaycount: 27546995.00; Engagement Rate: 0.00; Play Rate: 36.65; Nationality: International; Videoduration: 40.94; Videourl: [{"url":"https://instagram.fccu2-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQMJUTUw2_h5jv5ngRBMnJnplB4ZcIUrGff...; Hashtags: []; Anomaly Score: -0.309
+
+5. @ghahve__ahoora
+    Main Metric (Likescount): 186,868.00
+    Details: Commentscount: 162.00; Videoplaycount: 22477574.00; Engagement Rate: 0.00; Play Rate: 120.29; Nationality: Iranian; Videoduration: 28.70; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPGy2YIUm1hKF-Fr2Dj_ju-ZnUJ_BOSKX...; Hashtags: ["تمپر","تمپر_نیدل","اسپرسوساز","قهوه","اسپرسو","کافی_بار_خونگی"]; Anomaly Score: -0.308
+
+6. @tannercolsoncoffee
+    Main Metric (Likescount): 401,335.00
+    Details: Commentscount: 576.00; Videoplaycount: 13444379.00; Engagement Rate: 0.00; Play Rate: 33.50; Nationality: International; Videoduration: 40.97; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOcaA-o1z8xdkkfl-h8FnuiJHQgFpp_Ax...; Hashtags: []; Anomaly Score: -0.280
+
+7. @tannercolsoncoffee
+    Main Metric (Likescount): 298,799.00
+    Details: Commentscount: 751.00; Videoplaycount: 7079297.00; Engagement Rate: 0.00; Play Rate: 23.69; Nationality: International; Videoduration: 62.51; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQPU6g8DtGRpOEONEzKTITJb_91S1_bqFK...; Hashtags: ["coffee","espresso"]; Anomaly Score: -0.267
+
+8. @roasttcoffee
+    Main Metric (Likescount): 100,965.00
+    Details: Commentscount: 3333.00; Videoplaycount: 3593107.00; Engagement Rate: 0.03; Play Rate: 35.59; Nationality: Iranian; Videoduration: 13.67; Videourl: [{"url":"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m86/AQM6YrPK5aVIR1FOy7viNmeuVmk9xUseYj...; Hashtags: ["کافی","قهوه","کافی_رُست"]; Anomaly Score: -0.261
+
+9. @masoud.coffee.taster
+    Main Metric (Likescount): 118,856.00
+    Details: Commentscount: 1771.00; Videoplaycount: 3525570.00; Engagement Rate: 0.01; Play Rate: 29.66; Nationality: Iranian; Videoduration: 41.50; Videourl: [{"url":"https://instagram.fsst2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQP3ZXn6nPkyShQ9EOWP8ompFeVhdug8jMM...; Hashtags: ["راوی_قهوه_تخصصی","باریستا","قهوه","کافه","ایتالیا","coffeelover"]; Anomaly Score: -0.242
+
+10. @tannercolsoncoffee
+    Main Metric (Likescount): 174,043.00
+    Details: Commentscount: 609.00; Videoplaycount: 3809891.00; Engagement Rate: 0.00; Play Rate: 21.89; Nationality: International; Videoduration: 54.77; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQO-2ySlBiImnifK5364RZ06V7dXhpO9Ey...; Hashtags: ["repost"]; Anomaly Score: -0.240
+
+11. @morgandrinkscoffee
+    Main Metric (Likescount): 189,420.00
+    Details: Commentscount: 587.00; Videoplaycount: 2947134.00; Engagement Rate: 0.00; Play Rate: 15.56; Nationality: International; Videoduration: 52.33; Videourl: [{"url":"https://scontent-gru1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNPOAPHvFeoKNVnF_5FqWVdbrbXyR9VpP...; Hashtags: []; Anomaly Score: -0.226
+
+12. @vitadune
+    Main Metric (Likescount): 109,449.00
+    Details: Commentscount: 1407.00; Videoplaycount: 2983359.00; Engagement Rate: 0.01; Play Rate: 27.26; Nationality: Iranian; Videoduration: 42.11; Videourl: [{"url":"https://scontent-mia5-1.cdninstagram.com/o1/v/t16/f2/m86/AQOp-yrO6kmQUIOFGVXdWjl9sk71fm3yEB...; Hashtags: ["ویتادونه","کیک","شیرینی","دسر","خانگی","قهوه","کاکائو","شکلات","رسپی","آموزش","قنادی","باریستا","قناد"]; Anomaly Score: -0.225
+
+13. @espresso_market
+    Main Metric (Likescount): 103,513.00
+    Details: Commentscount: 294.00; Videoplaycount: 5204054.00; Engagement Rate: 0.00; Play Rate: 50.27; Nationality: Iranian; Videoduration: 22.93; Videourl: [{"url":"https://scontent-den2-1.cdninstagram.com/o1/v/t16/f2/m86/AQMf7nb8l23SE4GpSR5VtVMOGWuogI-d85...; Hashtags: ["دلنوشته","جوانی","غم","قصه","دلار","سکه"]; Anomaly Score: -0.211
+
+14. @espresso_market
+    Main Metric (Likescount): 103,513.00
+    Details: Commentscount: 294.00; Videoplaycount: 5204053.00; Engagement Rate: 0.00; Play Rate: 50.27; Nationality: Iranian; Videoduration: 22.93; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQMf7nb8l23SE4GpSR5VtVMOGWuogI-d85...; Hashtags: ["دلنوشته","جوانی","غم","قصه","دلار","سکه"]; Anomaly Score: -0.211
+
+15. @tannercolsoncoffee
+    Main Metric (Likescount): 152,569.00
+    Details: Commentscount: 145.00; Videoplaycount: 3618075.00; Engagement Rate: 0.00; Play Rate: 23.71; Nationality: International; Videoduration: 28.66; Videourl: [{"url":"https://instagram.fjbr1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMICsi_vOoJq_83e2N5sT6cGYPEIGJ7Pk0...; Hashtags: ["repost"]; Anomaly Score: -0.209
+
+16. @coffeebae97
+    Main Metric (Likescount): 238,482.00
+    Details: Commentscount: 250.00; Videoplaycount: 2369195.00; Engagement Rate: 0.00; Play Rate: 9.93; Nationality: International; Videoduration: 41.67; Videourl: [{"url":"https://instagram.fsac1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOZ2bUvef5TMNNyCi1AARWwCk3j0XSLCI0...; Hashtags: []; Anomaly Score: -0.208
+
+17. @tannercolsoncoffee
+    Main Metric (Likescount): 144,127.00
+    Details: Commentscount: 406.00; Videoplaycount: 2733590.00; Engagement Rate: 0.00; Play Rate: 18.97; Nationality: International; Videoduration: 60.66; Videourl: [{"url":"https://instagram.fdac176-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMJr88ukGPJ__KCPhZqEKXcRh4Nf66VJ...; Hashtags: []; Anomaly Score: -0.204
+
+18. @morgandrinkscoffee
+    Main Metric (Likescount): 141,999.00
+    Details: Commentscount: 432.00; Videoplaycount: 2573433.00; Engagement Rate: 0.00; Play Rate: 18.12; Nationality: International; Videoduration: 66.83; Videourl: [{"url":"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOSq7qcD9i2-Q87D9KGYdQgZI4JJ6AUpIb...; Hashtags: []; Anomaly Score: -0.191
+
+19. @morgandrinkscoffee
+    Main Metric (Likescount): 156,075.00
+    Details: Commentscount: 328.00; Videoplaycount: 1737462.00; Engagement Rate: 0.00; Play Rate: 11.13; Nationality: International; Videoduration: 66.70; Videourl: [{"url":"https://instagram.fbgw66-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQPl_W7RZri2sxoh3YzfIr9NPXoDuxR9pq...; Hashtags: []; Anomaly Score: -0.186
+
+----------------------------------------------------------------------
+
+🌟 Positive Anomalies: Viral Without Popular Hashtags (e.g., #کافه, #اسپرسو, #اسپرسوساز, #coffee, #قهوه)
+
+1. @tannercolsoncoffee
+    Main Metric (Likescount): 751,569.00
+    Details: Commentscount: 597.00; Videoplaycount: 27546995.00; Engagement Rate: 0.00; Play Rate: 36.65; Nationality: International; Videoduration: 40.94; Videourl: [{"url":"https://instagram.fccu2-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQMJUTUw2_h5jv5ngRBMnJnplB4ZcIUrGff...; Hashtags: []; Anomaly Score: -0.309
+
+2. @vitadune
+    Main Metric (Likescount): 47,389.00
+    Details: Commentscount: 13642.00; Videoplaycount: 1451034.00; Engagement Rate: 0.29; Play Rate: 30.62; Nationality: Iranian; Videoduration: 53.93; Videourl: [{"url":"https://scontent-mia3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOp7ogWw2fKcoL1TlkZ50lQF-2zpuaCjA...; Hashtags: ["قناد","درآمد","درآمدزایی","قنادی","ویتادونه","کسبوکاراینترنتی"]; Anomaly Score: -0.290
+
+3. @tannercolsoncoffee
+    Main Metric (Likescount): 401,335.00
+    Details: Commentscount: 576.00; Videoplaycount: 13444379.00; Engagement Rate: 0.00; Play Rate: 33.50; Nationality: International; Videoduration: 40.97; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOcaA-o1z8xdkkfl-h8FnuiJHQgFpp_Ax...; Hashtags: []; Anomaly Score: -0.280
+
+4. @vitadune
+    Main Metric (Likescount): 25,211.00
+    Details: Commentscount: 6260.00; Videoplaycount: 1104874.00; Engagement Rate: 0.25; Play Rate: 43.83; Nationality: Iranian; Videoduration: 40.27; Videourl: [{"url":"https://instagram.fixc2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOrN6e3e5Zz0ngzyIkz9ZwKL720J4ni9Aj...; Hashtags: ["چیزکیک","چیزکیک_پسته‌ای","دسر","دسر_لوکس","پسته","ویتادونه","رسپی","مهمانی","عید","‌کسب‌_کار_خونگی","خوشمزه","ویژه"]; Anomaly Score: -0.256
+
+5. @tannercolsoncoffee
+    Main Metric (Likescount): 174,043.00
+    Details: Commentscount: 609.00; Videoplaycount: 3809891.00; Engagement Rate: 0.00; Play Rate: 21.89; Nationality: International; Videoduration: 54.77; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQO-2ySlBiImnifK5364RZ06V7dXhpO9Ey...; Hashtags: ["repost"]; Anomaly Score: -0.240
+
+6. @morgandrinkscoffee
+    Main Metric (Likescount): 189,420.00
+    Details: Commentscount: 587.00; Videoplaycount: 2947134.00; Engagement Rate: 0.00; Play Rate: 15.56; Nationality: International; Videoduration: 52.33; Videourl: [{"url":"https://scontent-gru1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNPOAPHvFeoKNVnF_5FqWVdbrbXyR9VpP...; Hashtags: []; Anomaly Score: -0.226
+
+7. @vitadune
+    Main Metric (Likescount): 11,902.00
+    Details: Commentscount: 4345.00; Videoplaycount: 264532.00; Engagement Rate: 0.37; Play Rate: 22.23; Nationality: Iranian; Videoduration: 62.46; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m86/AQPccAiqCKOZ1qNIeq7ajsqR5wbO0BCF8X...; Hashtags: []; Anomaly Score: -0.220
+
+8. @espresso_market
+    Main Metric (Likescount): 103,513.00
+    Details: Commentscount: 294.00; Videoplaycount: 5204054.00; Engagement Rate: 0.00; Play Rate: 50.27; Nationality: Iranian; Videoduration: 22.93; Videourl: [{"url":"https://scontent-den2-1.cdninstagram.com/o1/v/t16/f2/m86/AQMf7nb8l23SE4GpSR5VtVMOGWuogI-d85...; Hashtags: ["دلنوشته","جوانی","غم","قصه","دلار","سکه"]; Anomaly Score: -0.211
+
+9. @espresso_market
+    Main Metric (Likescount): 103,513.00
+    Details: Commentscount: 294.00; Videoplaycount: 5204053.00; Engagement Rate: 0.00; Play Rate: 50.27; Nationality: Iranian; Videoduration: 22.93; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQMf7nb8l23SE4GpSR5VtVMOGWuogI-d85...; Hashtags: ["دلنوشته","جوانی","غم","قصه","دلار","سکه"]; Anomaly Score: -0.211
+
+10. @tannercolsoncoffee
+    Main Metric (Likescount): 73,792.00
+    Details: Commentscount: 1068.00; Videoplaycount: 4078710.00; Engagement Rate: 0.01; Play Rate: 55.27; Nationality: International; Videoduration: 62.46; Videourl: [{"url":"https://scontent-atl3-3.cdninstagram.com/o1/v/t16/f2/m86/AQOYXqw62DAFM-Lwb30COfg23wcjShCUJj...; Hashtags: []; Anomaly Score: -0.209
+
+11. @tannercolsoncoffee
+    Main Metric (Likescount): 152,569.00
+    Details: Commentscount: 145.00; Videoplaycount: 3618075.00; Engagement Rate: 0.00; Play Rate: 23.71; Nationality: International; Videoduration: 28.66; Videourl: [{"url":"https://instagram.fjbr1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMICsi_vOoJq_83e2N5sT6cGYPEIGJ7Pk0...; Hashtags: ["repost"]; Anomaly Score: -0.209
+
+12. @coffeebae97
+    Main Metric (Likescount): 238,482.00
+    Details: Commentscount: 250.00; Videoplaycount: 2369195.00; Engagement Rate: 0.00; Play Rate: 9.93; Nationality: International; Videoduration: 41.67; Videourl: [{"url":"https://instagram.fsac1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOZ2bUvef5TMNNyCi1AARWwCk3j0XSLCI0...; Hashtags: []; Anomaly Score: -0.208
+
+13. @tannercolsoncoffee
+    Main Metric (Likescount): 144,127.00
+    Details: Commentscount: 406.00; Videoplaycount: 2733590.00; Engagement Rate: 0.00; Play Rate: 18.97; Nationality: International; Videoduration: 60.66; Videourl: [{"url":"https://instagram.fdac176-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMJr88ukGPJ__KCPhZqEKXcRh4Nf66VJ...; Hashtags: []; Anomaly Score: -0.204
+
+14. @tannercolsoncoffee
+    Main Metric (Likescount): 93,631.00
+    Details: Commentscount: 803.00; Videoplaycount: 3243759.00; Engagement Rate: 0.01; Play Rate: 34.64; Nationality: International; Videoduration: 60.91; Videourl: [{"url":"https://instagram.fwbw1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPU4D172rM6-Zx4FQnNo1b91tWpcBuas0h...; Hashtags: []; Anomaly Score: -0.200
+
+15. @morgandrinkscoffee
+    Main Metric (Likescount): 141,999.00
+    Details: Commentscount: 432.00; Videoplaycount: 2573433.00; Engagement Rate: 0.00; Play Rate: 18.12; Nationality: International; Videoduration: 66.83; Videourl: [{"url":"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOSq7qcD9i2-Q87D9KGYdQgZI4JJ6AUpIb...; Hashtags: []; Anomaly Score: -0.191
+
+16. @morgandrinkscoffee
+    Main Metric (Likescount): 156,075.00
+    Details: Commentscount: 328.00; Videoplaycount: 1737462.00; Engagement Rate: 0.00; Play Rate: 11.13; Nationality: International; Videoduration: 66.70; Videourl: [{"url":"https://instagram.fbgw66-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQPl_W7RZri2sxoh3YzfIr9NPXoDuxR9pq...; Hashtags: []; Anomaly Score: -0.186
+
+17. @vitadune
+    Main Metric (Likescount): 73,673.00
+    Details: Commentscount: 667.00; Videoplaycount: 3485845.00; Engagement Rate: 0.01; Play Rate: 47.32; Nationality: Iranian; Videoduration: 31.70; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQOWFcZ4H8c77ZNZNisgyeAlA_X9iTJjuA...; Hashtags: []; Anomaly Score: -0.178
+
+18. @tannercolsoncoffee
+    Main Metric (Likescount): 66,990.00
+    Details: Commentscount: 589.00; Videoplaycount: 3057485.00; Engagement Rate: 0.01; Play Rate: 45.64; Nationality: International; Videoduration: 71.60; Videourl: [{"url":"https://instagram.fkhi16-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPvha9jvw2wNo-G9GbhRYVDGNnZvTOvQb...; Hashtags: ["ad"]; Anomaly Score: -0.158
+
+19. @graph.coffeee
+    Main Metric (Likescount): 46,166.00
+    Details: Commentscount: 449.00; Videoplaycount: 3309800.00; Engagement Rate: 0.01; Play Rate: 71.69; Nationality: Iranian; Videoduration: 5.47; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m82/AQNgXEWC6AmiVYq_oGX1QFfrU-g2Cirkyf...; Hashtags: ["asarmarketing","لیموناد","موهیتو","لیمو","تابستان","نوشیدنی_سرد","یخ","نعنا"]; Anomaly Score: -0.139
+
+20. @tannercolsoncoffee
+    Main Metric (Likescount): 66,465.00
+    Details: Commentscount: 517.00; Videoplaycount: 2482416.00; Engagement Rate: 0.01; Play Rate: 37.35; Nationality: International; Videoduration: 35.94; Videourl: [{"url":"https://instagram.fadd2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOSt2_hZKFEcM5YG3aDXGicc5ZdiYbatQZ...; Hashtags: ["roestpartner"]; Anomaly Score: -0.131
+
+21. @morgandrinkscoffee
+    Main Metric (Likescount): 81,272.00
+    Details: Commentscount: 307.00; Videoplaycount: 987805.00; Engagement Rate: 0.00; Play Rate: 12.15; Nationality: International; Videoduration: 53.67; Videourl: [{"url":"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m86/AQNFanTjSrAU4HlVhG9cOecBA5SJmRoqDF...; Hashtags: []; Anomaly Score: -0.131
+
+22. @morgandrinkscoffee
+    Main Metric (Likescount): 67,560.00
+    Details: Commentscount: 120.00; Videoplaycount: 1102765.00; Engagement Rate: 0.00; Play Rate: 16.32; Nationality: International; Videoduration: 39.27; Videourl: [{"url":"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMsV0MeLDKcf5YnFRKr4iXTbhxeXvoH_T...; Hashtags: []; Anomaly Score: -0.098
+
+23. @tannercolsoncoffee
+    Main Metric (Likescount): 59,921.00
+    Details: Commentscount: 249.00; Videoplaycount: 2113271.00; Engagement Rate: 0.00; Play Rate: 35.27; Nationality: International; Videoduration: 57.46; Videourl: [{"url":"https://instagram.fagc1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPieHqok89WzQs4hns8xd__4DcATYR3WJy...; Hashtags: ["sponsoredbyninja","ninjaluxecafe"]; Anomaly Score: -0.096
+
+24. @ghahve.eka
+    Main Metric (Likescount): 13,607.00
+    Details: Commentscount: 135.00; Videoplaycount: 1830541.00; Engagement Rate: 0.01; Play Rate: 134.53; Nationality: Iranian; Videoduration: 24.00; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQNIg20EhTWCBU7IIpQiRf85NLDFGeVGBE...; Hashtags: []; Anomaly Score: -0.096
+
+25. @tannercolsoncoffee
+    Main Metric (Likescount): 44,346.00
+    Details: Commentscount: 159.00; Videoplaycount: 2545769.00; Engagement Rate: 0.00; Play Rate: 57.41; Nationality: International; Videoduration: 83.10; Videourl: [{"url":"https://scontent-sjc3-1.cdninstagram.com/o1/v/t16/f2/m86/AQNAjgpXCcEdugUM6cCSAUQmWi8pzEmpbF...; Hashtags: []; Anomaly Score: -0.091
+
+26. @morgandrinkscoffee
+    Main Metric (Likescount): 56,587.00
+    Details: Commentscount: 138.00; Videoplaycount: 580669.00; Engagement Rate: 0.00; Play Rate: 10.26; Nationality: International; Videoduration: 53.83; Videourl: [{"url":"https://instagram.fbhv1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQORsFyqoglJtL3hofVH6stuEryemZ7sc-e...; Hashtags: []; Anomaly Score: -0.074
+
+27. @morgandrinkscoffee
+    Main Metric (Likescount): 53,131.00
+    Details: Commentscount: 159.00; Videoplaycount: 732948.00; Engagement Rate: 0.00; Play Rate: 13.80; Nationality: International; Videoduration: 80.29; Videourl: [{"url":"https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQO39X393dadqLuUy29Mg-bRx8oIAw8thH...; Hashtags: []; Anomaly Score: -0.072
+
+28. @tannercolsoncoffee
+    Main Metric (Likescount): 51,671.00
+    Details: Commentscount: 224.00; Videoplaycount: 1792176.00; Engagement Rate: 0.00; Play Rate: 34.68; Nationality: International; Videoduration: 48.58; Videourl: [{"url":"https://scontent-atl3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOXgUYj_XgujlUf22T-OfKNTE2dBHiGB0...; Hashtags: []; Anomaly Score: -0.070
+
+29. @tannercolsoncoffee
+    Main Metric (Likescount): 28,664.00
+    Details: Commentscount: 602.00; Videoplaycount: 994457.00; Engagement Rate: 0.02; Play Rate: 34.69; Nationality: International; Videoduration: 60.09; Videourl: [{"url":"https://scontent-lga3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOXcA54QWbenEdSINx0Bg8YUAPBfkPpTR...; Hashtags: []; Anomaly Score: -0.068
+
+30. @coffeebae97
+    Main Metric (Likescount): 38,360.00
+    Details: Commentscount: 44.00; Videoplaycount: 1651150.00; Engagement Rate: 0.00; Play Rate: 43.04; Nationality: International; Videoduration: 16.77; Videourl: [{"url":"https://instagram.fsan1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOmdQRoYJPHwQ0-_Z0xWnFZn9tkhF83Tsv...; Hashtags: []; Anomaly Score: -0.063
+
+31. @tannercolsoncoffee
+    Main Metric (Likescount): 45,398.00
+    Details: Commentscount: 339.00; Videoplaycount: 1204824.00; Engagement Rate: 0.01; Play Rate: 26.54; Nationality: International; Videoduration: 76.27; Videourl: [{"url":"https://scontent-ord5-1.cdninstagram.com/o1/v/t16/f2/m86/AQNNitDn_ymkYC2aEYqZfwE2xO5lNsKRyI...; Hashtags: []; Anomaly Score: -0.061
+
+32. @tannercolsoncoffee
+    Main Metric (Likescount): 39,199.00
+    Details: Commentscount: 291.00; Videoplaycount: 1234179.00; Engagement Rate: 0.01; Play Rate: 31.48; Nationality: International; Videoduration: 127.00; Videourl: [{"url":"https://instagram.fpos3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPTFuYm_IiMK6ZongQV78v1tlnUAGPYRd-...; Hashtags: []; Anomaly Score: -0.049
+
+33. @morgandrinkscoffee
+    Main Metric (Likescount): 41,326.00
+    Details: Commentscount: 191.00; Videoplaycount: 833274.00; Engagement Rate: 0.00; Play Rate: 20.16; Nationality: International; Videoduration: 60.70; Videourl: [{"url":"https://instagram.fkye4-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNmypW20oAaV_v5xiNC1WmVDefGnua1B20...; Hashtags: []; Anomaly Score: -0.047
+
+34. @morgandrinkscoffee
+    Main Metric (Likescount): 35,501.00
+    Details: Commentscount: 191.00; Videoplaycount: 662045.00; Engagement Rate: 0.01; Play Rate: 18.65; Nationality: International; Videoduration: 58.43; Videourl: [{"url":"https://instagram.find2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNJhGuDUL04QEW2ZiJQuL9U0oqGQ6K65-L...; Hashtags: []; Anomaly Score: -0.044
+
+35. @tannercolsoncoffee
+    Main Metric (Likescount): 17,224.00
+    Details: Commentscount: 96.00; Videoplaycount: 1367588.00; Engagement Rate: 0.01; Play Rate: 79.40; Nationality: International; Videoduration: 41.61; Videourl: [{"url":"https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPLO13FYNLL85TiBf9liDozeEShAtGQlT...; Hashtags: []; Anomaly Score: -0.037
+
+36. @morgandrinkscoffee
+    Main Metric (Likescount): 34,053.00
+    Details: Commentscount: 93.00; Videoplaycount: 699671.00; Engagement Rate: 0.00; Play Rate: 20.55; Nationality: International; Videoduration: 40.63; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNO-FYyFrDmBSDIY0wDeT_ZWPOhiuZcDB...; Hashtags: []; Anomaly Score: -0.035
+
+37. @tannercolsoncoffee
+    Main Metric (Likescount): 31,201.00
+    Details: Commentscount: 295.00; Videoplaycount: 798783.00; Engagement Rate: 0.01; Play Rate: 25.60; Nationality: International; Videoduration: 153.18; Videourl: [{"url":"https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQOmUqw_0v0XMgmUbf6ykxPP-bEQFbZKyU...; Hashtags: ["espresso"]; Anomaly Score: -0.034
+
+38. @tannercolsoncoffee
+    Main Metric (Likescount): 24,634.00
+    Details: Commentscount: 166.00; Videoplaycount: 1400580.00; Engagement Rate: 0.01; Play Rate: 56.86; Nationality: International; Videoduration: 24.12; Videourl: [{"url":"https://instagram.fjed6-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOjQFbxfADWMkQMwFYcq2EV4l7omKYxWJB...; Hashtags: []; Anomaly Score: -0.034
+
+39. @morgandrinkscoffee
+    Main Metric (Likescount): 32,950.00
+    Details: Commentscount: 98.00; Videoplaycount: 448228.00; Engagement Rate: 0.00; Play Rate: 13.60; Nationality: International; Videoduration: 59.10; Videourl: [{"url":"https://instagram.fmnl17-5.fna.fbcdn.net/o1/v/t16/f2/m86/AQOI-sPRvNeFf8s95lGO-_n_dDvtHnRS4m...; Hashtags: []; Anomaly Score: -0.031
+
+40. @morgandrinkscoffee
+    Main Metric (Likescount): 29,519.00
+    Details: Commentscount: 104.00; Videoplaycount: 398897.00; Engagement Rate: 0.00; Play Rate: 13.51; Nationality: International; Videoduration: 75.37; Videourl: [{"url":"https://instagram.fagc1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMX7GWkE_qZnMJKZH8kg1GetHHus62c27K...; Hashtags: []; Anomaly Score: -0.028
+
+41. @tannercolsoncoffee
+    Main Metric (Likescount): 25,957.00
+    Details: Commentscount: 339.00; Videoplaycount: 1207251.00; Engagement Rate: 0.01; Play Rate: 46.51; Nationality: International; Videoduration: 63.93; Videourl: [{"url":"https://scontent-eze1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMa5-XB-WtgL0pG83SdmJ55pqf-Z4RQOc...; Hashtags: []; Anomaly Score: -0.028
+
+42. @vitadune
+    Main Metric (Likescount): 30,862.00
+    Details: Commentscount: 208.00; Videoplaycount: 885540.00; Engagement Rate: 0.01; Play Rate: 28.69; Nationality: Iranian; Videoduration: 26.47; Videourl: [{"url":"https://scontent-mia3-3.cdninstagram.com/o1/v/t16/f2/m86/AQMdE7QnZpZsjDEEJWrEDCgtlDjW-NTrxX...; Hashtags: ["آیس_کافی","قهوه_سرد","قهوه_خانگی","قهوه_تابستونی","آیس_کافی_اقتصادی","رسپی_خونگی","قهوه_با_قهوه_فوری","آموزش_قهوه","قهوه_بدون_دستگاه","کافه_خونگی","دستور_قهوه","قهوه_تابستانی","قهوه_مقرون_به_صرفه","قهوه_برای_هوای_گرم","ویتادونه"]; Anomaly Score: -0.026
+
+43. @morgandrinkscoffee
+    Main Metric (Likescount): 28,801.00
+    Details: Commentscount: 226.00; Videoplaycount: 534101.00; Engagement Rate: 0.01; Play Rate: 18.54; Nationality: International; Videoduration: 63.95; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQM2NmCXwW15VOgwATVLZXcu86RG5uKoND...; Hashtags: []; Anomaly Score: -0.023
+
+44. @tannercolsoncoffee
+    Main Metric (Likescount): 29,101.00
+    Details: Commentscount: 236.00; Videoplaycount: 637620.00; Engagement Rate: 0.01; Play Rate: 21.91; Nationality: International; Videoduration: 136.03; Videourl: [{"url":"https://scontent-atl3-2.cdninstagram.com/o1/v/t16/f2/m86/AQPcnYSEfNPpxfYD6axM3x4Jwtc85Zz7nT...; Hashtags: []; Anomaly Score: -0.019
+
+45. @coffeegozarstore
+    Main Metric (Likescount): 21,858.00
+    Details: Commentscount: 474.00; Videoplaycount: 796157.00; Engagement Rate: 0.02; Play Rate: 36.42; Nationality: Iranian; Videoduration: 23.17; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQMrAIRvqMZ53n5ErASDnArxLgWcDgQ9jN...; Hashtags: ["پدرام","پدرام_کاظمی","باریستا","عربیکا","روبوستا"]; Anomaly Score: -0.016
+
+46. @coffeegozarstore
+    Main Metric (Likescount): 21,857.00
+    Details: Commentscount: 474.00; Videoplaycount: 796115.00; Engagement Rate: 0.02; Play Rate: 36.42; Nationality: Iranian; Videoduration: 23.17; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMrAIRvqMZ53n5ErASDnArxLgWcDgQ9jN...; Hashtags: ["پدرام","پدرام_کاظمی","باریستا","عربیکا","روبوستا"]; Anomaly Score: -0.016
+
+47. @tannercolsoncoffee
+    Main Metric (Likescount): 26,553.00
+    Details: Commentscount: 278.00; Videoplaycount: 892538.00; Engagement Rate: 0.01; Play Rate: 33.61; Nationality: International; Videoduration: 68.20; Videourl: [{"url":"https://instagram.fsap7-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNIry9o1gf4rh0ehBLpzP-48AGXBSpz-vJ...; Hashtags: []; Anomaly Score: -0.015
+
+48. @tannercolsoncoffee
+    Main Metric (Likescount): 27,754.00
+    Details: Commentscount: 207.00; Videoplaycount: 645981.00; Engagement Rate: 0.01; Play Rate: 23.28; Nationality: International; Videoduration: 49.58; Videourl: [{"url":"https://instagram.ffnc1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNLDR_jIMd2JfS5RU804FwaNyUwuhVlSkT...; Hashtags: ["repost"]; Anomaly Score: -0.014
+
+49. @morgandrinkscoffee
+    Main Metric (Likescount): 28,167.00
+    Details: Commentscount: 92.00; Videoplaycount: 548708.00; Engagement Rate: 0.00; Play Rate: 19.48; Nationality: International; Videoduration: 33.97; Videourl: [{"url":"https://scontent-ord5-1.cdninstagram.com/o1/v/t16/f2/m86/AQMXvGuLmaWc7Hj_elws7y_7fH0QpkEJF-...; Hashtags: []; Anomaly Score: -0.008
+
+50. @morgandrinkscoffee
+    Main Metric (Likescount): 25,744.00
+    Details: Commentscount: 89.00; Videoplaycount: 261782.00; Engagement Rate: 0.00; Play Rate: 10.17; Nationality: International; Videoduration: 59.19; Videourl: [{"url":"https://instagram.fmnl13-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQPCc7kiy5E6Ks2NkAXM7gR-b9drr9oMXi...; Hashtags: []; Anomaly Score: -0.006
+
+51. @morgandrinkscoffee
+    Main Metric (Likescount): 25,822.00
+    Details: Commentscount: 77.00; Videoplaycount: 439320.00; Engagement Rate: 0.00; Play Rate: 17.01; Nationality: International; Videoduration: 68.03; Videourl: [{"url":"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m86/AQMmRk4roR8EHTBEIm_6bWKcOMXPmqOJBA...; Hashtags: []; Anomaly Score: -0.003
+
+----------------------------------------------------------------------
+
+📉 Negative Anomalies: Zero or Extremely Low Likes (<=1)
+    No anomalies found in this category.
+
+----------------------------------------------------------------------
+
+📉 Negative Anomalies: Popular Hashtags but Low Performance
+
+1. @graph.coffeee
+    Main Metric (Likescount): 896.00
+    Details: Commentscount: 2602.00; Videoplaycount: 19918.00; Engagement Rate: 2.90; Play Rate: 22.23; Nationality: Iranian; Videoduration: 23.38; Videourl: [{"url":"https://instagram.fjed4-6.fna.fbcdn.net/o1/v/t16/f2/m86/AQMYxqJUT5qo79ts1N2fyXNFZ3etGYW3La9...; Hashtags: ["asarmarketing","روزدختر","دختر","کافه","آرایشی","جایزه","نیشابور"]; Anomaly Score: -0.233
+
+2. @hippo.coffee
+    Main Metric (Likescount): 107.00
+    Details: Commentscount: 180.00; Videoplaycount: 5773.00; Engagement Rate: 1.68; Play Rate: 53.95; Nationality: Iranian; Videoduration: 24.87; Videourl: [{"url":"https://scontent-gru2-2.cdninstagram.com/o1/v/t16/f2/m86/AQMj-qK-mm6tzwmvxZAL6eOAvzBrqSsRtz...; Hashtags: ["قهوه","قهوه_دوست","قهوه_قسطی","قهوه_خوب","خرید_قسطی","قهوه_باز","کافه","کافه_گردی","قهوه_داغ","قهوه_عربی","قهوه_ترک","لذت_قهوه","کافئین","coffee","coffeelover","cafe","coffeetime","special_offer"]; Anomaly Score: -0.128
+
+3. @dazhocoffee.co
+    Main Metric (Likescount): 145.00
+    Details: Commentscount: 163.00; Videoplaycount: 7807.00; Engagement Rate: 1.12; Play Rate: 53.84; Nationality: Iranian; Videoduration: 12.12; Videourl: [{"url":"https://scontent-sjc3-1.cdninstagram.com/o1/v/t16/f2/m86/AQNZ_6phYhTYhYUPyE2wKdb-uGq1yZGY2z...; Hashtags: ["fun","کافه","اسپرسو","قهوه_ترک","فان","کافه_گردی","اسپرسوتک"]; Anomaly Score: -0.111
+
+4. @dazhocoffee.co
+    Main Metric (Likescount): 145.00
+    Details: Commentscount: 163.00; Videoplaycount: 7807.00; Engagement Rate: 1.12; Play Rate: 53.84; Nationality: Iranian; Videoduration: 12.12; Videourl: [{"url":"https://scontent-bos5-1.cdninstagram.com/o1/v/t16/f2/m86/AQNZ_6phYhTYhYUPyE2wKdb-uGq1yZGY2z...; Hashtags: ["fun","کافه","اسپرسو","قهوه_ترک","فان","کافه_گردی","اسپرسوتک"]; Anomaly Score: -0.111
+
+5. @dazhocoffee.co
+    Main Metric (Likescount): 139.00
+    Details: Commentscount: 110.00; Videoplaycount: 12822.00; Engagement Rate: 0.79; Play Rate: 92.24; Nationality: Iranian; Videoduration: 5.32; Videourl: [{"url":"https://instagram.fplu33-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQM271EFS_IKZD_3YZWqXNVmooI5-wXF9o...; Hashtags: ["کافئین","اسپرسو","قهوه","کافه","کافه_تهران","کافه_گردی","ایس_لته","fun","فان","خندهدارترین","دختر","لجبازی"]; Anomaly Score: -0.081
+
+6. @dazhocoffee.co
+    Main Metric (Likescount): 139.00
+    Details: Commentscount: 110.00; Videoplaycount: 12822.00; Engagement Rate: 0.79; Play Rate: 92.24; Nationality: Iranian; Videoduration: 5.32; Videourl: [{"url":"https://instagram.fgye1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQM271EFS_IKZD_3YZWqXNVmooI5-wXF9oU...; Hashtags: ["کافئین","اسپرسو","قهوه","کافه","کافه_تهران","کافه_گردی","ایس_لته","fun","فان","خندهدارترین","دختر","لجبازی"]; Anomaly Score: -0.081
+
+7. @masoud.coffee.taster
+    Main Metric (Likescount): 996.00
+    Details: Commentscount: 505.00; Videoplaycount: 60471.00; Engagement Rate: 0.51; Play Rate: 60.71; Nationality: Iranian; Videoduration: 54.50; Videourl: [{"url":"https://instagram.fguj3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQP09Ud_9SOyumJHlgU3jcM0LsVqAd2T5_h...; Hashtags: ["کافه","لاته_آرت","باریستای_حرفه_ای","باریستا"]; Anomaly Score: -0.069
+
+8. @dazhocoffee.co
+    Main Metric (Likescount): 52.00
+    Details: Commentscount: 11.00; Videoplaycount: 8213.00; Engagement Rate: 0.21; Play Rate: 157.94; Nationality: Iranian; Videoduration: 7.00; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMJbYzkINoayznv3cKEs8DvQmJz1jlZn5...; Hashtags: ["قهوه","اسپرسو","ایتالیا","italy","کافه","قهوه_ترک","کافه_گردی","اسپرسودوبل","قهوه_بارده","کافه_تهران"]; Anomaly Score: -0.062
+
+9. @dazhocoffee.co
+    Main Metric (Likescount): 52.00
+    Details: Commentscount: 11.00; Videoplaycount: 8213.00; Engagement Rate: 0.21; Play Rate: 157.94; Nationality: Iranian; Videoduration: 7.00; Videourl: [{"url":"https://scontent-sjc3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMJbYzkINoayznv3cKEs8DvQmJz1jlZn5...; Hashtags: ["قهوه","اسپرسو","ایتالیا","italy","کافه","قهوه_ترک","کافه_گردی","اسپرسودوبل","قهوه_بارده","کافه_تهران"]; Anomaly Score: -0.062
+
+10. @dazhocoffee.co
+    Main Metric (Likescount): 143.00
+    Details: Commentscount: 121.00; Videoplaycount: 1783.00; Engagement Rate: 0.85; Play Rate: 12.47; Nationality: Iranian; Videoduration: 15.77; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQO9KSv1YwoL2pm5dMuY2EJ57D8NvCl6W3...; Hashtags: ["قهوه","اسپرسو","کافه","قهوه_ترک","کافه_گردی","کافه_تهران"]; Anomaly Score: -0.053
+
+11. @dazhocoffee.co
+    Main Metric (Likescount): 143.00
+    Details: Commentscount: 121.00; Videoplaycount: 1783.00; Engagement Rate: 0.85; Play Rate: 12.47; Nationality: Iranian; Videoduration: 15.77; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQO9KSv1YwoL2pm5dMuY2EJ57D8NvCl6W3...; Hashtags: ["قهوه","اسپرسو","کافه","قهوه_ترک","کافه_گردی","کافه_تهران"]; Anomaly Score: -0.053
+
+12. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 158.00
+    Details: Commentscount: 132.00; Videoplaycount: 2540.00; Engagement Rate: 0.84; Play Rate: 16.08; Nationality: Iranian; Videoduration: 8.03; Videourl: [{"url":"https://scontent-ord5-1.cdninstagram.com/o1/v/t16/f2/m86/AQMVAPMo4sDlbOKI-2oQtNAQ5SrOEb7Ypa...; Hashtags: ["قهوه","اسپرسو","اسپرسوساز_برقی","جایزه🎁","جایزه","تخفیف","چربی_سوز","میکس_قهوه","میکس_قهوه_فول_کافئین","کافی","کافی_بار_خونگی","کافی_شاپ_اصفهان","کافیشاپهای_تهران","کافه_سیار","قهوه_اسپرسو","قهوه_تخصصی"]; Anomaly Score: -0.052
+
+13. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 158.00
+    Details: Commentscount: 132.00; Videoplaycount: 2540.00; Engagement Rate: 0.84; Play Rate: 16.08; Nationality: Iranian; Videoduration: 8.03; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMVAPMo4sDlbOKI-2oQtNAQ5SrOEb7Ypa...; Hashtags: ["قهوه","اسپرسو","اسپرسوساز_برقی","جایزه🎁","جایزه","تخفیف","چربی_سوز","میکس_قهوه","میکس_قهوه_فول_کافئین","کافی","کافی_بار_خونگی","کافی_شاپ_اصفهان","کافیشاپهای_تهران","کافه_سیار","قهوه_اسپرسو","قهوه_تخصصی"]; Anomaly Score: -0.052
+
+14. @dazhocoffee.co
+    Main Metric (Likescount): 104.00
+    Details: Commentscount: 80.00; Videoplaycount: 6554.00; Engagement Rate: 0.77; Play Rate: 63.02; Nationality: Iranian; Videoduration: 3.67; Videourl: [{"url":"https://instagram.flhe42-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNdFjC7G4Pc9h8jd9C8tpNdtiGGz15qQQ...; Hashtags: ["قهوه","قهوه_ترک","اسپرسوساز","اسپرسو","کافه_گردی","کافه_تهران","کافئین","کافه","فان","fun","خندهدارترین"]; Anomaly Score: -0.051
+
+15. @dazhocoffee.co
+    Main Metric (Likescount): 104.00
+    Details: Commentscount: 80.00; Videoplaycount: 6554.00; Engagement Rate: 0.77; Play Rate: 63.02; Nationality: Iranian; Videoduration: 3.67; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQNdFjC7G4Pc9h8jd9C8tpNdtiGGz15qQQ...; Hashtags: ["قهوه","قهوه_ترک","اسپرسوساز","اسپرسو","کافه_گردی","کافه_تهران","کافئین","کافه","فان","fun","خندهدارترین"]; Anomaly Score: -0.051
+
+16. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 87.00
+    Details: Commentscount: 81.00; Videoplaycount: 1354.00; Engagement Rate: 0.93; Play Rate: 15.56; Nationality: Iranian; Videoduration: 7.30; Videourl: [{"url":"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m86/AQMRQL4wBx41vJxnwBqybZJk2ONmTvZowo...; Hashtags: ["قهوه","اسپرسو","موزیک_جدید","موزیک_ترند","موزیک_ترند_اینستاگرامی","ترامپ","موزیک_ویدیو","کلیپ","چالش"]; Anomaly Score: -0.049
+
+17. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 87.00
+    Details: Commentscount: 81.00; Videoplaycount: 1354.00; Engagement Rate: 0.93; Play Rate: 15.56; Nationality: Iranian; Videoduration: 7.30; Videourl: [{"url":"https://instagram.fssa13-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMRQL4wBx41vJxnwBqybZJk2ONmTvZowo...; Hashtags: ["قهوه","اسپرسو","موزیک_جدید","موزیک_ترند","موزیک_ترند_اینستاگرامی","ترامپ","موزیک_ویدیو","کلیپ","چالش"]; Anomaly Score: -0.049
+
+18. @coffee.mehrnaz
+    Main Metric (Likescount): 118.00
+    Details: Commentscount: 102.00; Videoplaycount: 1569.00; Engagement Rate: 0.86; Play Rate: 13.30; Nationality: Iranian; Videoduration: 11.33; Videourl: [{"url":"https://instagram.fvit1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMSRGlgN-LQqakb3XSzwS6sQ3yiMCCyynO...; Hashtags: ["قهوه","اسپرسو","قهوه_اسپرسو","کافه_رستوران","کافه_گردی"]; Anomaly Score: -0.049
+
+19. @coffee.mehrnaz
+    Main Metric (Likescount): 118.00
+    Details: Commentscount: 102.00; Videoplaycount: 1569.00; Engagement Rate: 0.86; Play Rate: 13.30; Nationality: Iranian; Videoduration: 11.33; Videourl: [{"url":"https://scontent-lhr6-2.cdninstagram.com/o1/v/t16/f2/m86/AQMSRGlgN-LQqakb3XSzwS6sQ3yiMCCyyn...; Hashtags: ["قهوه","اسپرسو","قهوه_اسپرسو","کافه_رستوران","کافه_گردی"]; Anomaly Score: -0.049
+
+20. @dazhocoffee.co
+    Main Metric (Likescount): 145.00
+    Details: Commentscount: 111.00; Videoplaycount: 8634.00; Engagement Rate: 0.77; Play Rate: 59.54; Nationality: Iranian; Videoduration: 11.49; Videourl: [{"url":"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMg9AD2bR0t5Mb5dDLiaYP1KRIQy0zmJp...; Hashtags: ["کافئین","اسپرسو","کافه","قهوه_ترک","کافه_گردی","اسپرسوساز"]; Anomaly Score: -0.049
+
+21. @dazhocoffee.co
+    Main Metric (Likescount): 145.00
+    Details: Commentscount: 111.00; Videoplaycount: 8634.00; Engagement Rate: 0.77; Play Rate: 59.54; Nationality: Iranian; Videoduration: 11.49; Videourl: [{"url":"https://scontent-den2-1.cdninstagram.com/o1/v/t16/f2/m86/AQMg9AD2bR0t5Mb5dDLiaYP1KRIQy0zmJp...; Hashtags: ["کافئین","اسپرسو","کافه","قهوه_ترک","کافه_گردی","اسپرسوساز"]; Anomaly Score: -0.049
+
+22. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 171.00
+    Details: Commentscount: 138.00; Videoplaycount: 2119.00; Engagement Rate: 0.81; Play Rate: 12.39; Nationality: Iranian; Videoduration: 21.63; Videourl: [{"url":"https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m86/AQNrg_wz5aaLENzdzOnnN10JP9uWpb7khf...; Hashtags: ["قهوه","قهوهساز","قهوه_اسپرسو","قهوه_دمی","قهوه_جوش","تخفیف","تخفیف_ویژه","اسپرسو","اسپرسو_ساز","کافه_گردی","باریستای_خودت_باش","کاپوچینو","نسکافه_گلد","قهوه_فوری","کافی_شاپ"]; Anomaly Score: -0.046
+
+23. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 171.00
+    Details: Commentscount: 138.00; Videoplaycount: 2119.00; Engagement Rate: 0.81; Play Rate: 12.39; Nationality: Iranian; Videoduration: 21.63; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQNrg_wz5aaLENzdzOnnN10JP9uWpb7khf...; Hashtags: ["قهوه","قهوهساز","قهوه_اسپرسو","قهوه_دمی","قهوه_جوش","تخفیف","تخفیف_ویژه","اسپرسو","اسپرسو_ساز","کافه_گردی","باریستای_خودت_باش","کاپوچینو","نسکافه_گلد","قهوه_فوری","کافی_شاپ"]; Anomaly Score: -0.046
+
+24. @masoud.coffee.taster
+    Main Metric (Likescount): 459.00
+    Details: Commentscount: 245.00; Videoplaycount: 29809.00; Engagement Rate: 0.53; Play Rate: 64.94; Nationality: Iranian; Videoduration: 35.87; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQMLqEmt7kbTyuWz1E_GpWfnjKwc1VdNPT...; Hashtags: ["قهوه","اسپرسو","باریستا","کافه"]; Anomaly Score: -0.045
+
+25. @sard_dam
+    Main Metric (Likescount): 775.00
+    Details: Commentscount: 402.00; Videoplaycount: 16981.00; Engagement Rate: 0.52; Play Rate: 21.91; Nationality: Iranian; Videoduration: 31.84; Videourl: [{"url":"https://scontent-mia3-1.cdninstagram.com/o1/v/t16/f2/m86/AQP-bt8QZjqs8tyirkHIPGee46HCigiM1p...; Hashtags: ["قهوه_ساز","قهوه_ترک","قهوه_اسپرسو","سرددم","سرد_دم","قهوه_سرد","قهوه_فرانسه","قهوه_آماده","قهوه_فوری","اسپرسو","کاپوچینو","کافی_شاپ","کافیشاپ"]; Anomaly Score: -0.032
+
+26. @bestoflatteart
+    Main Metric (Likescount): 849.00
+    Details: Commentscount: 28.00; Videoplaycount: 134972.00; Engagement Rate: 0.03; Play Rate: 158.98; Nationality: International; Videoduration: 15.43; Videourl: [{"url":"https://scontent-ord5-1.cdninstagram.com/o1/v/t16/f2/m86/AQMLLjYvbqyks-e9Z_FFIj-AnH471XcwJC...; Hashtags: ["barista","halloween","latteart","coffeetime","coffee","cafe","coffeelover","espresso","trending","spooky","pumpkin"]; Anomaly Score: -0.028
+
+27. @coffee.mehrnaz
+    Main Metric (Likescount): 240.00
+    Details: Commentscount: 172.00; Videoplaycount: 3902.00; Engagement Rate: 0.72; Play Rate: 16.26; Nationality: Iranian; Videoduration: 30.26; Videourl: [{"url":"https://instagram.fpgz1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQP5apZ4rvGIFAUlLQzJa3vW1pkilTTBaf2...; Hashtags: ["قهوه","اسپرسو","کافی_شاپ","کافه_رستوران","قهوه_ترک","دلار","قبمت_دلار","قیمت_قهوه","چالش","چالش_جدید","کلیپ_فان","اسپرسوساز","کافه_گردی","کافه_گرد","کافه_سیار","اسپرسوسازخانگی","مسابقه","مسابقه_اینستاگرامی","تخفیف"]; Anomaly Score: -0.028
+
+28. @coffee.mehrnaz
+    Main Metric (Likescount): 240.00
+    Details: Commentscount: 172.00; Videoplaycount: 3902.00; Engagement Rate: 0.72; Play Rate: 16.26; Nationality: Iranian; Videoduration: 30.26; Videourl: [{"url":"https://scontent-cdg4-3.cdninstagram.com/o1/v/t16/f2/m86/AQP5apZ4rvGIFAUlLQzJa3vW1pkilTTBaf...; Hashtags: ["قهوه","اسپرسو","کافی_شاپ","کافه_رستوران","قهوه_ترک","دلار","قبمت_دلار","قیمت_قهوه","چالش","چالش_جدید","کلیپ_فان","اسپرسوساز","کافه_گردی","کافه_گرد","کافه_سیار","اسپرسوسازخانگی","مسابقه","مسابقه_اینستاگرامی","تخفیف"]; Anomaly Score: -0.028
+
+29. @dazhocoffee.co
+    Main Metric (Likescount): 155.00
+    Details: Commentscount: 123.00; Videoplaycount: 4275.00; Engagement Rate: 0.79; Play Rate: 27.58; Nationality: Iranian; Videoduration: 6.06; Videourl: [{"url":"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m86/AQPawEB_RQpsAnNWUaqycBXJnQPWKSey5x...; Hashtags: ["علی_پروین","کافه_تهران","کافئین","قهوه_ترک","کافه","اسپرسو","اسپرسودوبل","اسپرسوساز"]; Anomaly Score: -0.020
+
+30. @dazhocoffee.co
+    Main Metric (Likescount): 155.00
+    Details: Commentscount: 123.00; Videoplaycount: 4275.00; Engagement Rate: 0.79; Play Rate: 27.58; Nationality: Iranian; Videoduration: 6.06; Videourl: [{"url":"https://instagram.fhan14-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQPawEB_RQpsAnNWUaqycBXJnQPWKSey5x...; Hashtags: ["علی_پروین","کافه_تهران","کافئین","قهوه_ترک","کافه","اسپرسو","اسپرسودوبل","اسپرسوساز"]; Anomaly Score: -0.020
+
+31. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 73.00
+    Details: Commentscount: 56.00; Videoplaycount: 1043.00; Engagement Rate: 0.77; Play Rate: 14.29; Nationality: Iranian; Videoduration: 7.54; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQOxmXdn3t1wDW2kNKYrwCJ2LJsyUcVi-1...; Hashtags: ["قهوه","لاته","قهوه_تهران","قهوه_تهرانپارس","کافه_تهرانپارس","قهوه_دوست","لاته_آرت☕","قهوه_با_عشق","کافی_تایم☕️","تهرانپارس","کافه_گردی","coffeetime","latteart","firstsip","lattevibes","iranianbarista","misscoffee","coffeelover"]; Anomaly Score: -0.017
+
+32. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 73.00
+    Details: Commentscount: 56.00; Videoplaycount: 1043.00; Engagement Rate: 0.77; Play Rate: 14.29; Nationality: Iranian; Videoduration: 7.54; Videourl: [{"url":"https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOxmXdn3t1wDW2kNKYrwCJ2LJsyUcVi-1...; Hashtags: ["قهوه","لاته","قهوه_تهران","قهوه_تهرانپارس","کافه_تهرانپارس","قهوه_دوست","لاته_آرت☕","قهوه_با_عشق","کافی_تایم☕️","تهرانپارس","کافه_گردی","coffeetime","latteart","firstsip","lattevibes","iranianbarista","misscoffee","coffeelover"]; Anomaly Score: -0.017
+
+33. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 118.00
+    Details: Commentscount: 85.00; Videoplaycount: 1569.00; Engagement Rate: 0.72; Play Rate: 13.30; Nationality: Iranian; Videoduration: 4.77; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQO4w-TFjl8L45782fS9eORz2x-DEdw9O6...; Hashtags: ["قهوه","قهوهساز","قهوه_اسپرسو","اسپرسو","اسپرسوساز_خانگی","اسپرسو_ساز","اسپرسو☕️","کلیپ_جدید"]; Anomaly Score: -0.015
+
+34. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 118.00
+    Details: Commentscount: 85.00; Videoplaycount: 1569.00; Engagement Rate: 0.72; Play Rate: 13.30; Nationality: Iranian; Videoduration: 4.77; Videourl: [{"url":"https://instagram.fbfh2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQO4w-TFjl8L45782fS9eORz2x-DEdw9O6l...; Hashtags: ["قهوه","قهوهساز","قهوه_اسپرسو","اسپرسو","اسپرسوساز_خانگی","اسپرسو_ساز","اسپرسو☕️","کلیپ_جدید"]; Anomaly Score: -0.015
+
+35. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 162.00
+    Details: Commentscount: 117.00; Videoplaycount: 2362.00; Engagement Rate: 0.72; Play Rate: 14.58; Nationality: Iranian; Videoduration: 27.17; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m86/AQOLPA4xL0mUQdYC-d3y5V73w0NI6sYuYg...; Hashtags: ["شب_آرزوها","شب_آرزوها_لیلة_الرغائب","قهوه","میکس_فول_کافئین","میکس_فول_کرما","روبوستا_میکس","کافی","کافی_شاپ","اسپرسو","اسپرسوساز_نوا"]; Anomaly Score: -0.014
+
+36. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 162.00
+    Details: Commentscount: 117.00; Videoplaycount: 2362.00; Engagement Rate: 0.72; Play Rate: 14.58; Nationality: Iranian; Videoduration: 27.17; Videourl: [{"url":"https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOLPA4xL0mUQdYC-d3y5V73w0NI6sYuYg...; Hashtags: ["شب_آرزوها","شب_آرزوها_لیلة_الرغائب","قهوه","میکس_فول_کافئین","میکس_فول_کرما","روبوستا_میکس","کافی","کافی_شاپ","اسپرسو","اسپرسوساز_نوا"]; Anomaly Score: -0.014
+
+37. @hippo.coffee
+    Main Metric (Likescount): 55.00
+    Details: Commentscount: 41.00; Videoplaycount: 2248.00; Engagement Rate: 0.75; Play Rate: 40.87; Nationality: Iranian; Videoduration: 16.90; Videourl: [{"url":"https://scontent-det1-1.cdninstagram.com/o1/v/t16/f2/m86/AQOFO7qWrXzZVmyYtYuVP7hC0AWs0Nshd5...; Hashtags: ["قسطی_بخر","قهوه","اسپرسو","اسپرسوساز","کافه","قهوه_ترک","کافه_گردی","کافهرستوران","تجهیزات_قهوه","تجهیزات_کافی_شاپ","تجهیزات_کافه","تجهيزات","قهوه_تايم","coffee","coffeelover"]; Anomaly Score: -0.014
+
+38. @dazhocoffee.co
+    Main Metric (Likescount): 73.00
+    Details: Commentscount: 49.00; Videoplaycount: 4171.00; Engagement Rate: 0.67; Play Rate: 57.14; Nationality: Iranian; Videoduration: 3.09; Videourl: [{"url":"https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOgWlsdhctfv5BvdKj9Lg8k1AJ2nrLjUt...; Hashtags: ["قهوه","asmr","fun","خندهدارترین","اسپرسو","کافه","کافه_گردی"]; Anomaly Score: -0.012
+
+39. @dazhocoffee.co
+    Main Metric (Likescount): 74.00
+    Details: Commentscount: 49.00; Videoplaycount: 4175.00; Engagement Rate: 0.66; Play Rate: 56.42; Nationality: Iranian; Videoduration: 3.09; Videourl: [{"url":"https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOgWlsdhctfv5BvdKj9Lg8k1AJ2nrLjUt...; Hashtags: ["قهوه","asmr","fun","خندهدارترین","اسپرسو","کافه","کافه_گردی"]; Anomaly Score: -0.008
+
+40. @masoud.coffee.taster
+    Main Metric (Likescount): 914.00
+    Details: Commentscount: 215.00; Videoplaycount: 80963.00; Engagement Rate: 0.24; Play Rate: 88.58; Nationality: Iranian; Videoduration: 14.00; Videourl: [{"url":"https://scontent-mia3-3.cdninstagram.com/o1/v/t16/f2/m86/AQNeb9Yty42GzCf4TKghOTi3JtP7cj1g2Y...; Hashtags: ["تعطیلی","کافه","رستوران","اخبارروز"]; Anomaly Score: -0.007
+
+41. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 165.00
+    Details: Commentscount: 121.00; Videoplaycount: 3226.00; Engagement Rate: 0.73; Play Rate: 19.55; Nationality: Iranian; Videoduration: 12.77; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPtuTXSsolcunARZRqOaaaurukC44wOiL...; Hashtags: ["قهوه","اسپرسو","کافی","کافيین","کافئین_قهوه","کافه_رستوران","دمنوش_درمانی","دمنوش_بابونه","شیر","ورزش"]; Anomaly Score: -0.006
+
+42. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 165.00
+    Details: Commentscount: 121.00; Videoplaycount: 3226.00; Engagement Rate: 0.73; Play Rate: 19.55; Nationality: Iranian; Videoduration: 12.77; Videourl: [{"url":"https://scontent-cdg4-3.cdninstagram.com/o1/v/t16/f2/m86/AQPtuTXSsolcunARZRqOaaaurukC44wOiL...; Hashtags: ["قهوه","اسپرسو","کافی","کافيین","کافئین_قهوه","کافه_رستوران","دمنوش_درمانی","دمنوش_بابونه","شیر","ورزش"]; Anomaly Score: -0.006
+
+43. @hippo.coffee
+    Main Metric (Likescount): 179.00
+    Details: Commentscount: 9.00; Videoplaycount: 27161.00; Engagement Rate: 0.05; Play Rate: 151.74; Nationality: Iranian; Videoduration: 6.50; Videourl: [{"url":"https://scontent-phx1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMkDfSirVZED0trSrPzcmpC4ONEtDlHaP...; Hashtags: ["قهوه","اسپرسو","دانستنی","دانستنی_قهوه","اسپرسوساز","قهوه_ترک","قهوه_اسپرسو"]; Anomaly Score: -0.005
+
+44. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 114.00
+    Details: Commentscount: 78.00; Videoplaycount: 1475.00; Engagement Rate: 0.68; Play Rate: 12.94; Nationality: Iranian; Videoduration: 9.14; Videourl: [{"url":"https://scontent-atl3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOB0yLhr0z-54i-SDleuACqUlRr3OYIa-...; Hashtags: ["قهوه","اسپرسو","ولنتاین","ولنتاین_کادو","ولنتاین_چی_بخریم","ولنتاین_خاص","اسپرسوساز_نوا","سورپرایز","سورپرایز_ولنتاین","قهوه_تركيه","قهوه_اسپرسو","کافه","کافه_دنج","کافی_شاپ","تخفیف","تخفیفات_ویژه","ارسال_رایگان","ارسال_به_سراسر_کشور"]; Anomaly Score: -0.004
+
+45. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 114.00
+    Details: Commentscount: 78.00; Videoplaycount: 1475.00; Engagement Rate: 0.68; Play Rate: 12.94; Nationality: Iranian; Videoduration: 9.14; Videourl: [{"url":"https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOB0yLhr0z-54i-SDleuACqUlRr3OYIa-...; Hashtags: ["قهوه","اسپرسو","ولنتاین","ولنتاین_کادو","ولنتاین_چی_بخریم","ولنتاین_خاص","اسپرسوساز_نوا","سورپرایز","سورپرایز_ولنتاین","قهوه_تركيه","قهوه_اسپرسو","کافه","کافه_دنج","کافی_شاپ","تخفیف","تخفیفات_ویژه","ارسال_رایگان","ارسال_به_سراسر_کشور"]; Anomaly Score: -0.004
+
+46. @alternativebrewing
+    Main Metric (Likescount): 222.00
+    Details: Commentscount: 3.00; Videoplaycount: 33564.00; Engagement Rate: 0.01; Play Rate: 151.19; Nationality: International; Videoduration: 59.93; Videourl: [{"url":"https://instagram.frez3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQP8v5PDfwMtdEzMvtwHsIw0kDXjk7Nw8Na...; Hashtags: ["espresso","fellow","fellowproducts","coffee","travelmug","keepcup"]; Anomaly Score: -0.002
+
+47. @dazhocoffee.co
+    Main Metric (Likescount): 125.00
+    Details: Commentscount: 89.00; Videoplaycount: 3627.00; Engagement Rate: 0.71; Play Rate: 29.02; Nationality: Iranian; Videoduration: 7.20; Videourl: [{"url":"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m86/AQPbEvC6SOqa5fG9X4bpaLcstfVYJHWCzK...; Hashtags: ["قهوه","قهوه_ترک","قهوة","کافه","کافه_گردی"]; Anomaly Score: -0.002
+
+48. @dazhocoffee.co
+    Main Metric (Likescount): 125.00
+    Details: Commentscount: 89.00; Videoplaycount: 3627.00; Engagement Rate: 0.71; Play Rate: 29.02; Nationality: Iranian; Videoduration: 7.20; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQPbEvC6SOqa5fG9X4bpaLcstfVYJHWCzK...; Hashtags: ["قهوه","قهوه_ترک","قهوة","کافه","کافه_گردی"]; Anomaly Score: -0.002

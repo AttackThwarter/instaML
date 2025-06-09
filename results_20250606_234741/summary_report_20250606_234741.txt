@@ -1,0 +1,122 @@
+======================================================================
+📊 ECLAT ANALYSIS REPORT (2025-06-06 23:47)
+======================================================================
+
+📈 GENERAL STATISTICS:
+• Excel File: instagramData.xlsx, Sheet: videos
+• Total posts loaded: 2230
+• Posts processed (likes > 0): 2032
+• Unique users: 87
+
+🌍 NATIONALITY BREAKDOWN (Processed Posts):
+• Iranian posts: 1252 (61.6%)
+• International posts: 780 (38.4%)
+
+
+======================================================================
+🔍 ECLAT PATTERN ANALYSIS SUMMARY (Top 5 from each category)
+======================================================================
+(Min Support: 4.0%, Max Itemset Size: 7)
+
+📌 TOP HASHTAGS PATTERNS:
+  1. Itemset: "normal_performance" (Size: 1)
+      Support: 88.32% (1444 posts)
+  2. Itemset: "#قهوه" (Size: 1)
+      Support: 46.36% (758 posts)
+  3. Itemset: "#قهوه + normal_performance" (Size: 2)
+      Support: 40.61% (664 posts)
+  4. Itemset: "#اسپرسو" (Size: 1)
+      Support: 35.17% (575 posts)
+  5. Itemset: "#اسپرسو + normal_performance" (Size: 2)
+      Support: 31.19% (510 posts)
+
+📌 TOP USERS PATTERNS:
+  1. Itemset: "low_engagement" (Size: 1)
+      Support: 65.48% (55 users)
+  2. Itemset: "low_activity" (Size: 1)
+      Support: 53.57% (45 users)
+  3. Itemset: "afternoon_poster" (Size: 1)
+      Support: 51.19% (43 users)
+  4. Itemset: "low_activity + low_engagement" (Size: 2)
+      Support: 41.67% (35 users)
+  5. Itemset: "afternoon_poster + low_engagement" (Size: 2)
+      Support: 33.33% (28 users)
+
+📌 TOP TEMPORAL PATTERNS:
+  1. Itemset: "type_Video" (Size: 1)
+      Support: 99.90% (2030 posts)
+  2. Itemset: "normal_performance_post" (Size: 1)
+      Support: 86.42% (1756 posts)
+  3. Itemset: "normal_performance_post + type_Video" (Size: 2)
+      Support: 86.37% (1755 posts)
+  4. Itemset: "afternoon_post" (Size: 1)
+      Support: 49.31% (1002 posts)
+  5. Itemset: "afternoon_post + type_Video" (Size: 2)
+      Support: 49.21% (1000 posts)
+
+(Detailed Eclat patterns saved by size in: 'results_20250606_234741\eclat_results\patterns')
+
+
+======================================================================
+🚨 ANOMALY DETECTION SUMMARY (Top 5 Highlights & Overall Counts)
+======================================================================
+
+--- 🚀 Anomalous Posts ---
+  Total posts analyzed: 2032
+  Anomalies (general) detected: 203 (10.0%)
+  🎯 Top 5 for 'Very High Likes': (19 found)
+    1. @tannercolsoncoffee (Likes: 544,215, Score: -0.333)
+    2. @ghahve__ahoora (Likes: 175,223, Score: -0.319)
+    3. @ghahve__ahoora (Likes: 181,646, Score: -0.318)
+    4. @tannercolsoncoffee (Likes: 751,569, Score: -0.309)
+    5. @ghahve__ahoora (Likes: 186,868, Score: -0.308)
+  🎯 Top 5 for 'Viral without Popular Hashtags': (51 found)
+    1. @tannercolsoncoffee (Likes: 751,569, Score: -0.309)
+    2. @vitadune (Likes: 47,389, Score: -0.290)
+    3. @tannercolsoncoffee (Likes: 401,335, Score: -0.280)
+    4. @vitadune (Likes: 25,211, Score: -0.256)
+    5. @tannercolsoncoffee (Likes: 174,043, Score: -0.240)
+  🎯 Top 5 for 'Popular Hashtags, Low Performance': (48 found)
+    1. @graph.coffeee (Likes: 896, Score: -0.233)
+    2. @hippo.coffee (Likes: 107, Score: -0.128)
+    3. @dazhocoffee.co (Likes: 145, Score: -0.111)
+    4. @dazhocoffee.co (Likes: 145, Score: -0.111)
+    5. @dazhocoffee.co (Likes: 139, Score: -0.081)
+
+--- 👤 Anomalous Users ---
+  Total users analyzed: 84
+  Anomalies (general) detected: 5 (6.0%)
+  🎯 Top 5 for 'Low Activity, High Engagement': (2 found)
+    1. @hasanmadani.ir (Avg. Likes: 642, Score: -0.039)
+    2. @maquinasecafe (Avg. Likes: 314, Score: -0.007)
+
+--- 📄 Content Anomalies ---
+  Total posts analyzed for content: 2032
+  Content Anomalies (general) detected: 204 (10.0%)
+  🎯 Top 5 for 'Short Viral Videos (<5s)': (1 found)
+    1. Content by @suannygdesigns (Likes: 71,934, Score: -0.231)
+  🎯 Top 5 for 'No Hashtags, High Likes': (7 found)
+    1. Content by @tannercolsoncoffee (Likes: 751,569, Score: -0.235)
+    2. Content by @coffeebae97 (Likes: 238,482, Score: -0.213)
+    3. Content by @tannercolsoncoffee (Likes: 401,335, Score: -0.211)
+    4. Content by @morgandrinkscoffee (Likes: 156,075, Score: -0.185)
+    5. Content by @morgandrinkscoffee (Likes: 189,420, Score: -0.181)
+
+--- 🛡️ Fraud Signals Summary ---
+  Users flagged for potential fraudulent activity patterns:
+    - Potential View Fraud (Video Plays > Ratio x Likes): 16 users.
+    - Extreme Like Variations: 11 users.
+    (Most prevalent: 'Potential View Fraud (Video Plays > Ratio x Likes)' with 16 users.)
+
+(Detailed anomaly reports saved in: 'results_20250606_234741\isolation_forest_results')
+
+
+============================== 📂 OUTPUT FILE LOCATIONS ==============================
+  Base Directory: results_20250606_234741
+  ECLAT Patterns (by size): results_20250606_234741\eclat_results\patterns/<pattern_type>/patterns_size_X.txt
+  Main ECLAT Report: results_20250606_234741\eclat_results\reports\eclat_analysis_report.txt
+  Anomaly Detail Reports: results_20250606_234741\isolation_forest_results
+  Visualizations (Main Dashboard): results_20250606_234741\visualizations\instagram_analysis_dashboard.png
+  Visualizations (Overview Dashboard): results_20250606_234741\visualizations\instagram_overview_dashboard.png
+  Visualizations (Anomaly Specific Plots): results_20250606_234741\visualizations\anomaly_specific_plots.png
+  Visualizations (Eclat Patterns Plots): results_20250606_234741\visualizations\eclat_patterns_visualization.png

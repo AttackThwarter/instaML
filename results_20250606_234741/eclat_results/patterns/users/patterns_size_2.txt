@@ -1,0 +1,74 @@
+ECLAT Patterns for users - Itemset Size: 2
+==================================================
+Itemset: low_activity + low_engagement
+  Support: 0.4167 (35 occurrences)
+
+Itemset: afternoon_poster + low_engagement
+  Support: 0.3333 (28 occurrences)
+
+Itemset: afternoon_poster + low_activity
+  Support: 0.2857 (24 occurrences)
+
+Itemset: low_engagement + morning_poster
+  Support: 0.1548 (13 occurrences)
+
+Itemset: evening_poster + low_activity
+  Support: 0.1548 (13 occurrences)
+
+Itemset: afternoon_poster + medium_activity
+  Support: 0.1190 (10 occurrences)
+
+Itemset: low_engagement + medium_activity
+  Support: 0.1190 (10 occurrences)
+
+Itemset: high_activity + low_engagement
+  Support: 0.1190 (10 occurrences)
+
+Itemset: evening_poster + low_engagement
+  Support: 0.1190 (10 occurrences)
+
+Itemset: afternoon_poster + medium_engagement
+  Support: 0.1071 (9 occurrences)
+
+Itemset: afternoon_poster + high_activity
+  Support: 0.1071 (9 occurrences)
+
+Itemset: medium_activity + morning_poster
+  Support: 0.0833 (7 occurrences)
+
+Itemset: high_activity + morning_poster
+  Support: 0.0833 (7 occurrences)
+
+Itemset: medium_activity + medium_engagement
+  Support: 0.0833 (7 occurrences)
+
+Itemset: low_activity + medium_engagement
+  Support: 0.0833 (7 occurrences)
+
+Itemset: low_activity + morning_poster
+  Support: 0.0714 (6 occurrences)
+
+Itemset: afternoon_poster + high_engagement
+  Support: 0.0714 (6 occurrences)
+
+Itemset: medium_engagement + morning_poster
+  Support: 0.0595 (5 occurrences)
+
+Itemset: high_engagement + medium_activity
+  Support: 0.0476 (4 occurrences)
+
+Itemset: high_activity + high_engagement
+  Support: 0.0476 (4 occurrences)
+
+Itemset: high_activity + medium_engagement
+  Support: 0.0476 (4 occurrences)
+
+Itemset: evening_poster + medium_engagement
+  Support: 0.0476 (4 occurrences)
+
+Itemset: low_engagement + night_poster
+  Support: 0.0476 (4 occurrences)
+
+Itemset: high_engagement + low_activity
+  Support: 0.0357 (3 occurrences)
+

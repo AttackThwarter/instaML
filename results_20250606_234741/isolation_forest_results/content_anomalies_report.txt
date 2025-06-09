@@ -1,0 +1,840 @@
+======================================================================
+🚨 CONTENT ANOMALIES DETECTION REPORT (2025-06-06 23:50)
+======================================================================
+
+📊 Total posts analyzed for content: 2032
+🔴 Content Anomalies (general) detected: 204 (10.0%)
+
+📱 Unusual Content: Viral Videos Shorter Than 5 Seconds
+    Found: 1 posts
+
+📱 Unusual Content: No Hashtags but >100,000 Likes
+    Found: 7 posts
+
+======================================================================
+
+📱 Unusual Content: Viral Videos Shorter Than 5 Seconds
+
+1. @suannygdesigns
+    Main Metric (Likescount): 71,934.00
+    Details: Videoplaycount: 7701989.00; Caption Length: 371.00; Hashtag Count: 30.00; Likes Per Play: 0.01; Nationality: International; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMYDwoTavtHTuqSv8fdcZjZxTzAN2YBJ4...; Videoduration: 0.93; Anomaly Score: -0.231
+
+----------------------------------------------------------------------
+
+📱 Unusual Content: No Hashtags but >100,000 Likes
+
+1. @tannercolsoncoffee
+    Main Metric (Likescount): 751,569.00
+    Details: Videoplaycount: 27546995.00; Caption Length: 247.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fccu2-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQMJUTUw2_h5jv5ngRBMnJnplB4ZcIUrGff...; Videoduration: 40.94; Anomaly Score: -0.235
+
+2. @coffeebae97
+    Main Metric (Likescount): 238,482.00
+    Details: Videoplaycount: 2369195.00; Caption Length: 17.00; Hashtag Count: 0.00; Likes Per Play: 0.10; Nationality: International; Videourl: [{"url":"https://instagram.fsac1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOZ2bUvef5TMNNyCi1AARWwCk3j0XSLCI0...; Videoduration: 41.67; Anomaly Score: -0.213
+
+3. @tannercolsoncoffee
+    Main Metric (Likescount): 401,335.00
+    Details: Videoplaycount: 13444379.00; Caption Length: 7.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOcaA-o1z8xdkkfl-h8FnuiJHQgFpp_Ax...; Videoduration: 40.97; Anomaly Score: -0.211
+
+4. @morgandrinkscoffee
+    Main Metric (Likescount): 156,075.00
+    Details: Videoplaycount: 1737462.00; Caption Length: 281.00; Hashtag Count: 0.00; Likes Per Play: 0.09; Nationality: International; Videourl: [{"url":"https://instagram.fbgw66-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQPl_W7RZri2sxoh3YzfIr9NPXoDuxR9pq...; Videoduration: 66.70; Anomaly Score: -0.185
+
+5. @morgandrinkscoffee
+    Main Metric (Likescount): 189,420.00
+    Details: Videoplaycount: 2947134.00; Caption Length: 75.00; Hashtag Count: 0.00; Likes Per Play: 0.06; Nationality: International; Videourl: [{"url":"https://scontent-gru1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNPOAPHvFeoKNVnF_5FqWVdbrbXyR9VpP...; Videoduration: 52.33; Anomaly Score: -0.181
+
+6. @morgandrinkscoffee
+    Main Metric (Likescount): 141,999.00
+    Details: Videoplaycount: 2573433.00; Caption Length: 390.00; Hashtag Count: 0.00; Likes Per Play: 0.06; Nationality: International; Videourl: [{"url":"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOSq7qcD9i2-Q87D9KGYdQgZI4JJ6AUpIb...; Videoduration: 66.83; Anomaly Score: -0.148
+
+7. @tannercolsoncoffee
+    Main Metric (Likescount): 144,127.00
+    Details: Videoplaycount: 2733590.00; Caption Length: 28.00; Hashtag Count: 0.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://instagram.fdac176-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMJr88ukGPJ__KCPhZqEKXcRh4Nf66VJ...; Videoduration: 60.66; Anomaly Score: -0.143
+
+----------------------------------------------------------------------
+
+📄 Other General Content Anomalies (by score):
+
+1. @tannercolsoncoffee
+    Main Metric (Likescount): 544,215.00
+    Details: Videoplaycount: 31348453.00; Caption Length: 76.00; Hashtag Count: 1.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMmbCJi5222n2sR-vYjxWXX1pGjSchPPb...; Videoduration: 25.23; Anomaly Score: -0.264
+
+2. @ghahve__ahoora
+    Main Metric (Likescount): 181,646.00
+    Details: Videoplaycount: 17989941.00; Caption Length: 483.00; Hashtag Count: 4.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQPZK6G7KHknLEvLa6PB93qR2uqv98oTEd...; Videoduration: 50.07; Anomaly Score: -0.240
+
+3. @ghahve__ahoora
+    Main Metric (Likescount): 186,868.00
+    Details: Videoplaycount: 22477574.00; Caption Length: 511.00; Hashtag Count: 6.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPGy2YIUm1hKF-Fr2Dj_ju-ZnUJ_BOSKX...; Videoduration: 28.70; Anomaly Score: -0.223
+
+4. @ghahve__ahoora
+    Main Metric (Likescount): 175,223.00
+    Details: Videoplaycount: 14693666.00; Caption Length: 365.00; Hashtag Count: 3.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMKJRsnHaOpYmQmJAfIxLXKH1f3LPRTLZ...; Videoduration: 42.43; Anomaly Score: -0.221
+
+5. @vitadune
+    Main Metric (Likescount): 10,347.00
+    Details: Videoplaycount: 172066.00; Caption Length: 1816.00; Hashtag Count: 25.00; Likes Per Play: 0.06; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOCI6lcYlO1InwcNeVcFYnIZtX8-2v8PC...; Videoduration: 34.37; Anomaly Score: -0.211
+
+6. @vitadune
+    Main Metric (Likescount): 109,449.00
+    Details: Videoplaycount: 2983359.00; Caption Length: 1335.00; Hashtag Count: 13.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-mia5-1.cdninstagram.com/o1/v/t16/f2/m86/AQOp-yrO6kmQUIOFGVXdWjl9sk71fm3yEB...; Videoduration: 42.11; Anomaly Score: -0.209
+
+7. @masoud.coffee.taster
+    Main Metric (Likescount): 118,856.00
+    Details: Videoplaycount: 3525570.00; Caption Length: 953.00; Hashtag Count: 6.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fsst2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQP3ZXn6nPkyShQ9EOWP8ompFeVhdug8jMM...; Videoduration: 41.50; Anomaly Score: -0.206
+
+8. @roasttcoffee
+    Main Metric (Likescount): 100,965.00
+    Details: Videoplaycount: 3593107.00; Caption Length: 92.00; Hashtag Count: 3.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m86/AQM6YrPK5aVIR1FOy7viNmeuVmk9xUseYj...; Videoduration: 13.67; Anomaly Score: -0.195
+
+9. @ghahve__ahoora
+    Main Metric (Likescount): 96,651.00
+    Details: Videoplaycount: 6041014.00; Caption Length: 625.00; Hashtag Count: 7.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-bos5-1.cdninstagram.com/o1/v/t16/f2/m86/AQM9AyYoftozUS09fx1ZfxbtNlXB41Vz7k...; Videoduration: 37.20; Anomaly Score: -0.194
+
+10. @vitadune
+    Main Metric (Likescount): 47,389.00
+    Details: Videoplaycount: 1451034.00; Caption Length: 515.00; Hashtag Count: 6.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-mia3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOp7ogWw2fKcoL1TlkZ50lQF-2zpuaCjA...; Videoduration: 53.93; Anomaly Score: -0.188
+
+11. @tannercolsoncoffee
+    Main Metric (Likescount): 298,799.00
+    Details: Videoplaycount: 7079297.00; Caption Length: 57.00; Hashtag Count: 2.00; Likes Per Play: 0.04; Nationality: International; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQPU6g8DtGRpOEONEzKTITJb_91S1_bqFK...; Videoduration: 62.51; Anomaly Score: -0.187
+
+12. @ghahve__ahoora
+    Main Metric (Likescount): 87,754.00
+    Details: Videoplaycount: 5850358.00; Caption Length: 787.00; Hashtag Count: 5.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOCIpemmF2WCD3w3__VbcuCY4JsxI3r3-y...; Videoduration: 47.90; Anomaly Score: -0.174
+
+13. @sard_dam
+    Main Metric (Likescount): 29,025.00
+    Details: Videoplaycount: 1610242.00; Caption Length: 468.00; Hashtag Count: 12.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://instagram.frec4-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOR6cgzFIfCq7AyRs_utUpuSo2W_n8Dy6T...; Videoduration: 9.47; Anomaly Score: -0.172
+
+14. @ghahve__ahoora
+    Main Metric (Likescount): 36,724.00
+    Details: Videoplaycount: 2290728.00; Caption Length: 692.00; Hashtag Count: 11.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQNcwdg0uuto5NGGUSP8HU2iUvbMxmHCFP...; Videoduration: 31.63; Anomaly Score: -0.171
+
+15. @tannercolsoncoffee
+    Main Metric (Likescount): 174,043.00
+    Details: Videoplaycount: 3809891.00; Caption Length: 42.00; Hashtag Count: 1.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQO-2ySlBiImnifK5364RZ06V7dXhpO9Ey...; Videoduration: 54.77; Anomaly Score: -0.164
+
+16. @vitadune
+    Main Metric (Likescount): 25,211.00
+    Details: Videoplaycount: 1104874.00; Caption Length: 611.00; Hashtag Count: 12.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://instagram.fixc2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOrN6e3e5Zz0ngzyIkz9ZwKL720J4ni9Aj...; Videoduration: 40.27; Anomaly Score: -0.159
+
+17. @ghahve__ahoora
+    Main Metric (Likescount): 69,466.00
+    Details: Videoplaycount: 4586487.00; Caption Length: 561.00; Hashtag Count: 4.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m86/AQOY4I9OyOttqzGQpdmjE5u8h6l6Qt-E2-...; Videoduration: 52.77; Anomaly Score: -0.153
+
+18. @themacrobarista
+    Main Metric (Likescount): 95,707.00
+    Details: Videoplaycount: 2908110.00; Caption Length: 723.00; Hashtag Count: 12.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fben5-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQM55mmNHPm-E9ZaLhhD9MTiN_4ghXZA0ma...; Videoduration: 27.11; Anomaly Score: -0.152
+
+19. @dazhocoffee.co
+    Main Metric (Likescount): 83.00
+    Details: Videoplaycount: 826.00; Caption Length: 361.00; Hashtag Count: 15.00; Likes Per Play: 0.10; Nationality: Iranian; Videourl: [{"url":"https://scontent-lhr8-2.cdninstagram.com/o1/v/t16/f2/m86/AQNhlDj4mThEXY6WSdqlHoqHaqFRRaqLrr...; Videoduration: 167.93; Anomaly Score: -0.146
+
+20. @dazhocoffee.co
+    Main Metric (Likescount): 83.00
+    Details: Videoplaycount: 826.00; Caption Length: 361.00; Hashtag Count: 15.00; Likes Per Play: 0.10; Nationality: Iranian; Videourl: [{"url":"https://instagram.flba1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNhlDj4mThEXY6WSdqlHoqHaqFRRaqLrrE...; Videoduration: 167.93; Anomaly Score: -0.146
+
+21. @tannercolsoncoffee
+    Main Metric (Likescount): 152,569.00
+    Details: Videoplaycount: 3618075.00; Caption Length: 22.00; Hashtag Count: 1.00; Likes Per Play: 0.04; Nationality: International; Videourl: [{"url":"https://instagram.fjbr1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMICsi_vOoJq_83e2N5sT6cGYPEIGJ7Pk0...; Videoduration: 28.66; Anomaly Score: -0.146
+
+22. @ghahve__ahoora
+    Main Metric (Likescount): 73,996.00
+    Details: Videoplaycount: 9197255.00; Caption Length: 477.00; Hashtag Count: 9.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-mia5-2.cdninstagram.com/o1/v/t16/f2/m86/AQM3yDMLpasRJX2bm4HZuAWNZzBFwm3fJf...; Videoduration: 35.00; Anomaly Score: -0.145
+
+23. @vitadune
+    Main Metric (Likescount): 7,113.00
+    Details: Videoplaycount: 167379.00; Caption Length: 1116.00; Hashtag Count: 18.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQNZCeet6muPv0_tlpW2mokHLdDRcfV9pw...; Videoduration: 36.17; Anomaly Score: -0.145
+
+24. @masoud.coffee.taster
+    Main Metric (Likescount): 8,451.00
+    Details: Videoplaycount: 1280147.00; Caption Length: 205.00; Hashtag Count: 4.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOcP_vq6imDv_q8ALX6aTbpt-v1CfLxO6...; Videoduration: 58.77; Anomaly Score: -0.144
+
+25. @themacrobarista
+    Main Metric (Likescount): 60,402.00
+    Details: Videoplaycount: 4043184.00; Caption Length: 836.00; Hashtag Count: 8.00; Likes Per Play: 0.01; Nationality: International; Videourl: [{"url":"https://instagram.fskp3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQM4ZyZSCdcwA-o2RVko0qSWjeFEnmcfift...; Videoduration: 29.19; Anomaly Score: -0.143
+
+26. @vitadune
+    Main Metric (Likescount): 7,023.00
+    Details: Videoplaycount: 132335.00; Caption Length: 1047.00; Hashtag Count: 12.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://instagram.fdet3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOwNE-ZD74JbkmMaL8FBMZdvVtZ0nE2jt0...; Videoduration: 26.97; Anomaly Score: -0.141
+
+27. @lamizcoffee
+    Main Metric (Likescount): 1,751.00
+    Details: Videoplaycount: 40350.00; Caption Length: 1194.00; Hashtag Count: 6.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.frvd4-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQO_il6ze7jT5RJBCm0uYJxzgWSsv7_eqRk...; Videoduration: 414.54; Anomaly Score: -0.141
+
+28. @vitadune
+    Main Metric (Likescount): 73,673.00
+    Details: Videoplaycount: 3485845.00; Caption Length: 820.00; Hashtag Count: 0.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQOWFcZ4H8c77ZNZNisgyeAlA_X9iTJjuA...; Videoduration: 31.70; Anomaly Score: -0.140
+
+29. @vitadune
+    Main Metric (Likescount): 6,549.00
+    Details: Videoplaycount: 152403.00; Caption Length: 936.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-lhr6-1.cdninstagram.com/o1/v/t16/f2/m86/AQOR7YG0Etl2bDtusBAIip7yHmW2QrDxhy...; Videoduration: 32.90; Anomaly Score: -0.137
+
+30. @vitadune
+    Main Metric (Likescount): 11,902.00
+    Details: Videoplaycount: 264532.00; Caption Length: 382.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m86/AQPccAiqCKOZ1qNIeq7ajsqR5wbO0BCF8X...; Videoduration: 62.46; Anomaly Score: -0.133
+
+31. @morgandrinkscoffee
+    Main Metric (Likescount): 81,272.00
+    Details: Videoplaycount: 987805.00; Caption Length: 105.00; Hashtag Count: 0.00; Likes Per Play: 0.08; Nationality: International; Videourl: [{"url":"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m86/AQNFanTjSrAU4HlVhG9cOecBA5SJmRoqDF...; Videoduration: 53.67; Anomaly Score: -0.129
+
+32. @tannercolsoncoffee
+    Main Metric (Likescount): 66,990.00
+    Details: Videoplaycount: 3057485.00; Caption Length: 797.00; Hashtag Count: 1.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://instagram.fkhi16-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPvha9jvw2wNo-G9GbhRYVDGNnZvTOvQb...; Videoduration: 71.60; Anomaly Score: -0.129
+
+33. @tannercolsoncoffee
+    Main Metric (Likescount): 73,792.00
+    Details: Videoplaycount: 4078710.00; Caption Length: 135.00; Hashtag Count: 0.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-atl3-3.cdninstagram.com/o1/v/t16/f2/m86/AQOYXqw62DAFM-Lwb30COfg23wcjShCUJj...; Videoduration: 62.46; Anomaly Score: -0.127
+
+34. @espresso_market
+    Main Metric (Likescount): 103,513.00
+    Details: Videoplaycount: 5204053.00; Caption Length: 75.00; Hashtag Count: 6.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQMf7nb8l23SE4GpSR5VtVMOGWuogI-d85...; Videoduration: 22.93; Anomaly Score: -0.124
+
+35. @espresso_market
+    Main Metric (Likescount): 103,513.00
+    Details: Videoplaycount: 5204054.00; Caption Length: 75.00; Hashtag Count: 6.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-den2-1.cdninstagram.com/o1/v/t16/f2/m86/AQMf7nb8l23SE4GpSR5VtVMOGWuogI-d85...; Videoduration: 22.93; Anomaly Score: -0.124
+
+36. @vitadune
+    Main Metric (Likescount): 30,862.00
+    Details: Videoplaycount: 885540.00; Caption Length: 1275.00; Hashtag Count: 15.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-mia3-3.cdninstagram.com/o1/v/t16/f2/m86/AQMdE7QnZpZsjDEEJWrEDCgtlDjW-NTrxX...; Videoduration: 26.47; Anomaly Score: -0.118
+
+37. @ghahve__ahoora
+    Main Metric (Likescount): 61,067.00
+    Details: Videoplaycount: 4403605.00; Caption Length: 615.00; Hashtag Count: 4.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.ftun10-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMn2BjbX2pxi6wh3kFbsQwtohCnJ5-rru...; Videoduration: 44.60; Anomaly Score: -0.118
+
+38. @vitadune
+    Main Metric (Likescount): 8,509.00
+    Details: Videoplaycount: 327134.00; Caption Length: 448.00; Hashtag Count: 6.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fhty1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQNCK86UnooSrjCMAN02_yUpOFqeZUhLrw7...; Videoduration: 30.80; Anomaly Score: -0.117
+
+39. @vitadune
+    Main Metric (Likescount): 9,242.00
+    Details: Videoplaycount: 309757.00; Caption Length: 904.00; Hashtag Count: 16.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-phx1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMzM1pTHGgO3BsPxnBIx4Mzs-CF_9_JCU...; Videoduration: 30.00; Anomaly Score: -0.114
+
+40. @vitadune
+    Main Metric (Likescount): 7,229.00
+    Details: Videoplaycount: 132407.00; Caption Length: 1412.00; Hashtag Count: 0.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://instagram.fhty1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOsdwFMoaPPqY_JnBH5LjtM4jbtd4V3KcS...; Videoduration: 114.00; Anomaly Score: -0.112
+
+41. @themacrobarista
+    Main Metric (Likescount): 85,065.00
+    Details: Videoplaycount: 2562679.00; Caption Length: 633.00; Hashtag Count: 9.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQOrnA_nBwcv4AW9LpLwpTgD0MJtCbYdWI...; Videoduration: 23.57; Anomaly Score: -0.110
+
+42. @tannercolsoncoffee
+    Main Metric (Likescount): 19,414.00
+    Details: Videoplaycount: 668006.00; Caption Length: 447.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fbgi1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMIIQYvPpywcO9Ai_RgJOa_ejN514d3MNE...; Videoduration: 178.03; Anomaly Score: -0.109
+
+43. @tannercolsoncoffee
+    Main Metric (Likescount): 93,631.00
+    Details: Videoplaycount: 3243759.00; Caption Length: 99.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fwbw1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPU4D172rM6-Zx4FQnNo1b91tWpcBuas0h...; Videoduration: 60.91; Anomaly Score: -0.109
+
+44. @morgandrinkscoffee
+    Main Metric (Likescount): 56,587.00
+    Details: Videoplaycount: 580669.00; Caption Length: 390.00; Hashtag Count: 0.00; Likes Per Play: 0.10; Nationality: International; Videourl: [{"url":"https://instagram.fbhv1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQORsFyqoglJtL3hofVH6stuEryemZ7sc-e...; Videoduration: 53.83; Anomaly Score: -0.108
+
+45. @vitadune
+    Main Metric (Likescount): 1,762.00
+    Details: Videoplaycount: 42325.00; Caption Length: 1788.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fosu2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQM5kkP-tgXfotUX3JdPl2i6oV5CXuJh8wR...; Videoduration: 111.90; Anomaly Score: -0.104
+
+46. @ghahve__ahoora
+    Main Metric (Likescount): 41,741.00
+    Details: Videoplaycount: 6178764.00; Caption Length: 257.00; Hashtag Count: 6.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-dfw5-3.cdninstagram.com/o1/v/t16/f2/m86/AQNeNwXQeEbmjXZir9P-vYdNXtcq4aY-yC...; Videoduration: 42.53; Anomaly Score: -0.104
+
+47. @tannercolsoncoffee
+    Main Metric (Likescount): 26,553.00
+    Details: Videoplaycount: 892538.00; Caption Length: 1988.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fsap7-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNIry9o1gf4rh0ehBLpzP-48AGXBSpz-vJ...; Videoduration: 68.20; Anomaly Score: -0.103
+
+48. @tannercolsoncoffee
+    Main Metric (Likescount): 74,464.00
+    Details: Videoplaycount: 4452291.00; Caption Length: 154.00; Hashtag Count: 2.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQODK7cz3rrQu7I3lwoUKi6rOnx2XxOwPE...; Videoduration: 36.37; Anomaly Score: -0.101
+
+49. @arabica.cafebakery
+    Main Metric (Likescount): 439.00
+    Details: Videoplaycount: 5606.00; Caption Length: 0.00; Hashtag Count: 0.00; Likes Per Play: 0.08; Nationality: International; Videourl: [{"url":"https://instagram.fbhx1-2.fna.fbcdn.net/o1/v/t16/f2/m69/AQMUx4j2yVFnvql00Lf9Lu__LPlT7tYuF3N...; Videoduration: 198.44; Anomaly Score: -0.100
+
+50. @masoud.coffee.taster
+    Main Metric (Likescount): 47,869.00
+    Details: Videoplaycount: 3211466.00; Caption Length: 55.00; Hashtag Count: 4.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQMWs0BGtFD6G4NoLo9liZVE1wEPP7NAgL...; Videoduration: 16.07; Anomaly Score: -0.099
+
+51. @ghahve__ahoora
+    Main Metric (Likescount): 19,251.00
+    Details: Videoplaycount: 684953.00; Caption Length: 1231.00; Hashtag Count: 4.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fkhi28-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNfjwnqjie6eEEpbG75021qj8QfA7vMyC...; Videoduration: 49.63; Anomaly Score: -0.098
+
+52. @masoud.coffee.taster
+    Main Metric (Likescount): 43,742.00
+    Details: Videoplaycount: 2972022.00; Caption Length: 66.00; Hashtag Count: 3.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-3.cdninstagram.com/o1/v/t16/f2/m86/AQPjmJVBUvwDq7n_mKsS687m4rFZt0sDOE...; Videoduration: 11.17; Anomaly Score: -0.098
+
+53. @tannercolsoncoffee
+    Main Metric (Likescount): 39,199.00
+    Details: Videoplaycount: 1234179.00; Caption Length: 25.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fpos3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPTFuYm_IiMK6ZongQV78v1tlnUAGPYRd-...; Videoduration: 127.00; Anomaly Score: -0.097
+
+54. @graph.coffeee
+    Main Metric (Likescount): 46,166.00
+    Details: Videoplaycount: 3309800.00; Caption Length: 146.00; Hashtag Count: 8.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m82/AQNgXEWC6AmiVYq_oGX1QFfrU-g2Cirkyf...; Videoduration: 5.47; Anomaly Score: -0.097
+
+55. @tannercolsoncoffee
+    Main Metric (Likescount): 31,201.00
+    Details: Videoplaycount: 798783.00; Caption Length: 40.00; Hashtag Count: 1.00; Likes Per Play: 0.04; Nationality: International; Videourl: [{"url":"https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQOmUqw_0v0XMgmUbf6ykxPP-bEQFbZKyU...; Videoduration: 153.18; Anomaly Score: -0.097
+
+56. @ghahve__ahoora
+    Main Metric (Likescount): 32,081.00
+    Details: Videoplaycount: 1289842.00; Caption Length: 372.00; Hashtag Count: 3.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQN1GuPVQKNP5DyzqA4pOZAaOcadoodWBc...; Videoduration: 50.70; Anomaly Score: -0.096
+
+57. @themacrobarista
+    Main Metric (Likescount): 33,777.00
+    Details: Videoplaycount: 2671579.00; Caption Length: 799.00; Hashtag Count: 10.00; Likes Per Play: 0.01; Nationality: International; Videourl: [{"url":"https://instagram.fcac3-1.fna.fbcdn.net/o1/v/t16/f2/m82/AQMZVvlaL4E95xKQ7FmOFpFS5Vu9eLi3aie...; Videoduration: 30.90; Anomaly Score: -0.095
+
+58. @morgandrinkscoffee
+    Main Metric (Likescount): 53,131.00
+    Details: Videoplaycount: 732948.00; Caption Length: 142.00; Hashtag Count: 0.00; Likes Per Play: 0.07; Nationality: International; Videourl: [{"url":"https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQO39X393dadqLuUy29Mg-bRx8oIAw8thH...; Videoduration: 80.29; Anomaly Score: -0.094
+
+59. @arabica.cafebakery
+    Main Metric (Likescount): 253.00
+    Details: Videoplaycount: 2320.00; Caption Length: 0.00; Hashtag Count: 0.00; Likes Per Play: 0.11; Nationality: International; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m69/AQPI37bYZ3lL0zcDXhH7OuhS2Vq9CjCeZk...; Videoduration: 122.58; Anomaly Score: -0.092
+
+60. @vitadune
+    Main Metric (Likescount): 4,629.00
+    Details: Videoplaycount: 182677.00; Caption Length: 382.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fdac5-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMRny-qGsOvLwNgJBeFSUPulcYbOBtuzN0...; Videoduration: 29.07; Anomaly Score: -0.089
+
+61. @espresso_market
+    Main Metric (Likescount): 5,674.00
+    Details: Videoplaycount: 158219.00; Caption Length: 1346.00; Hashtag Count: 17.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPSRCPJzH6zEbZPoHv5hme21O84cBp-ip...; Videoduration: 93.30; Anomaly Score: -0.087
+
+62. @espresso_market
+    Main Metric (Likescount): 5,674.00
+    Details: Videoplaycount: 158219.00; Caption Length: 1346.00; Hashtag Count: 17.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPSRCPJzH6zEbZPoHv5hme21O84cBp-ip...; Videoduration: 93.30; Anomaly Score: -0.087
+
+63. @mycoffee.iran
+    Main Metric (Likescount): 7,411.00
+    Details: Videoplaycount: 326322.00; Caption Length: 647.00; Hashtag Count: 21.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m86/AQO3uesft5qQm7as0zWglcEbEfp7XnoKVT...; Videoduration: 89.72; Anomaly Score: -0.087
+
+64. @espresso_market
+    Main Metric (Likescount): 52,886.00
+    Details: Videoplaycount: 3078868.00; Caption Length: 204.00; Hashtag Count: 10.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://instagram.fgye29-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNrGoyWVIdMrxjLjg2nLaaLwy9mamuuBd...; Videoduration: 32.33; Anomaly Score: -0.086
+
+65. @espresso_market
+    Main Metric (Likescount): 52,886.00
+    Details: Videoplaycount: 3078868.00; Caption Length: 204.00; Hashtag Count: 10.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-sea1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNrGoyWVIdMrxjLjg2nLaaLwy9mamuuBd...; Videoduration: 32.33; Anomaly Score: -0.086
+
+66. @vitadune
+    Main Metric (Likescount): 20,168.00
+    Details: Videoplaycount: 700952.00; Caption Length: 505.00; Hashtag Count: 26.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.frba3-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOJp7FpZeaDYkQ57bkxPacTTbJNQeMk2kF...; Videoduration: 28.46; Anomaly Score: -0.085
+
+67. @tannercolsoncoffee
+    Main Metric (Likescount): 29,101.00
+    Details: Videoplaycount: 637620.00; Caption Length: 31.00; Hashtag Count: 0.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://scontent-atl3-2.cdninstagram.com/o1/v/t16/f2/m86/AQPcnYSEfNPpxfYD6axM3x4Jwtc85Zz7nT...; Videoduration: 136.03; Anomaly Score: -0.083
+
+68. @yourglobalfoodiebff
+    Main Metric (Likescount): 441.00
+    Details: Videoplaycount: 18157.00; Caption Length: 1150.00; Hashtag Count: 29.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m86/AQPblotJXfDEC4MifLPyG2IA3vDAZV8gm2...; Videoduration: 57.90; Anomaly Score: -0.082
+
+69. @peeyade
+    Main Metric (Likescount): 6,342.00
+    Details: Videoplaycount: 161987.00; Caption Length: 1139.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPvi73IyXHhjmYTecengaakS6tJZpf1Ui...; Videoduration: 114.97; Anomaly Score: -0.078
+
+70. @vitadune
+    Main Metric (Likescount): 7,306.00
+    Details: Videoplaycount: 181547.00; Caption Length: 1413.00; Hashtag Count: 17.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fhyw1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQO8a-MywLAFnHhnfyNmOzpDYIHIysVa3eO...; Videoduration: 39.01; Anomaly Score: -0.077
+
+71. @themacrobarista
+    Main Metric (Likescount): 40,406.00
+    Details: Videoplaycount: 1437569.00; Caption Length: 993.00; Hashtag Count: 7.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.frtm1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMeJyx-r5PLUa_QDGmdtcFeExep6pXeLL8...; Videoduration: 32.16; Anomaly Score: -0.076
+
+72. @tannercolsoncoffee
+    Main Metric (Likescount): 44,346.00
+    Details: Videoplaycount: 2545769.00; Caption Length: 32.00; Hashtag Count: 0.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-sjc3-1.cdninstagram.com/o1/v/t16/f2/m86/AQNAjgpXCcEdugUM6cCSAUQmWi8pzEmpbF...; Videoduration: 83.10; Anomaly Score: -0.071
+
+73. @tannercolsoncoffee
+    Main Metric (Likescount): 4,528.00
+    Details: Videoplaycount: 142647.00; Caption Length: 21.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-atl3-3.cdninstagram.com/o1/v/t16/f2/m86/AQMKaQ7l3pn9QNPfsa_j7qsTQ9NvDXTPEY...; Videoduration: 179.97; Anomaly Score: -0.070
+
+74. @coffeegozar
+    Main Metric (Likescount): 16,605.00
+    Details: Videoplaycount: 404959.00; Caption Length: 576.00; Hashtag Count: 20.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fhio2-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOa86sDAH85pyImrVvaiTMD_gXu6qVw_ra...; Videoduration: 70.23; Anomaly Score: -0.070
+
+75. @coffeegozar
+    Main Metric (Likescount): 16,605.00
+    Details: Videoplaycount: 404970.00; Caption Length: 576.00; Hashtag Count: 20.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.frao1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOa86sDAH85pyImrVvaiTMD_gXu6qVw_ra...; Videoduration: 70.23; Anomaly Score: -0.070
+
+76. @dazhocoffee.co
+    Main Metric (Likescount): 117.00
+    Details: Videoplaycount: 2261.00; Caption Length: 337.00; Hashtag Count: 10.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://scontent-mia5-1.cdninstagram.com/o1/v/t16/f2/m86/AQMqO4C5ZmQWO8D_bkGzCBH5cjrOiFusIb...; Videoduration: 221.07; Anomaly Score: -0.069
+
+77. @dazhocoffee.co
+    Main Metric (Likescount): 117.00
+    Details: Videoplaycount: 2261.00; Caption Length: 337.00; Hashtag Count: 10.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQMqO4C5ZmQWO8D_bkGzCBH5cjrOiFusIbu...; Videoduration: 221.07; Anomaly Score: -0.069
+
+78. @tannercolsoncoffee
+    Main Metric (Likescount): 66,465.00
+    Details: Videoplaycount: 2482416.00; Caption Length: 85.00; Hashtag Count: 1.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fadd2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOSt2_hZKFEcM5YG3aDXGicc5ZdiYbatQZ...; Videoduration: 35.94; Anomaly Score: -0.066
+
+79. @tannercolsoncoffee
+    Main Metric (Likescount): 17,996.00
+    Details: Videoplaycount: 549385.00; Caption Length: 26.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fdel25-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQPdKailBQwaXN_pYh7Gw1gwqkIg1W2G5L...; Videoduration: 152.10; Anomaly Score: -0.061
+
+80. @morgandrinkscoffee
+    Main Metric (Likescount): 67,560.00
+    Details: Videoplaycount: 1102765.00; Caption Length: 177.00; Hashtag Count: 0.00; Likes Per Play: 0.06; Nationality: International; Videourl: [{"url":"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMsV0MeLDKcf5YnFRKr4iXTbhxeXvoH_T...; Videoduration: 39.27; Anomaly Score: -0.061
+
+81. @vitadune
+    Main Metric (Likescount): 6,255.00
+    Details: Videoplaycount: 111957.00; Caption Length: 996.00; Hashtag Count: 7.00; Likes Per Play: 0.06; Nationality: Iranian; Videourl: [{"url":"https://scontent-lga3-2.cdninstagram.com/o1/v/t16/f2/m86/AQO8q4phddlJD9asloKQpFKPkaLDjOAvaL...; Videoduration: 39.31; Anomaly Score: -0.060
+
+82. @vitadune
+    Main Metric (Likescount): 15,608.00
+    Details: Videoplaycount: 436566.00; Caption Length: 550.00; Hashtag Count: 9.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m86/AQM6ElCF878sfa6mjN3fRR7XZ2_EkxrIW8...; Videoduration: 48.20; Anomaly Score: -0.060
+
+83. @vitadune
+    Main Metric (Likescount): 7,808.00
+    Details: Videoplaycount: 163049.00; Caption Length: 515.00; Hashtag Count: 6.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://instagram.fbgw39-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPdVfZMBRb-izYb3gNB5kR0ZqBhxvLK43...; Videoduration: 53.93; Anomaly Score: -0.060
+
+84. @vitadune
+    Main Metric (Likescount): 4,852.00
+    Details: Videoplaycount: 149111.00; Caption Length: 548.00; Hashtag Count: 15.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.ftlv18-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNkwDhZwwN3bfZNnqoN1W6Wrks9O3_5nP...; Videoduration: 70.74; Anomaly Score: -0.060
+
+85. @ariart
+    Main Metric (Likescount): 548.00
+    Details: Videoplaycount: 26415.00; Caption Length: 634.00; Hashtag Count: 21.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-sjc3-1.cdninstagram.com/o1/v/t16/f2/m86/AQP16Bnx21gJ0M1fjwhtQIoETDGhcC9a-x...; Videoduration: 124.77; Anomaly Score: -0.060
+
+86. @tannercolsoncoffee
+    Main Metric (Likescount): 40,452.00
+    Details: Videoplaycount: 915819.00; Caption Length: 47.00; Hashtag Count: 1.00; Likes Per Play: 0.04; Nationality: International; Videourl: [{"url":"https://instagram.fkul4-5.fna.fbcdn.net/o1/v/t16/f2/m86/AQP9raZQ7FkTduRzXsoFal6Q01Q9FLI1-kG...; Videoduration: 86.20; Anomaly Score: -0.060
+
+87. @peeyade
+    Main Metric (Likescount): 4,458.00
+    Details: Videoplaycount: 100495.00; Caption Length: 1460.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fsgn5-5.fna.fbcdn.net/o1/v/t16/f2/m86/AQO1Xsw2NFTD3LElTIzpttcQvDpUuTSmMsn...; Videoduration: 80.17; Anomaly Score: -0.059
+
+88. @espresso_market
+    Main Metric (Likescount): 15,429.00
+    Details: Videoplaycount: 1159913.00; Caption Length: 1151.00; Hashtag Count: 10.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmci2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQN4XumUfYVTRuPxd5LfBOzCgUrQmwdXmUd...; Videoduration: 42.20; Anomaly Score: -0.059
+
+89. @espresso_market
+    Main Metric (Likescount): 15,429.00
+    Details: Videoplaycount: 1159913.00; Caption Length: 1151.00; Hashtag Count: 10.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQN4XumUfYVTRuPxd5LfBOzCgUrQmwdXmU...; Videoduration: 42.20; Anomaly Score: -0.059
+
+90. @coffeegozarstore
+    Main Metric (Likescount): 1,683.00
+    Details: Videoplaycount: 48150.00; Caption Length: 41.00; Hashtag Count: 3.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-bos5-1.cdninstagram.com/o1/v/t16/f2/m69/AQPn3Dprpskg_ddo6B-A0Jqj-sVU61Hhwi...; Videoduration: 259.85; Anomaly Score: -0.055
+
+91. @coffeegozarstore
+    Main Metric (Likescount): 1,683.00
+    Details: Videoplaycount: 48150.00; Caption Length: 41.00; Hashtag Count: 3.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fasu6-2.fna.fbcdn.net/o1/v/t16/f2/m69/AQPn3Dprpskg_ddo6B-A0Jqj-sVU61Hhwit...; Videoduration: 259.85; Anomaly Score: -0.055
+
+92. @ghahve__ahoora
+    Main Metric (Likescount): 42,961.00
+    Details: Videoplaycount: 2645525.00; Caption Length: 396.00; Hashtag Count: 4.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m86/AQP-_e-X2OCCkK9EtZItFC7uW_QM4PO3cP...; Videoduration: 49.70; Anomaly Score: -0.055
+
+93. @ghahve_sprsoo
+    Main Metric (Likescount): 66.00
+    Details: Videoplaycount: 555.00; Caption Length: 195.00; Hashtag Count: 5.00; Likes Per Play: 0.12; Nationality: Iranian; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQNXdVeM11bkowlaAkUHXymPYzmziHhJBW...; Videoduration: 89.92; Anomaly Score: -0.054
+
+94. @morgandrinkscoffee
+    Main Metric (Likescount): 9,356.00
+    Details: Videoplaycount: 190306.00; Caption Length: 1483.00; Hashtag Count: 3.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://instagram.fvcp5-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNb8MZA9BaaCBTi2ZeIyB_Y7UvTNrczlj3...; Videoduration: 65.77; Anomaly Score: -0.053
+
+95. @sard_dam
+    Main Metric (Likescount): 198.00
+    Details: Videoplaycount: 11009.00; Caption Length: 2138.00; Hashtag Count: 12.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQNqkmMWjLjqVeWIRNlKBn0nnUAi9HD6uh...; Videoduration: 27.40; Anomaly Score: -0.053
+
+96. @morgandrinkscoffee
+    Main Metric (Likescount): 29,519.00
+    Details: Videoplaycount: 398897.00; Caption Length: 325.00; Hashtag Count: 0.00; Likes Per Play: 0.07; Nationality: International; Videourl: [{"url":"https://instagram.fagc1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMX7GWkE_qZnMJKZH8kg1GetHHus62c27K...; Videoduration: 75.37; Anomaly Score: -0.052
+
+97. @tannercolsoncoffee
+    Main Metric (Likescount): 45,398.00
+    Details: Videoplaycount: 1204824.00; Caption Length: 139.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: International; Videourl: [{"url":"https://scontent-ord5-1.cdninstagram.com/o1/v/t16/f2/m86/AQNNitDn_ymkYC2aEYqZfwE2xO5lNsKRyI...; Videoduration: 76.27; Anomaly Score: -0.052
+
+98. @themacrobarista
+    Main Metric (Likescount): 43,337.00
+    Details: Videoplaycount: 1602500.00; Caption Length: 667.00; Hashtag Count: 8.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fgyd3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNLW-Yz7pVjqYO5b179VYCrTs8X550L18r...; Videoduration: 27.44; Anomaly Score: -0.050
+
+99. @vitadune
+    Main Metric (Likescount): 29,887.00
+    Details: Videoplaycount: 1591306.00; Caption Length: 710.00; Hashtag Count: 11.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNt90nVXeMkUd5AYhZMyI42a6EUUBBTht...; Videoduration: 57.88; Anomaly Score: -0.050
+
+100. @ghahve__ahoora
+    Main Metric (Likescount): 38,093.00
+    Details: Videoplaycount: 2367361.00; Caption Length: 526.00; Hashtag Count: 5.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://instagram.frao5-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPePa-d_MMY1AARAh3L3-Dve7vouUyqKd-...; Videoduration: 47.27; Anomaly Score: -0.050
+
+101. @ghahve__ahoora
+    Main Metric (Likescount): 11,320.00
+    Details: Videoplaycount: 1277143.00; Caption Length: 1002.00; Hashtag Count: 5.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQMwUrYD0PBmiRePcREo5-KJimgVz6pbCW...; Videoduration: 22.97; Anomaly Score: -0.050
+
+102. @themacrobarista
+    Main Metric (Likescount): 24,718.00
+    Details: Videoplaycount: 843635.00; Caption Length: 767.00; Hashtag Count: 15.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fcps3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPcmhxo1bQmzzZjQ75cWUaWXJb9v-P6h8l...; Videoduration: 31.82; Anomaly Score: -0.049
+
+103. @ghahve__ahoora
+    Main Metric (Likescount): 24,265.00
+    Details: Videoplaycount: 2898430.00; Caption Length: 274.00; Hashtag Count: 4.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQNRlbpYyABmOGD17csEw8Lf3NTOPRFhVt...; Videoduration: 19.20; Anomaly Score: -0.047
+
+104. @morgandrinkscoffee
+    Main Metric (Likescount): 25,744.00
+    Details: Videoplaycount: 261782.00; Caption Length: 189.00; Hashtag Count: 0.00; Likes Per Play: 0.10; Nationality: International; Videourl: [{"url":"https://instagram.fmnl13-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQPCc7kiy5E6Ks2NkAXM7gR-b9drr9oMXi...; Videoduration: 59.19; Anomaly Score: -0.047
+
+105. @espresso_market
+    Main Metric (Likescount): 13,883.00
+    Details: Videoplaycount: 1891741.00; Caption Length: 539.00; Hashtag Count: 5.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-muc2-1.cdninstagram.com/o1/v/t16/f2/m86/AQMN6okXbCZxaDgDmz1KUzNw_5ObzcNRhH...; Videoduration: 11.30; Anomaly Score: -0.047
+
+106. @espresso_market
+    Main Metric (Likescount): 13,883.00
+    Details: Videoplaycount: 1891741.00; Caption Length: 539.00; Hashtag Count: 5.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.flvr1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMN6okXbCZxaDgDmz1KUzNw_5ObzcNRhHE...; Videoduration: 11.30; Anomaly Score: -0.047
+
+107. @tannercolsoncoffee
+    Main Metric (Likescount): 59,921.00
+    Details: Videoplaycount: 2113271.00; Caption Length: 438.00; Hashtag Count: 2.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fagc1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPieHqok89WzQs4hns8xd__4DcATYR3WJy...; Videoduration: 57.46; Anomaly Score: -0.045
+
+108. @morgandrinkscoffee
+    Main Metric (Likescount): 2,940.00
+    Details: Videoplaycount: 64564.00; Caption Length: 255.00; Hashtag Count: 0.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://scontent-lga3-2.cdninstagram.com/o1/v/t16/f2/m86/AQO-NGARiphjVfWVO-2kjZuduJPIfI9kAe...; Videoduration: 179.07; Anomaly Score: -0.045
+
+109. @floridacoffeeculture
+    Main Metric (Likescount): 138.00
+    Details: Videoplaycount: 5208.00; Caption Length: 573.00; Hashtag Count: 7.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-man2-1.cdninstagram.com/o1/v/t16/f2/m86/AQPWA85Gj9Xy75c0YYTX0fSijhiI9_mwNA...; Videoduration: 180.01; Anomaly Score: -0.044
+
+110. @morgandrinkscoffee
+    Main Metric (Likescount): 32,950.00
+    Details: Videoplaycount: 448228.00; Caption Length: 188.00; Hashtag Count: 0.00; Likes Per Play: 0.07; Nationality: International; Videourl: [{"url":"https://instagram.fmnl17-5.fna.fbcdn.net/o1/v/t16/f2/m86/AQOI-sPRvNeFf8s95lGO-_n_dDvtHnRS4m...; Videoduration: 59.10; Anomaly Score: -0.040
+
+111. @espresso_market
+    Main Metric (Likescount): 48,340.00
+    Details: Videoplaycount: 1941463.00; Caption Length: 414.00; Hashtag Count: 9.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-bos5-1.cdninstagram.com/o1/v/t16/f2/m86/AQOEIgLoFkxRfC3zBw4HWzISr8skJY0O03...; Videoduration: 38.03; Anomaly Score: -0.040
+
+112. @espresso_market
+    Main Metric (Likescount): 48,340.00
+    Details: Videoplaycount: 1941381.00; Caption Length: 414.00; Hashtag Count: 9.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m86/AQOEIgLoFkxRfC3zBw4HWzISr8skJY0O03...; Videoduration: 38.03; Anomaly Score: -0.040
+
+113. @espresso_market
+    Main Metric (Likescount): 4,524.00
+    Details: Videoplaycount: 319301.00; Caption Length: 1251.00; Hashtag Count: 5.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOKByvoptaXI5h_Hr9aA5CvWnwZcQ1kB8...; Videoduration: 42.33; Anomaly Score: -0.040
+
+114. @espresso_market
+    Main Metric (Likescount): 4,525.00
+    Details: Videoplaycount: 319409.00; Caption Length: 1251.00; Hashtag Count: 5.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.fpkr3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOKByvoptaXI5h_Hr9aA5CvWnwZcQ1kB8G...; Videoduration: 42.33; Anomaly Score: -0.040
+
+115. @roasttcoffee
+    Main Metric (Likescount): 139.00
+    Details: Videoplaycount: 2420.00; Caption Length: 2106.00; Hashtag Count: 4.00; Likes Per Play: 0.06; Nationality: Iranian; Videourl: [{"url":"https://scontent-dfw5-3.cdninstagram.com/o1/v/t16/f2/m86/AQNbT_kDIn6YnSILjCOtiIu0QZXufZcSzS...; Videoduration: 29.50; Anomaly Score: -0.039
+
+116. @tannercolsoncoffee
+    Main Metric (Likescount): 51,671.00
+    Details: Videoplaycount: 1792176.00; Caption Length: 32.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-atl3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOXgUYj_XgujlUf22T-OfKNTE2dBHiGB0...; Videoduration: 48.58; Anomaly Score: -0.038
+
+117. @coffeegozarstore
+    Main Metric (Likescount): 4,498.00
+    Details: Videoplaycount: 98377.00; Caption Length: 82.00; Hashtag Count: 5.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://scontent-gru2-2.cdninstagram.com/o1/v/t16/f2/m86/AQPoOBl3qNKXdWeZ-JXEUbmOA7JZzkkbTl...; Videoduration: 150.60; Anomaly Score: -0.038
+
+118. @coffeegozarstore
+    Main Metric (Likescount): 4,498.00
+    Details: Videoplaycount: 98375.00; Caption Length: 82.00; Hashtag Count: 5.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://instagram.fldb10-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPoOBl3qNKXdWeZ-JXEUbmOA7JZzkkbTl...; Videoduration: 150.60; Anomaly Score: -0.038
+
+119. @osenology
+    Main Metric (Likescount): 49,270.00
+    Details: Videoplaycount: 1610313.00; Caption Length: 76.00; Hashtag Count: 8.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fppb10-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNjCUboQTzeNsoMDdy-ihELixqtA3DNxN...; Videoduration: 16.16; Anomaly Score: -0.038
+
+120. @bestoflatteart
+    Main Metric (Likescount): 1,062.00
+    Details: Videoplaycount: 1504714.00; Caption Length: 355.00; Hashtag Count: 17.00; Likes Per Play: 0.00; Nationality: International; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQOeO4fd-EVBK9kXxfCf9vNUJWGq1ah3ZL...; Videoduration: 28.80; Anomaly Score: -0.038
+
+121. @masoud.coffee.taster
+    Main Metric (Likescount): 783.00
+    Details: Videoplaycount: 13975.00; Caption Length: 1112.00; Hashtag Count: 5.00; Likes Per Play: 0.06; Nationality: Iranian; Videourl: [{"url":"https://instagram.froo2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNeBDxng_POj0x8_hte27crUfisXG33M1n...; Videoduration: 83.73; Anomaly Score: -0.037
+
+122. @vitadune
+    Main Metric (Likescount): 9,963.00
+    Details: Videoplaycount: 397200.00; Caption Length: 993.00; Hashtag Count: 18.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmct5-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNG35fWWiK1vQYWjcIL7waLNcM-SxYpxsO...; Videoduration: 20.46; Anomaly Score: -0.036
+
+123. @vitadune
+    Main Metric (Likescount): 37,805.00
+    Details: Videoplaycount: 1139365.00; Caption Length: 474.00; Hashtag Count: 4.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m86/AQNkbw1My7mdkmU51YD4GzcGwr3t4kPJOi...; Videoduration: 38.83; Anomaly Score: -0.036
+
+124. @espresso_market
+    Main Metric (Likescount): 2,054.00
+    Details: Videoplaycount: 61064.00; Caption Length: 469.00; Hashtag Count: 13.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.facc6-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOKOKZa_RohhThDI6i6grBjhvSRFXbq7o5...; Videoduration: 34.13; Anomaly Score: -0.035
+
+125. @espresso_market
+    Main Metric (Likescount): 2,054.00
+    Details: Videoplaycount: 61064.00; Caption Length: 469.00; Hashtag Count: 13.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fkul16-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQOKOKZa_RohhThDI6i6grBjhvSRFXbq7o...; Videoduration: 34.13; Anomaly Score: -0.035
+
+126. @coffeebae97
+    Main Metric (Likescount): 5,161.00
+    Details: Videoplaycount: 1696902.00; Caption Length: 758.00; Hashtag Count: 1.00; Likes Per Play: 0.00; Nationality: International; Videourl: [{"url":"https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQPLTNxbFygEOjW0HBHU0ar7Hc3HbkHDPM...; Videoduration: 47.10; Anomaly Score: -0.032
+
+127. @ghahve_sprsoo
+    Main Metric (Likescount): 87.00
+    Details: Videoplaycount: 652.00; Caption Length: 266.00; Hashtag Count: 11.00; Likes Per Play: 0.13; Nationality: Iranian; Videourl: [{"url":"https://scontent-dfw5-2.cdninstagram.com/o1/v/t16/f2/m86/AQM0km35TiC7AKCRIAdna68esNafsKgbJp...; Videoduration: 53.52; Anomaly Score: -0.032
+
+128. @tannercolsoncoffee
+    Main Metric (Likescount): 17,547.00
+    Details: Videoplaycount: 526650.00; Caption Length: 26.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-det1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMFgxte-YgMpbCRB8FDUJjB1nHRwJBqfI...; Videoduration: 118.93; Anomaly Score: -0.032
+
+129. @vitadune
+    Main Metric (Likescount): 2,312.00
+    Details: Videoplaycount: 178649.00; Caption Length: 1139.00; Hashtag Count: 18.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMcqIT08WXlwN7z9vUbDCe9w4yr68PgTB...; Videoduration: 9.70; Anomaly Score: -0.032
+
+130. @realchrisbaca
+    Main Metric (Likescount): 2,886.00
+    Details: Videoplaycount: 2309290.00; Caption Length: 94.00; Hashtag Count: 3.00; Likes Per Play: 0.00; Nationality: International; Videourl: [{"url":"https://scontent-det1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMofmQHzKd55xYx_NYaapc4MM-1_3FJeL...; Videoduration: 13.80; Anomaly Score: -0.031
+
+131. @hasanmadani.ir
+    Main Metric (Likescount): 742.00
+    Details: Videoplaycount: 62217.00; Caption Length: 351.00; Hashtag Count: 12.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.fppb10-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOYU3XSXBSWNNPaO1JwneHuJ4SrKZHrPA...; Videoduration: 101.40; Anomaly Score: -0.030
+
+132. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 152.00
+    Details: Videoplaycount: 1872.00; Caption Length: 844.00; Hashtag Count: 16.00; Likes Per Play: 0.08; Nationality: Iranian; Videourl: [{"url":"https://scontent-mia3-3.cdninstagram.com/o1/v/t16/f2/m86/AQNil2Ev3cAwjITSRY-e3Aq-yPGH44MZ8Y...; Videoduration: 10.63; Anomaly Score: -0.030
+
+133. @miss_coffee.mehrnaz
+    Main Metric (Likescount): 152.00
+    Details: Videoplaycount: 1872.00; Caption Length: 844.00; Hashtag Count: 16.00; Likes Per Play: 0.08; Nationality: Iranian; Videourl: [{"url":"https://scontent-lax3-1.cdninstagram.com/o1/v/t16/f2/m86/AQNil2Ev3cAwjITSRY-e3Aq-yPGH44MZ8Y...; Videoduration: 10.63; Anomaly Score: -0.030
+
+134. @morgandrinkscoffee
+    Main Metric (Likescount): 22,862.00
+    Details: Videoplaycount: 313304.00; Caption Length: 245.00; Hashtag Count: 0.00; Likes Per Play: 0.07; Nationality: International; Videourl: [{"url":"https://instagram.fkul15-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNxknLn0-UlFMstwSrLegTHrcQUTyFA6p...; Videoduration: 66.50; Anomaly Score: -0.027
+
+135. @coffeegozarstore
+    Main Metric (Likescount): 1,428.00
+    Details: Videoplaycount: 46612.00; Caption Length: 28.00; Hashtag Count: 2.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-cdg4-2.cdninstagram.com/o1/v/t16/f2/m69/AQMtQaRdmxLUz0xjV_Xi4RZokIgLVUtBos...; Videoduration: 187.70; Anomaly Score: -0.027
+
+136. @coffeegozarstore
+    Main Metric (Likescount): 1,428.00
+    Details: Videoplaycount: 46613.00; Caption Length: 28.00; Hashtag Count: 2.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-hou1-1.cdninstagram.com/o1/v/t16/f2/m69/AQMtQaRdmxLUz0xjV_Xi4RZokIgLVUtBos...; Videoduration: 187.70; Anomaly Score: -0.027
+
+137. @ghahve_sprsoo
+    Main Metric (Likescount): 99.00
+    Details: Videoplaycount: 776.00; Caption Length: 199.00; Hashtag Count: 10.00; Likes Per Play: 0.13; Nationality: Iranian; Videourl: [{"url":"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m86/AQOOKKqy7hm6frrkF_M4tKsC0EaXSLU8Uh...; Videoduration: 40.04; Anomaly Score: -0.026
+
+138. @morgandrinkscoffee
+    Main Metric (Likescount): 41,326.00
+    Details: Videoplaycount: 833274.00; Caption Length: 104.00; Hashtag Count: 0.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://instagram.fkye4-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNmypW20oAaV_v5xiNC1WmVDefGnua1B20...; Videoduration: 60.70; Anomaly Score: -0.025
+
+139. @vitadune
+    Main Metric (Likescount): 10,806.00
+    Details: Videoplaycount: 276196.00; Caption Length: 1160.00; Hashtag Count: 10.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-sea1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNJJ74n5xa00xwbv3RDR7R5oPSASjrrxv...; Videoduration: 40.73; Anomaly Score: -0.024
+
+140. @lamizcoffee
+    Main Metric (Likescount): 5,385.00
+    Details: Videoplaycount: 310015.00; Caption Length: 476.00; Hashtag Count: 7.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-lhr6-2.cdninstagram.com/o1/v/t16/f2/m86/AQNFliRc5WyEDP_AjV7KXbzogyhRTq5VYw...; Videoduration: 12.20; Anomaly Score: -0.024
+
+141. @graph.coffeee
+    Main Metric (Likescount): 896.00
+    Details: Videoplaycount: 19918.00; Caption Length: 279.00; Hashtag Count: 7.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fjed4-6.fna.fbcdn.net/o1/v/t16/f2/m86/AQMYxqJUT5qo79ts1N2fyXNFZ3etGYW3La9...; Videoduration: 23.38; Anomaly Score: -0.023
+
+142. @vitadune
+    Main Metric (Likescount): 25,407.00
+    Details: Videoplaycount: 1030826.00; Caption Length: 408.00; Hashtag Count: 13.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-lhr8-2.cdninstagram.com/o1/v/t16/f2/m86/AQMdzgOGJy20Bix8K0-NxJYw9h3V4IlwdM...; Videoduration: 18.67; Anomaly Score: -0.023
+
+143. @tannercolsoncoffee
+    Main Metric (Likescount): 28,664.00
+    Details: Videoplaycount: 994457.00; Caption Length: 33.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-lga3-2.cdninstagram.com/o1/v/t16/f2/m86/AQOXcA54QWbenEdSINx0Bg8YUAPBfkPpTR...; Videoduration: 60.09; Anomaly Score: -0.023
+
+144. @vitadune
+    Main Metric (Likescount): 8,843.00
+    Details: Videoplaycount: 501988.00; Caption Length: 898.00; Hashtag Count: 17.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://instagram.flpb1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNoJlL61ZrRGo51kJtedYiSakTvpkRzYSp...; Videoduration: 29.17; Anomaly Score: -0.022
+
+145. @coffeegozar
+    Main Metric (Likescount): 994.00
+    Details: Videoplaycount: 27851.00; Caption Length: 1848.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fdac176-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMVRSsxg0-FbRBM-8ugY8v5NQ8zNOG78...; Videoduration: 55.12; Anomaly Score: -0.022
+
+146. @coffeegozar
+    Main Metric (Likescount): 994.00
+    Details: Videoplaycount: 27857.00; Caption Length: 1848.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fcgh10-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQMVRSsxg0-FbRBM-8ugY8v5NQ8zNOG78h...; Videoduration: 55.12; Anomaly Score: -0.022
+
+147. @ghahve__ahoora
+    Main Metric (Likescount): 7,787.00
+    Details: Videoplaycount: 745028.00; Caption Length: 302.00; Hashtag Count: 5.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.ffor12-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQONv4zEXsD3dIrGd8PjMT6mR9RELD0jHM...; Videoduration: 14.37; Anomaly Score: -0.021
+
+148. @themacrobarista
+    Main Metric (Likescount): 12,778.00
+    Details: Videoplaycount: 0.00; Caption Length: 741.00; Hashtag Count: 11.00; Likes Per Play: 0.00; Nationality: International; Videourl: [{"url":null}]; Videoduration: 0.00; Anomaly Score: -0.021
+
+149. @bestoflatteart
+    Main Metric (Likescount): 819.00
+    Details: Videoplaycount: 20872.00; Caption Length: 402.00; Hashtag Count: 29.00; Likes Per Play: 0.04; Nationality: International; Videourl: [{"url":"https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m86/AQNawjHx9lEWhHEdAwQbGAzdhcpwMfcxcU...; Videoduration: 65.20; Anomaly Score: -0.021
+
+150. @thecoffeebean
+    Main Metric (Likescount): 484.00
+    Details: Videoplaycount: 14125.00; Caption Length: 186.00; Hashtag Count: 0.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://instagram.fagc1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOGxta6QyJ_hj3o9Qi6t7SOeiMv8Yx_jrn...; Videoduration: 170.76; Anomaly Score: -0.019
+
+151. @vitadune
+    Main Metric (Likescount): 6,346.00
+    Details: Videoplaycount: 139846.00; Caption Length: 1352.00; Hashtag Count: 12.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://scontent-fra5-1.cdninstagram.com/o1/v/t16/f2/m86/AQOiAwgfiqhgal1G_XjCQ0Dzsmm1rmWmob...; Videoduration: 41.63; Anomaly Score: -0.019
+
+152. @mycoffee.iran
+    Main Metric (Likescount): 2,520.00
+    Details: Videoplaycount: 110163.00; Caption Length: 505.00; Hashtag Count: 14.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQP4Lw5kHLnJYTpzfyDQnOxjYxhqngQoYP...; Videoduration: 93.28; Anomaly Score: -0.018
+
+153. @espresso_market
+    Main Metric (Likescount): 18,853.00
+    Details: Videoplaycount: 497824.00; Caption Length: 805.00; Hashtag Count: 6.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmem1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQN5NDMUn7I-9WDM2ZmO2ZynOEj5P57lJ8e...; Videoduration: 61.00; Anomaly Score: -0.018
+
+154. @espresso_market
+    Main Metric (Likescount): 18,853.00
+    Details: Videoplaycount: 497824.00; Caption Length: 805.00; Hashtag Count: 6.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fbfh16-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQN5NDMUn7I-9WDM2ZmO2ZynOEj5P57lJ8...; Videoduration: 61.00; Anomaly Score: -0.018
+
+155. @vitadune
+    Main Metric (Likescount): 19,877.00
+    Details: Videoplaycount: 392064.00; Caption Length: 616.00; Hashtag Count: 9.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOfMxesXL09Ej5oTAI2Qbz4hRRUwtpDAf...; Videoduration: 63.23; Anomaly Score: -0.018
+
+156. @themacrobarista
+    Main Metric (Likescount): 15,625.00
+    Details: Videoplaycount: 865395.00; Caption Length: 702.00; Hashtag Count: 9.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://instagram.fldb2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMlHUY5t5059O_WWtJ2bMxNl8QACcPBqVw...; Videoduration: 51.01; Anomaly Score: -0.017
+
+157. @themacrobarista
+    Main Metric (Likescount): 4,801.00
+    Details: Videoplaycount: 0.00; Caption Length: 871.00; Hashtag Count: 15.00; Likes Per Play: 0.00; Nationality: International; Videourl: [{"url":null}]; Videoduration: 0.00; Anomaly Score: -0.017
+
+158. @masoud.coffee.taster
+    Main Metric (Likescount): 406.00
+    Details: Videoplaycount: 8773.00; Caption Length: 1202.00; Hashtag Count: 4.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://instagram.fman1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMCxVrOOyYkh061_nkWliIGwg34Uz3SXdf...; Videoduration: 81.17; Anomaly Score: -0.017
+
+159. @themacrobarista
+    Main Metric (Likescount): 16,730.00
+    Details: Videoplaycount: 874398.00; Caption Length: 709.00; Hashtag Count: 12.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://instagram.fsac1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQMg0y_MNClVWW4hSOK9sym72Oq_LAF2_uC...; Videoduration: 45.75; Anomaly Score: -0.017
+
+160. @ghahve__ahoora
+    Main Metric (Likescount): 6,661.00
+    Details: Videoplaycount: 174334.00; Caption Length: 1047.00; Hashtag Count: 4.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fcfc2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMYHXxAX_ndHob5PbN1XfcJXv0xM34QtMV...; Videoduration: 55.17; Anomaly Score: -0.017
+
+161. @themacrobarista
+    Main Metric (Likescount): 16,505.00
+    Details: Videoplaycount: 593975.00; Caption Length: 801.00; Hashtag Count: 15.00; Likes Per Play: 0.03; Nationality: International; Videourl: [{"url":"https://scontent-det1-1.cdninstagram.com/o1/v/t16/f2/m86/AQPnmRDtRskON4guYldduyvMAyhkLpzw0f...; Videoduration: 26.57; Anomaly Score: -0.016
+
+162. @coffeebae97
+    Main Metric (Likescount): 38,360.00
+    Details: Videoplaycount: 1651150.00; Caption Length: 22.00; Hashtag Count: 0.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://instagram.fsan1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQOmdQRoYJPHwQ0-_Z0xWnFZn9tkhF83Tsv...; Videoduration: 16.77; Anomaly Score: -0.016
+
+163. @themacrobarista
+    Main Metric (Likescount): 22,737.00
+    Details: Videoplaycount: 972960.00; Caption Length: 819.00; Hashtag Count: 8.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://instagram.flos1-2.fna.fbcdn.net/o1/v/t16/f2/m86/AQNKhyvacFtKNhlfA6D3UckZkwinckfRawL...; Videoduration: 25.32; Anomaly Score: -0.015
+
+164. @lamizcoffee
+    Main Metric (Likescount): 2,374.00
+    Details: Videoplaycount: 63541.00; Caption Length: 18.00; Hashtag Count: 0.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmnl8-1.fna.fbcdn.net/o1/v/t16/f2/m69/AQNXJcJ9SprRY_ku9ocdjx4zEgkT2zOta7D...; Videoduration: 150.51; Anomaly Score: -0.013
+
+165. @ghahve_sprsoo
+    Main Metric (Likescount): 108.00
+    Details: Videoplaycount: 779.00; Caption Length: 312.00; Hashtag Count: 6.00; Likes Per Play: 0.14; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmoc1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPIMu9ucYFFb4NxYn5xEZpte0kE_bZH1F4...; Videoduration: 4.50; Anomaly Score: -0.013
+
+166. @morgandrinkscoffee
+    Main Metric (Likescount): 25,211.00
+    Details: Videoplaycount: 372517.00; Caption Length: 25.00; Hashtag Count: 0.00; Likes Per Play: 0.07; Nationality: International; Videourl: [{"url":"https://instagram.fmji4-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOCQBKO3W4qvKNdOOYWBaP6eyRsLbfviOu...; Videoduration: 30.97; Anomaly Score: -0.012
+
+167. @bestoflatteart
+    Main Metric (Likescount): 1,767.00
+    Details: Videoplaycount: 1655073.00; Caption Length: 227.00; Hashtag Count: 7.00; Likes Per Play: 0.00; Nationality: International; Videourl: [{"url":"https://scontent-lga3-2.cdninstagram.com/o1/v/t16/f2/m86/AQMv4c7uj9PXUhjbu0vuoBLXLD8GjWZqDl...; Videoduration: 12.37; Anomaly Score: -0.012
+
+168. @ghahve.eka
+    Main Metric (Likescount): 13,607.00
+    Details: Videoplaycount: 1830541.00; Caption Length: 253.00; Hashtag Count: 0.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m86/AQNIg20EhTWCBU7IIpQiRf85NLDFGeVGBE...; Videoduration: 24.00; Anomaly Score: -0.011
+
+169. @morgandrinkscoffee
+    Main Metric (Likescount): 19,941.00
+    Details: Videoplaycount: 265608.00; Caption Length: 238.00; Hashtag Count: 0.00; Likes Per Play: 0.08; Nationality: International; Videourl: [{"url":"https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m86/AQNK2U-lF7wTxVWnFz7YvMrpHtcxnsbAm4...; Videoduration: 57.10; Anomaly Score: -0.011
+
+170. @ghahve_fc
+    Main Metric (Likescount): 512.00
+    Details: Videoplaycount: 15519.00; Caption Length: 177.00; Hashtag Count: 12.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQP4Duaak3UufrNeET4U9EsXAaSG6FaHXz...; Videoduration: 149.63; Anomaly Score: -0.010
+
+171. @hivapuya.ir
+    Main Metric (Likescount): 4,209.00
+    Details: Videoplaycount: 59082.00; Caption Length: 260.00; Hashtag Count: 10.00; Likes Per Play: 0.07; Nationality: Iranian; Videourl: [{"url":"https://instagram.fbkk19-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQO90mvHgYAKAUfsoopGSpJbrY3MBrZD0j...; Videoduration: 89.99; Anomaly Score: -0.010
+
+172. @morgandrinkscoffee
+    Main Metric (Likescount): 14,434.00
+    Details: Videoplaycount: 232812.00; Caption Length: 694.00; Hashtag Count: 2.00; Likes Per Play: 0.06; Nationality: International; Videourl: [{"url":"https://instagram.frba3-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPhi3jfPhPrU8hNTk8QxQnWW-oadwsabJJ...; Videoduration: 61.37; Anomaly Score: -0.009
+
+173. @tannercolsoncoffee
+    Main Metric (Likescount): 35,355.00
+    Details: Videoplaycount: 1671898.00; Caption Length: 30.00; Hashtag Count: 1.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://instagram.fmbj2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMi1It7OAUJKyXz60fPTCNMgZd_SY_YrlD...; Videoduration: 26.16; Anomaly Score: -0.009
+
+174. @arabica.cafebakery
+    Main Metric (Likescount): 185.00
+    Details: Videoplaycount: 2211.00; Caption Length: 0.00; Hashtag Count: 0.00; Likes Per Play: 0.08; Nationality: International; Videourl: [{"url":"https://scontent-bos5-1.cdninstagram.com/o1/v/t16/f2/m69/AQOprFMVJ6xQ9OIy_crjuW7Pdv0Nr829M0...; Videoduration: 79.82; Anomaly Score: -0.009
+
+175. @ghahve_sprsoo
+    Main Metric (Likescount): 120.00
+    Details: Videoplaycount: 984.00; Caption Length: 257.00; Hashtag Count: 10.00; Likes Per Play: 0.12; Nationality: Iranian; Videourl: [{"url":"https://instagram.frak4-3.fna.fbcdn.net/o1/v/t16/f2/m86/AQNfBl1rrFZR9rGeCVT3yoa6NJOeH7g8LqT...; Videoduration: 9.38; Anomaly Score: -0.009
+
+176. @ghahve__ahoora
+    Main Metric (Likescount): 29,676.00
+    Details: Videoplaycount: 779566.00; Caption Length: 476.00; Hashtag Count: 5.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fcpq17-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMPZZ6vtVDL_4b5_69C6LVif7UDO3ojPu...; Videoduration: 59.63; Anomaly Score: -0.008
+
+177. @morgandrinkscoffee
+    Main Metric (Likescount): 28,801.00
+    Details: Videoplaycount: 534101.00; Caption Length: 69.00; Hashtag Count: 0.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQM2NmCXwW15VOgwATVLZXcu86RG5uKoND...; Videoduration: 63.95; Anomaly Score: -0.008
+
+178. @coffee.mehrnaz
+    Main Metric (Likescount): 71.00
+    Details: Videoplaycount: 892.00; Caption Length: 456.00; Hashtag Count: 20.00; Likes Per Play: 0.08; Nationality: Iranian; Videourl: [{"url":"https://instagram.ftpa1-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMzMktDMXQDzvdl1PbtMu1bN_dQNAbiU_N...; Videoduration: 35.70; Anomaly Score: -0.008
+
+179. @coffee.mehrnaz
+    Main Metric (Likescount): 71.00
+    Details: Videoplaycount: 892.00; Caption Length: 456.00; Hashtag Count: 20.00; Likes Per Play: 0.08; Nationality: Iranian; Videourl: [{"url":"https://instagram.fogl4-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQMzMktDMXQDzvdl1PbtMu1bN_dQNAbiU_N...; Videoduration: 35.70; Anomaly Score: -0.008
+
+180. @masoud.coffee.taster
+    Main Metric (Likescount): 2,382.00
+    Details: Videoplaycount: 300947.00; Caption Length: 853.00; Hashtag Count: 4.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://instagram.fmgf7-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOgCDiNZ7EV8Qt_EZQqIt97JDSJQ1PX4i3...; Videoduration: 13.64; Anomaly Score: -0.007
+
+181. @bestoflatteart
+    Main Metric (Likescount): 2,816.00
+    Details: Videoplaycount: 1420716.00; Caption Length: 85.00; Hashtag Count: 1.00; Likes Per Play: 0.00; Nationality: International; Videourl: [{"url":"https://scontent-lga3-1.cdninstagram.com/o1/v/t16/f2/m86/AQPnjtSSvkiuZRePqm6-DBMPvEm6GpRHLK...; Videoduration: 23.40; Anomaly Score: -0.007
+
+182. @vitadune
+    Main Metric (Likescount): 948.00
+    Details: Videoplaycount: 28311.00; Caption Length: 1310.00; Hashtag Count: 17.00; Likes Per Play: 0.03; Nationality: Iranian; Videourl: [{"url":"https://instagram.fsjd2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPoT9rpGwPYxM-r13t-Q6k_BD5YoBcDmfe...; Videoduration: 54.71; Anomaly Score: -0.007
+
+183. @hippo.coffee
+    Main Metric (Likescount): 179.00
+    Details: Videoplaycount: 27161.00; Caption Length: 1220.00; Hashtag Count: 7.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-phx1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMkDfSirVZED0trSrPzcmpC4ONEtDlHaP...; Videoduration: 6.50; Anomaly Score: -0.007
+
+184. @morgandrinkscoffee
+    Main Metric (Likescount): 35,501.00
+    Details: Videoplaycount: 662045.00; Caption Length: 62.00; Hashtag Count: 0.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://instagram.find2-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNJhGuDUL04QEW2ZiJQuL9U0oqGQ6K65-L...; Videoduration: 58.43; Anomaly Score: -0.006
+
+185. @vitadune
+    Main Metric (Likescount): 13,208.00
+    Details: Videoplaycount: 588318.00; Caption Length: 968.00; Hashtag Count: 10.00; Likes Per Play: 0.02; Nationality: Iranian; Videourl: [{"url":"https://scontent-det1-1.cdninstagram.com/o1/v/t16/f2/m86/AQO09HJEaF7VYZphvkCFtJ7gVT24Cn6AMX...; Videoduration: 31.54; Anomaly Score: -0.005
+
+186. @coffeegozar
+    Main Metric (Likescount): 6,363.00
+    Details: Videoplaycount: 174411.00; Caption Length: 700.00; Hashtag Count: 18.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://instagram.fccs10-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQNfUrzjvxwxZTAzNI_7HMSfGBWLv55dGO...; Videoduration: 77.48; Anomaly Score: -0.005
+
+187. @coffeegozar
+    Main Metric (Likescount): 6,363.00
+    Details: Videoplaycount: 174409.00; Caption Length: 700.00; Hashtag Count: 18.00; Likes Per Play: 0.04; Nationality: Iranian; Videourl: [{"url":"https://scontent-lga3-3.cdninstagram.com/o1/v/t16/f2/m86/AQNfUrzjvxwxZTAzNI_7HMSfGBWLv55dGO...; Videoduration: 77.48; Anomaly Score: -0.005
+
+188. @vitadune
+    Main Metric (Likescount): 5,544.00
+    Details: Videoplaycount: 100867.00; Caption Length: 443.00; Hashtag Count: 14.00; Likes Per Play: 0.05; Nationality: Iranian; Videourl: [{"url":"https://scontent-ist1-1.cdninstagram.com/o1/v/t16/f2/m86/AQN_J0V2cwryQLdpQrNRVkrw3aavWUR5oN...; Videoduration: 51.68; Anomaly Score: -0.004
+
+189. @morgandrinkscoffee
+    Main Metric (Likescount): 17,495.00
+    Details: Videoplaycount: 325607.00; Caption Length: 655.00; Hashtag Count: 2.00; Likes Per Play: 0.05; Nationality: International; Videourl: [{"url":"https://instagram.fdiq9-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQPon7HCtF-7WhHTqwTjRoCdMUArGLC1F61...; Videoduration: 55.00; Anomaly Score: -0.003
+
+190. @morgandrinkscoffee
+    Main Metric (Likescount): 24,142.00
+    Details: Videoplaycount: 375738.00; Caption Length: 350.00; Hashtag Count: 0.00; Likes Per Play: 0.06; Nationality: International; Videourl: [{"url":"https://instagram.fcgk41-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOp7iXt7LRSIWkuCr2OtfIwAiF5yqskl8...; Videoduration: 52.00; Anomaly Score: -0.002
+
+191. @tannercolsoncoffee
+    Main Metric (Likescount): 25,957.00
+    Details: Videoplaycount: 1207251.00; Caption Length: 76.00; Hashtag Count: 0.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-eze1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMa5-XB-WtgL0pG83SdmJ55pqf-Z4RQOc...; Videoduration: 63.93; Anomaly Score: -0.002
+
+192. @tannercolsoncoffee
+    Main Metric (Likescount): 24,634.00
+    Details: Videoplaycount: 1400580.00; Caption Length: 28.00; Hashtag Count: 0.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://instagram.fjed6-1.fna.fbcdn.net/o1/v/t16/f2/m86/AQOjQFbxfADWMkQMwFYcq2EV4l7omKYxWJB...; Videoduration: 24.12; Anomaly Score: -0.002
+
+193. @suannygdesigns
+    Main Metric (Likescount): 406.00
+    Details: Videoplaycount: 20276.00; Caption Length: 405.00; Hashtag Count: 30.00; Likes Per Play: 0.02; Nationality: International; Videourl: [{"url":"https://scontent-atl3-3.cdninstagram.com/o1/v/t16/f2/m86/AQNEL-ZzioLCarngJy0AkM7LOVYgLzGACP...; Videoduration: 3.64; Anomaly Score: -0.000
+
+194. @ghahve_sprsoo
+    Main Metric (Likescount): 115.00
+    Details: Videoplaycount: 869.00; Caption Length: 289.00; Hashtag Count: 9.00; Likes Per Play: 0.13; Nationality: Iranian; Videourl: [{"url":"https://scontent-sjc3-1.cdninstagram.com/o1/v/t16/f2/m86/AQOMOPpUSpJmx1G4x0X0XoYPY7BqE1m2dh...; Videoduration: 13.33; Anomaly Score: -0.000
+
+195. @espresso_market
+    Main Metric (Likescount): 2,517.00
+    Details: Videoplaycount: 170960.00; Caption Length: 1374.00; Hashtag Count: 3.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-lax3-2.cdninstagram.com/o1/v/t16/f2/m86/AQMNak2ExD3bNICkb1AMqnQ7OYNhKyWNte...; Videoduration: 17.43; Anomaly Score: -0.000
+
+196. @espresso_market
+    Main Metric (Likescount): 2,517.00
+    Details: Videoplaycount: 170960.00; Caption Length: 1374.00; Hashtag Count: 3.00; Likes Per Play: 0.01; Nationality: Iranian; Videourl: [{"url":"https://scontent-atl3-1.cdninstagram.com/o1/v/t16/f2/m86/AQMNak2ExD3bNICkb1AMqnQ7OYNhKyWNte...; Videoduration: 17.43; Anomaly Score: -0.000

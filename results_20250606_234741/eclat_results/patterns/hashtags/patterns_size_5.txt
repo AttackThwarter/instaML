@@ -1,0 +1,8 @@
+ECLAT Patterns for hashtags - Itemset Size: 5
+==================================================
+Itemset: #اسپرسو + #اسپرسوساز + #قهوه + #کافه + normal_performance
+  Support: 0.0434 (71 occurrences)
+
+Itemset: #اسپرسو + #قهوه + #قهوه_ترک + #کافه + normal_performance
+  Support: 0.0404 (66 occurrences)
+

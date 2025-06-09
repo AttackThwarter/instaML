@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 
-instagramData.xlsx
-**/results_*/
+# instagramData.xlsx
+# **/results_*/

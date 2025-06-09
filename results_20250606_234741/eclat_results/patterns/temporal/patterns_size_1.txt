@@ -1,0 +1,44 @@
+ECLAT Patterns for temporal - Itemset Size: 1
+==================================================
+Itemset: type_Video
+  Support: 0.9990 (2030 occurrences)
+
+Itemset: normal_performance_post
+  Support: 0.8642 (1756 occurrences)
+
+Itemset: afternoon_post
+  Support: 0.4931 (1002 occurrences)
+
+Itemset: morning_post
+  Support: 0.2938 (597 occurrences)
+
+Itemset: day_Thursday
+  Support: 0.1555 (316 occurrences)
+
+Itemset: evening_post
+  Support: 0.1535 (312 occurrences)
+
+Itemset: day_Tuesday
+  Support: 0.1471 (299 occurrences)
+
+Itemset: day_Friday
+  Support: 0.1437 (292 occurrences)
+
+Itemset: day_Monday
+  Support: 0.1427 (290 occurrences)
+
+Itemset: day_Wednesday
+  Support: 0.1427 (290 occurrences)
+
+Itemset: day_Sunday
+  Support: 0.1393 (283 occurrences)
+
+Itemset: high_performance_post
+  Support: 0.1358 (276 occurrences)
+
+Itemset: day_Saturday
+  Support: 0.1289 (262 occurrences)
+
+Itemset: night_post
+  Support: 0.0595 (121 occurrences)
+

@@ -1,0 +1,32 @@
+ECLAT Patterns for users - Itemset Size: 1
+==================================================
+Itemset: low_engagement
+  Support: 0.6548 (55 occurrences)
+
+Itemset: low_activity
+  Support: 0.5357 (45 occurrences)
+
+Itemset: afternoon_poster
+  Support: 0.5119 (43 occurrences)
+
+Itemset: medium_activity
+  Support: 0.2500 (21 occurrences)
+
+Itemset: morning_poster
+  Support: 0.2381 (20 occurrences)
+
+Itemset: medium_engagement
+  Support: 0.2143 (18 occurrences)
+
+Itemset: high_activity
+  Support: 0.2143 (18 occurrences)
+
+Itemset: evening_poster
+  Support: 0.1905 (16 occurrences)
+
+Itemset: high_engagement
+  Support: 0.1310 (11 occurrences)
+
+Itemset: night_poster
+  Support: 0.0595 (5 occurrences)
+

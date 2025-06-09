@@ -1,0 +1,98 @@
+ECLAT Patterns for temporal - Itemset Size: 3
+==================================================
+Itemset: afternoon_post + normal_performance_post + type_Video
+  Support: 0.4163 (846 occurrences)
+
+Itemset: morning_post + normal_performance_post + type_Video
+  Support: 0.2574 (523 occurrences)
+
+Itemset: evening_post + normal_performance_post + type_Video
+  Support: 0.1358 (276 occurrences)
+
+Itemset: day_Thursday + normal_performance_post + type_Video
+  Support: 0.1344 (273 occurrences)
+
+Itemset: day_Monday + normal_performance_post + type_Video
+  Support: 0.1255 (255 occurrences)
+
+Itemset: day_Sunday + normal_performance_post + type_Video
+  Support: 0.1255 (255 occurrences)
+
+Itemset: day_Wednesday + normal_performance_post + type_Video
+  Support: 0.1250 (254 occurrences)
+
+Itemset: day_Tuesday + normal_performance_post + type_Video
+  Support: 0.1245 (253 occurrences)
+
+Itemset: day_Friday + normal_performance_post + type_Video
+  Support: 0.1161 (236 occurrences)
+
+Itemset: day_Saturday + normal_performance_post + type_Video
+  Support: 0.1127 (229 occurrences)
+
+Itemset: afternoon_post + day_Monday + type_Video
+  Support: 0.0807 (164 occurrences)
+
+Itemset: afternoon_post + high_performance_post + type_Video
+  Support: 0.0758 (154 occurrences)
+
+Itemset: afternoon_post + day_Tuesday + type_Video
+  Support: 0.0743 (151 occurrences)
+
+Itemset: afternoon_post + day_Wednesday + type_Video
+  Support: 0.0714 (145 occurrences)
+
+Itemset: afternoon_post + day_Sunday + type_Video
+  Support: 0.0709 (144 occurrences)
+
+Itemset: afternoon_post + day_Saturday + type_Video
+  Support: 0.0699 (142 occurrences)
+
+Itemset: afternoon_post + day_Monday + normal_performance_post
+  Support: 0.0689 (140 occurrences)
+
+Itemset: afternoon_post + day_Thursday + type_Video
+  Support: 0.0684 (139 occurrences)
+
+Itemset: afternoon_post + day_Sunday + normal_performance_post
+  Support: 0.0645 (131 occurrences)
+
+Itemset: afternoon_post + day_Saturday + normal_performance_post
+  Support: 0.0610 (124 occurrences)
+
+Itemset: afternoon_post + day_Tuesday + normal_performance_post
+  Support: 0.0605 (123 occurrences)
+
+Itemset: afternoon_post + day_Wednesday + normal_performance_post
+  Support: 0.0605 (123 occurrences)
+
+Itemset: day_Friday + morning_post + type_Video
+  Support: 0.0566 (115 occurrences)
+
+Itemset: afternoon_post + day_Friday + type_Video
+  Support: 0.0566 (115 occurrences)
+
+Itemset: night_post + normal_performance_post + type_Video
+  Support: 0.0541 (110 occurrences)
+
+Itemset: afternoon_post + day_Thursday + normal_performance_post
+  Support: 0.0541 (110 occurrences)
+
+Itemset: day_Thursday + morning_post + type_Video
+  Support: 0.0502 (102 occurrences)
+
+Itemset: afternoon_post + day_Friday + normal_performance_post
+  Support: 0.0472 (96 occurrences)
+
+Itemset: day_Thursday + morning_post + normal_performance_post
+  Support: 0.0472 (96 occurrences)
+
+Itemset: day_Friday + morning_post + normal_performance_post
+  Support: 0.0418 (85 occurrences)
+
+Itemset: day_Sunday + morning_post + type_Video
+  Support: 0.0413 (84 occurrences)
+
+Itemset: day_Wednesday + morning_post + type_Video
+  Support: 0.0413 (84 occurrences)
+
