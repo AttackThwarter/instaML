@@ -120,7 +120,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn arabic_reshaper python-
 قبل از اجرا، فایل `config.py` را باز کرده و پارامترهای زیر را مطابق با نیاز خود تنظیم کنید:
 - `EXCEL_FILE_PATH`: مسیر فایل اکسل ورودی.  
 - `SHEET_NAME`: نام شیتی که داده‌ها در آن قرار دارند.  
-- `MIN_SUPPORT`: حداقل آستانه پشتیبانی برای الگوریتم ECLAT. (مثلاً `0.08` به معنی حداقل ۸٪ تکرار).  
+- `MIN_SUPPORT`: حداقل آستانه پشتیبانی برای الگوریتم ECLAT. (مثلاً `0.04` به معنی حداقل 4% تکرار).  
 - `IFOREST_CONTAMINATION`: درصد تخمینی داده‌های ناهنجار برای الگوریتم Isolation Forest (معمولاً بین `0.05` تا `0.1`).  
 - `FONT_NAME_FOR_PERSIAN`: نام یک فونت فارسی نصب‌شده روی سیستم شما (مانند `'Tahoma'` یا `'B Nazanin'`) برای نمایش صحیح متون فارسی در نمودارها.
  
