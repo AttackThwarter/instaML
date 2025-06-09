@@ -81,7 +81,20 @@
 ### مرحله ۵: تولید خروجی‌ها  
 - **گزارش‌های متنی (.txt):** برای هر یک از تحلیل‌های ناهنجاری و تقلب، یک گزارش دقیق تولید می‌شود. همچنین یک گزارش اصلی و یک گزارش خلاصه‌شده نهایی نیز ایجاد می‌گردد.  
 - **مصورسازی‌ها (.png):** چهار داشبورد گرافیکی برای نمایش بصری نتایج تولید می‌شود.
- 
+
+
+> نمونه نمودار های تحلیلی 
+
+ ![anomaly](results_20250606_234741/visualizations/anomaly_specific_plots.png)
+
+ ![eclat](results_20250606_234741/visualizations/eclat_patterns_visualization.png)
+
+ ![instagram_analysis](results_20250606_234741/visualizations/instagram_analysis_dashboard.png)
+
+ ![instagram_overview](results_20250606_234741/visualizations/instagram_overview_dashboard.png)
+
+
+
 
  ## پرسش: چرا در فایل `anomaly_specific_plots.png` در نمودار `Likes vs Engagement Rate (Anomalies Highlighted)` در عمق نقاط آبی الگوریتم isolation forest نقاط قرمزی را مشخص کرده؟
 
