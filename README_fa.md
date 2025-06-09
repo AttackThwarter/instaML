@@ -131,7 +131,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn arabic_reshaper python-
 python main.py
 ```
  
-پس از اتمام اجرا، یک پوشه جدید با نام `results_YYYYMMDD_HHMMSS` ایجاد می‌شود که تمام خروجی‌ها در آن قرار دارند.
+پس از اتمام اجرا، یک پوشه جدید با نام `results_{TIME STAMP}` ایجاد می‌شود که تمام خروجی‌ها در آن قرار دارند.
  
 ---
  
