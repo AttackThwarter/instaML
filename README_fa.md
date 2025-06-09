@@ -182,3 +182,9 @@ python main.py
 - **Scikit-learn:** برای پیاده‌سازی الگوریتم IsolationForest.  
 - **Matplotlib & Seaborn:** برای تولید نمودارها و مصورسازی داده‌ها.  
 - **Arabic Reshaper & Python-Bidi:** برای نمایش صحیح حروف فارسی در نمودارها.  
+
+<br><br>
+هر سؤال یا نکته‌ای داشتی، اینجا بپرس :) 👇
+
+## [chat](https://github.com/AttackThwarter/note-repo/discussions/1)
+
